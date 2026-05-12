@@ -19,7 +19,7 @@ const navLinks = [
   { label: "Rozwój", href: "/rozwoj" },
   { label: "Kadra", href: "/kadra" },
   { label: "Galeria", href: "/galeria" },
-  { label: "Kontakt", href: "/kontakt" },
+  { label: "Kontakt", href: "#kontakt" },
 ]
 
 export function Header() {
