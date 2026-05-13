@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
@@ -14,18 +14,81 @@ import { colors } from "@/lib/colors"
 const navLinks = [
   { label: "Główna", href: "/" },
   { label: "O nas", href: "#o-nas" },
-  { label: "Oferta", href: "/oferta" },
-  { label: "Realizacje", href: "/realizacje" },
+  { label: "Oferta", href: "/oferta", sectionId: "oferta" },
+  { label: "Realizacje", href: "/realizacje", sectionId: "realizacje" },
   { label: "Rozwój", href: "/rozwoj" },
   { label: "Kadra", href: "/kadra" },
   { label: "Galeria", href: "/galeria" },
   { label: "Kontakt", href: "#kontakt" },
 ]
 
+const ANCHOR_IDS = ["o-nas", "certyfikaty", "realizacje", "oferta", "kontakt"]
+
+// Mapuje id sekcji na href linka w nawigacji
+const SECTION_TO_HREF: Record<string, string> = {
+  "o-nas": "#o-nas",
+  "certyfikaty": "#certyfikaty",
+  "realizacje": "/realizacje",
+  "oferta": "/oferta",
+  "kontakt": "#kontakt",
+}
+
+function useActiveSection(enabled: boolean, lockRef: React.RefObject<boolean>) {
+  const [active, setActive] = useState<string | null>(null)
+
+  const compute = useCallback(() => {
+    const threshold = window.innerHeight * 0.5
+    let current: string | null = null
+    for (const id of ANCHOR_IDS) {
+      const el = document.getElementById(id)
+      if (el && el.getBoundingClientRect().top <= threshold) {
+        current = id
+      }
+    }
+    setActive(current)
+  }, [])
+
+  useEffect(() => {
+    if (!enabled) return
+
+    function update() {
+      if (lockRef.current) return
+      compute()
+    }
+
+    compute()
+    window.addEventListener("scroll", update, { passive: true })
+    return () => window.removeEventListener("scroll", update)
+  }, [enabled, lockRef, compute])
+
+  return { active, setActive, compute }
+}
+
 export function Header() {
   const pathname = usePathname()
+  const isHome = pathname === "/"
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const scrollLockRef = useRef(false)
+  const scrollTimerRef = useRef<ReturnType<typeof setTimeout>>(undefined)
+  const { active: activeSection, setActive: setActiveSection, compute: refreshSection } = useActiveSection(isHome, scrollLockRef)
+
+  function scrollTo(target: string | "top") {
+    // Natychmiastowe podświetlenie klikniętej sekcji
+    setActiveSection(target === "top" ? null : target)
+    // Blokujemy scroll spy na czas animacji
+    scrollLockRef.current = true
+    clearTimeout(scrollTimerRef.current)
+    if (target === "top") {
+      window.scrollTo({ top: 0, behavior: "smooth" })
+    } else {
+      document.getElementById(target)?.scrollIntoView({ behavior: "smooth" })
+    }
+    scrollTimerRef.current = setTimeout(() => {
+      scrollLockRef.current = false
+      refreshSection()
+    }, 900)
+  }
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 20)
@@ -39,6 +102,15 @@ export function Header() {
   }, [pathname])
 
   const transparent = !scrolled && !menuOpen
+
+  function isActive(link: { href: string }) {
+    if (isHome) {
+      if (link.href === "/") return activeSection === null
+      const activHref = activeSection ? SECTION_TO_HREF[activeSection] : null
+      return activHref === link.href
+    }
+    return pathname === link.href
+  }
 
   return (
     <header
@@ -58,21 +130,35 @@ export function Header() {
         <nav className="hidden items-center gap-6 lg:flex">
           {navLinks.map((link) => {
             const isAnchor = link.href.startsWith("#")
-            const isActive = pathname === link.href
+            const active = isActive(link)
             const className = cn(
               "text-sm font-medium transition-colors cursor-pointer",
-              !isActive && "text-white/80 hover:text-white",
+              !active && "text-white/80 hover:text-white",
             )
-            const style = isActive ? { color: colors.logo } : undefined
+            const style = active ? { color: colors.logo } : undefined
+
+            if (link.href === "/" && isHome) {
+              return (
+                <button key={link.href} className={className} style={style}
+                  onClick={() => scrollTo("top")}>
+                  {link.label}
+                </button>
+              )
+            }
+
+            if (isHome && "sectionId" in link && link.sectionId) {
+              return (
+                <button key={link.href} className={className} style={style}
+                  onClick={() => scrollTo(link.sectionId!)}>
+                  {link.label}
+                </button>
+              )
+            }
 
             if (isAnchor) {
               return (
-                <button
-                  key={link.href}
-                  className={className}
-                  style={style}
-                  onClick={() => document.getElementById(link.href.slice(1))?.scrollIntoView({ behavior: "smooth" })}
-                >
+                <button key={link.href} className={className} style={style}
+                  onClick={() => scrollTo(link.href.slice(1))}>
                   {link.label}
                 </button>
               )
@@ -110,24 +196,35 @@ export function Header() {
           <nav className="container mx-auto flex flex-col px-4 py-4">
             {navLinks.map((link) => {
               const isAnchor = link.href.startsWith("#")
-              const isActive = pathname === link.href
+              const active = isActive(link)
               const className = cn(
                 "py-3 text-sm font-medium transition-colors border-b border-border last:border-0",
-                !isActive && "text-muted-foreground hover:text-foreground"
+                !active && "text-muted-foreground hover:text-foreground"
               )
-              const style = isActive ? { color: colors.logo } : undefined
+              const style = active ? { color: colors.logo } : undefined
+
+              if (link.href === "/" && isHome) {
+                return (
+                  <button key={link.href} className={className} style={style}
+                    onClick={() => { scrollTo("top"); setMenuOpen(false) }}>
+                    {link.label}
+                  </button>
+                )
+              }
+
+              if (isHome && "sectionId" in link && link.sectionId) {
+                return (
+                  <button key={link.href} className={className} style={style}
+                    onClick={() => { scrollTo(link.sectionId!); setMenuOpen(false) }}>
+                    {link.label}
+                  </button>
+                )
+              }
 
               if (isAnchor) {
                 return (
-                  <button
-                    key={link.href}
-                    className={className}
-                    style={style}
-                    onClick={() => {
-                      document.getElementById(link.href.slice(1))?.scrollIntoView({ behavior: "smooth" })
-                      setMenuOpen(false)
-                    }}
-                  >
+                  <button key={link.href} className={className} style={style}
+                    onClick={() => { scrollTo(link.href.slice(1)); setMenuOpen(false) }}>
                     {link.label}
                   </button>
                 )

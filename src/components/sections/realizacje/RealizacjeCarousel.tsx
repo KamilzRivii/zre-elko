@@ -20,7 +20,7 @@ export function RealizacjeCarousel() {
   }
 
   return (
-    <section className="w-full py-20 px-4" style={{ backgroundColor: "#1b3a2a" }}>
+    <section id="realizacje" className="w-full py-20 px-4" style={{ backgroundColor: "#1b3a2a" }}>
       <div className="container mx-auto">
 
         {/* Nagłówek */}
