@@ -1,16 +1,12 @@
 import type { Metadata } from "next"
 import { buildMetadata } from "@/lib/seo"
+import { GaleriaSection } from "@/components/sections/galeria/GaleriaSection"
 
 export const metadata: Metadata = buildMetadata({
   title: "Galeria",
-  description: "Galeria zdjęć z realizacji ZRE Elko.",
+  description: "Galeria zdjęć z realizacji ZRE ELKO — kotły, montaż, rurociągi i instalacje energetyczne.",
 })
 
 export default function GaleriaPage() {
-  return (
-    <section className="container mx-auto px-4 pt-24 pb-16">
-      <h1 className="text-4xl font-semibold tracking-tight">Galeria</h1>
-      <p className="mt-4 text-muted-foreground">Zdjęcia wkrótce.</p>
-    </section>
-  )
+  return <GaleriaSection />
 }
