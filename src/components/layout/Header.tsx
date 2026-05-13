@@ -156,11 +156,18 @@ export function Header() {
             }
 
             if (isAnchor) {
+              if (isHome) {
+                return (
+                  <button key={link.href} className={className} style={style}
+                    onClick={() => scrollTo(link.href.slice(1))}>
+                    {link.label}
+                  </button>
+                )
+              }
               return (
-                <button key={link.href} className={className} style={style}
-                  onClick={() => scrollTo(link.href.slice(1))}>
+                <Link key={link.href} href={`/${link.href}`} className={className} style={style}>
                   {link.label}
-                </button>
+                </Link>
               )
             }
             return (
@@ -222,11 +229,19 @@ export function Header() {
               }
 
               if (isAnchor) {
+                if (isHome) {
+                  return (
+                    <button key={link.href} className={className} style={style}
+                      onClick={() => { scrollTo(link.href.slice(1)); setMenuOpen(false) }}>
+                      {link.label}
+                    </button>
+                  )
+                }
                 return (
-                  <button key={link.href} className={className} style={style}
-                    onClick={() => { scrollTo(link.href.slice(1)); setMenuOpen(false) }}>
+                  <Link key={link.href} href={`/${link.href}`} className={className} style={style}
+                    onClick={() => setMenuOpen(false)}>
                     {link.label}
-                  </button>
+                  </Link>
                 )
               }
               return (

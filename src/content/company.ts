@@ -9,6 +9,11 @@ export const company = {
     city: "Racibórz",
     postalCode: "47-400",
   },
-  nip: "",
+  nip: "639-000-50-65",
+  regon: "271038136",
+  bdo: "000026215",
+  shareCapital: "100 000,- zł",
+  court: "Sąd Rejonowy w Gliwicach",
+  krs: "0000028312",
   workingHours: "Pon–Pt: 8:00–17:00",
 } as const

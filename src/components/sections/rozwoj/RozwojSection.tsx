@@ -44,15 +44,6 @@ export function RozwojSection() {
     <section id="rozwoj" className="w-full pt-28 pb-20 px-4" style={{ backgroundColor: colors.buttonCta }}>
       <div className="container mx-auto">
 
-        <Link
-          href="/"
-          className="inline-flex items-center gap-2 text-sm mb-10 transition-opacity hover:opacity-70"
-          style={{ color: colors.logo }}
-        >
-          <ArrowLeft className="size-4" />
-          Powrót do strony głównej
-        </Link>
-
         <p className="text-sm font-semibold uppercase tracking-widest mb-4" style={{ color: colors.logo }}>
           Rozwój
         </p>

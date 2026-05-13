@@ -26,7 +26,11 @@ export function Footer() {
             <p className="text-sm text-white/60 leading-relaxed max-w-xs">
               Produkcja, modernizacja i usługi montażowe w energetyce zawodowej i przemysłowej — w Polsce i za granicą.
             </p>
-            <p className="text-xs text-white/35">NIP: {company.nip || "—"}</p>
+            <div className="flex flex-col gap-1">
+              <p className="text-xs text-white/35">NIP: {company.nip}</p>
+              <p className="text-xs text-white/35">REGON: {company.regon}</p>
+              <p className="text-xs text-white/35">BDO: {company.bdo}</p>
+            </div>
           </div>
 
           {/* Kolumna 2 — kontakt */}
@@ -85,10 +89,17 @@ export function Footer() {
       </div>
 
       {/* Pasek dolny */}
-      <div className="border-t px-4 py-4" style={{ borderColor: `${colors.logo}20` }}>
-        <p className="text-center text-xs text-white/30">
-          © {new Date().getFullYear()} {company.name}. Wszelkie prawa zastrzeżone.
-        </p>
+      <div className="border-t px-4 py-5" style={{ borderColor: `${colors.logo}20` }}>
+        <div className="container mx-auto flex flex-col items-center gap-2">
+          <p className="text-center text-xs text-white/25 leading-relaxed">
+            Kapitał Zakładowy: {company.shareCapital}&ensp;·&ensp;
+            KRS: {company.krs}&ensp;·&ensp;
+            Sąd Rejestrowy: {company.court}
+          </p>
+          <p className="text-center text-xs text-white/30">
+            © {new Date().getFullYear()} {company.name}. Wszelkie prawa zastrzeżone.
+          </p>
+        </div>
       </div>
     </footer>
   )
