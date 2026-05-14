@@ -62,7 +62,7 @@ export function HeroSection() {
 
           {/* Karta kontaktowa */}
           <Link
-            href="/kontakt"
+            href="/#kontakt"
             className="hidden lg:flex flex-col gap-4 rounded-2xl border border-white/20 bg-white/10 backdrop-blur-md px-7 py-6 w-72 shrink-0 hover:bg-white/15 transition-colors group"
           >
             <div className="flex items-center justify-between">
@@ -109,7 +109,7 @@ export function HeroSection() {
             <div className="h-px bg-white/15" />
 
             <span className="text-xs text-white/50 group-hover:text-white/70 transition-colors">
-              Kliknij, aby przejść do strony kontaktu →
+              Kliknij, aby przejść do sekcji kontaktu →
             </span>
           </Link>
         </div>
