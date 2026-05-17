@@ -1,37 +1,28 @@
 import type { RealizacjaItem } from "@/types/realizacje"
 
-export type { RealizacjaItem }
-
-export const realizacjeContent = {
-  heading: "Realizacje",
-  subheading: "Projekty, które zrealizowaliśmy z pełnym zaangażowaniem.",
-  items: [
-    {
-      id: "dom-jednorodzinny-warszawa",
-      title: "Instalacja w domu jednorodzinnym",
-      description:
-        "Kompleksowe wykonanie instalacji elektrycznej w nowo budowanym domu jednorodzinnym.",
-      category: "Budownictwo mieszkaniowe",
-      year: 2024,
-      imageAlt: "Instalacja elektryczna w domu jednorodzinnym",
-    },
-    {
-      id: "biuro-modernizacja",
-      title: "Modernizacja biura",
-      description:
-        "Wymiana starej instalacji i montaż nowej tablicy rozdzielczej w biurze 200 m².",
-      category: "Komercyjne",
-      year: 2024,
-      imageAlt: "Modernizacja instalacji elektrycznej w biurze",
-    },
-    {
-      id: "hala-produkcyjna",
-      title: "Instalacja hali produkcyjnej",
-      description:
-        "Zasilanie maszyn produkcyjnych, oświetlenie przemysłowe LED, instalacja odgromowa.",
-      category: "Przemysłowe",
-      year: 2023,
-      imageAlt: "Instalacja elektryczna hali produkcyjnej",
-    },
-  ] satisfies RealizacjaItem[],
-} as const
+export const realizacje: RealizacjaItem[] = [
+  { id: "kociol-parowy-ec-jaworzno",       year: 2024, photos: [] },
+  { id: "kociol-parowy-el-lodz",           year: 2024, photos: [] },
+  { id: "kociol-parowy-el-szczecin",       year: 2023, photos: [] },
+  { id: "kociol-parowy-export-niemcy",     year: 2024, photos: [] },
+  { id: "kociol-wodny-cieplownia-raciboz", year: 2023, photos: [] },
+  { id: "kociol-wodny-krakow",             year: 2022, photos: [] },
+  { id: "kociol-gazowy-wroclaw",           year: 2023, photos: [] },
+  { id: "kociol-gazowy-export-czechy",     year: 2022, photos: [] },
+  { id: "kociol-biomasowy-bydgoszcz",      year: 2024, photos: [] },
+  { id: "kociol-biomasowy-poznan",         year: 2023, photos: [] },
+  { id: "kociol-rdf-krakow",              year: 2023, photos: [] },
+  { id: "kociol-biomasowy-export-austria", year: 2022, photos: [] },
+  { id: "rurociagi-rafineria-gdansk",      year: 2024, photos: [] },
+  { id: "rurociagi-pulawy",               year: 2023, photos: [] },
+  { id: "rurociagi-warszawa",             year: 2022, photos: [] },
+  { id: "rurociagi-export-francja",       year: 2022, photos: [] },
+  { id: "modernizacja-ec-katowice",       year: 2024, photos: [] },
+  { id: "modernizacja-cieplownia-opole",  year: 2023, photos: [] },
+  { id: "remont-el-kozienice",            year: 2022, photos: [] },
+  { id: "modernizacja-ec-gdynia",         year: 2022, photos: [] },
+  { id: "instalacje-el-rybnik",           year: 2021, photos: [] },
+  { id: "modernizacja-export-uk",         year: 2021, photos: [] },
+  { id: "modernizacja-export-szwajcaria", year: 2021, photos: [] },
+  { id: "kociol-parowy-export-indie",     year: 2020, photos: [] },
+]

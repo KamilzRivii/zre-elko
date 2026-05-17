@@ -1,16 +1,13 @@
 import Image from "next/image"
-import Link from "next/link"
+import { Link } from "@/i18n/navigation"
 import { ArrowRight } from "lucide-react"
 import { colors } from "@/lib/colors"
+import { getTranslations } from "next-intl/server"
 
-const ITEMS = [
-  "Kotły parowe i wodne opalane węglem o wydajnościach do ok. 50 MW lub 60 ton pary/h",
-  "Kompleksowe biomasowe kotły parowe opalane zrębkami drewna i RDF",
-  "Kompleksowe kotły opalane paliwami gazowymi",
-  "Elementy ciśnieniowe: podgrzewacze wody, przegrzewacze pary, ściany szczelne, komory, stacje redukcyjne, trójniki, kołnierze, kolektory i inne",
-]
+export async function OfertaDescSection() {
+  const t = await getTranslations("ofertaDesc")
+  const items = t.raw("items") as string[]
 
-export function OfertaDescSection() {
   return (
     <section id="oferta" className="w-full py-20 px-4 bg-background overflow-hidden">
       <div className="container mx-auto max-w-6xl">
@@ -90,26 +87,23 @@ export function OfertaDescSection() {
               className="text-sm font-semibold uppercase tracking-widest mb-3"
               style={{ color: colors.logo }}
             >
-              Oferta
+              {t("label")}
             </p>
             <h2 className="text-3xl font-bold md:text-4xl mb-6 leading-tight">
-              Kompleksowa realizacja{" "}
-              <span style={{ color: colors.buttonCta }}>instalacji energetycznych</span>
+              {t("headingLine1")}{" "}
+              <span style={{ color: colors.buttonCta }}>{t("headingLine2")}</span>
             </h2>
 
             <p className="text-muted-foreground leading-relaxed mb-6">
-              ZRE ELKO oferują realizację zadań w pełnym zakresie — od projektowania, przez
-              produkcję, montaż, modernizację i remonty kotłów, rurociągów, turbozespołów
-              i innych instalacji pomocniczych, aż po uruchomienie, szkolenie obsługi
-              i przekazanie do eksploatacji.
+              {t("description")}
             </p>
 
             <p className="text-xs font-semibold uppercase tracking-widest mb-4 text-foreground/50">
-              Wykonujemy głównie
+              {t("listLabel")}
             </p>
 
             <ul className="space-y-3 mb-8">
-              {ITEMS.map((item) => (
+              {items.map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <span
                     className="mt-1.5 size-2 rounded-full flex-none"
@@ -121,11 +115,7 @@ export function OfertaDescSection() {
             </ul>
 
             <p className="text-xs text-muted-foreground mb-8">
-              Na wykonawstwo, modernizacje i remonty Zakłady posiadają stosowne uprawnienia
-              nadane przez{" "}
-              <strong className="text-foreground">UDT</strong>,{" "}
-              <strong className="text-foreground">TÜV</strong> oraz{" "}
-              <strong className="text-foreground">ASIT/SVTI</strong>.
+              {t("permissionsText")}
             </p>
 
             <Link
@@ -133,7 +123,7 @@ export function OfertaDescSection() {
               className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-opacity hover:opacity-80"
               style={{ backgroundColor: colors.buttonCta, color: "#fff" }}
             >
-              Zobacz ofertę
+              {t("seeOffer")}
               <ArrowRight className="size-4" />
             </Link>
           </div>

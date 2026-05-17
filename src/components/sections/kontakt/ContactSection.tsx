@@ -4,27 +4,29 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react"
 import { useContactForm } from "@/lib/hooks/useContactForm"
 import { company } from "@/content/company"
 import { colors } from "@/lib/colors"
-
-const contactItems = [
-  { icon: Phone, items: company.phone },
-  { icon: Mail, items: [company.email] },
-  { icon: MapPin, items: [`${company.address.street}, ${company.address.postalCode} ${company.address.city}`] },
-  { icon: Clock, items: [company.workingHours] },
-]
+import { useTranslations } from "next-intl"
 
 export function ContactSection() {
+  const t = useTranslations("contact")
   const { form, status, onSubmit } = useContactForm()
   const { register, formState: { errors } } = form
+
+  const contactItems = [
+    { icon: Phone, items: company.phone },
+    { icon: Mail, items: [company.email] },
+    { icon: MapPin, items: [`${company.address.street}, ${company.address.postalCode} ${company.address.city}`] },
+    { icon: Clock, items: [company.workingHours] },
+  ]
 
   return (
     <section id="kontakt" className="w-full py-20 px-4" style={{ backgroundColor: colors.buttonCta }}>
       <div className="container mx-auto">
 
         <p className="text-sm font-semibold uppercase tracking-widest mb-4" style={{ color: colors.logo }}>
-          Kontakt
+          {t("label")}
         </p>
         <h2 className="text-3xl font-bold text-white md:text-4xl mb-3">
-          Napisz do <span style={{ color: colors.logo }}>nas</span>
+          {t("headingLine1")} <span style={{ color: colors.logo }}>{t("headingLine2")}</span>
         </h2>
         <div className="h-px w-24 mb-12" style={{ backgroundColor: colors.logo }} />
 
@@ -33,7 +35,7 @@ export function ContactSection() {
           {/* Lewa — dane kontaktowe */}
           <div className="flex flex-col gap-6">
             <p className="text-white/70 text-base leading-relaxed">
-              Wypełnij formularz lub skontaktuj się bezpośrednio.
+              {t("description")}
             </p>
 
             <div className="flex flex-col gap-4">
@@ -62,9 +64,9 @@ export function ContactSection() {
             style={{ backgroundColor: "#1a3535", borderColor: `${colors.logo}30` }}
           >
             {[
-              { placeholder: "Imię i nazwisko *", name: "name", type: "text", error: errors.name },
-              { placeholder: "Adres e-mail *", name: "email", type: "email", error: errors.email },
-              { placeholder: "Telefon (opcjonalnie)", name: "phone", type: "tel", error: errors.phone },
+              { placeholder: t("form.name"), name: "name", type: "text", error: errors.name },
+              { placeholder: t("form.email"), name: "email", type: "email", error: errors.email },
+              { placeholder: t("form.phone"), name: "phone", type: "tel", error: errors.phone },
             ].map(({ placeholder, name, type, error }) => (
               <div key={name} className="flex flex-col gap-1">
                 <input
@@ -83,7 +85,7 @@ export function ContactSection() {
 
             <div className="flex flex-col gap-1">
               <textarea
-                placeholder="Wiadomość *"
+                placeholder={t("form.message")}
                 rows={4}
                 aria-invalid={!!errors.message}
                 {...register("message")}
@@ -101,17 +103,17 @@ export function ContactSection() {
               className="w-full rounded-xl py-3 text-sm font-semibold transition-opacity hover:opacity-85 disabled:opacity-50"
               style={{ backgroundColor: colors.logo, color: colors.buttonCta }}
             >
-              {status === "loading" ? "Wysyłanie…" : "Wyślij wiadomość"}
+              {status === "loading" ? t("form.sending") : t("form.send")}
             </button>
 
             {status === "success" && (
               <p className="text-sm text-center" style={{ color: colors.logo }}>
-                Wiadomość wysłana. Odezwiemy się wkrótce!
+                {t("form.success")}
               </p>
             )}
             {status === "error" && (
               <p className="text-sm text-center text-red-400">
-                Wystąpił błąd. Spróbuj ponownie lub zadzwoń bezpośrednio.
+                {t("form.error")}
               </p>
             )}
           </form>

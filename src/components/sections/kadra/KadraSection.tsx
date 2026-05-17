@@ -1,9 +1,15 @@
 import { Phone, Mail } from "lucide-react"
 import { kadraContent } from "@/content/kadra"
 import { colors } from "@/lib/colors"
+import { getTranslations } from "next-intl/server"
 
-export function KadraSection() {
-  const { board } = kadraContent
+export async function KadraSection() {
+  const t = await getTranslations("kadra")
+  const roles = t.raw("roles") as string[]
+  const board = kadraContent.board.map((member, i) => ({
+    ...member,
+    role: roles[i] ?? member.role,
+  }))
   const [ceo, ...rest] = board
 
   return (
@@ -12,10 +18,10 @@ export function KadraSection() {
 
         {/* Nagłówek */}
         <p className="text-sm font-semibold uppercase tracking-widest mb-3" style={{ color: colors.logo }}>
-          Zarząd
+          {t("label")}
         </p>
         <h1 className="text-4xl font-bold text-white md:text-5xl mb-2">
-          Kadra zarządzająca
+          {t("heading")}
         </h1>
         <div className="h-px w-20 mb-12" style={{ backgroundColor: colors.logo }} />
 
@@ -24,7 +30,6 @@ export function KadraSection() {
           className="relative mb-6 rounded-2xl p-8 overflow-hidden"
           style={{ backgroundColor: colors.buttonCta, border: `1px solid ${colors.logo}30` }}
         >
-          {/* Numer w tle */}
           <span
             className="absolute right-6 top-1/2 -translate-y-1/2 text-[120px] font-black leading-none select-none pointer-events-none"
             style={{ color: `${colors.logo}08` }}
@@ -73,7 +78,6 @@ export function KadraSection() {
                 border: `1px solid ${colors.logo}20`,
               }}
             >
-              {/* Numer w tle */}
               <span
                 className="absolute right-4 bottom-3 text-[80px] font-black leading-none select-none pointer-events-none transition-opacity group-hover:opacity-100"
                 style={{ color: `${colors.logo}07` }}
@@ -82,7 +86,6 @@ export function KadraSection() {
               </span>
 
               <div className="relative z-10 flex flex-col gap-4">
-                {/* Rola */}
                 <span
                   className="text-xs font-semibold uppercase tracking-widest"
                   style={{ color: colors.logo }}
@@ -90,13 +93,10 @@ export function KadraSection() {
                   {member.role}
                 </span>
 
-                {/* Linia */}
                 <div className="h-px w-10" style={{ backgroundColor: `${colors.logo}40` }} />
 
-                {/* Imię */}
                 <h3 className="text-xl font-bold text-white tracking-tight">{member.name}</h3>
 
-                {/* Kontakt */}
                 <div className="flex flex-col gap-2 mt-1">
                   <a
                     href={`tel:${member.phone.replace(/\s/g, "")}`}

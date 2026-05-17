@@ -1,5 +1,7 @@
 "use client"
 
+import { useLocale } from "next-intl"
+import { useRouter, usePathname } from "@/i18n/navigation"
 import { cn } from "@/lib/utils"
 
 function FlagPL({ className }: { className?: string }) {
@@ -40,9 +42,9 @@ function FlagDE({ className }: { className?: string }) {
 }
 
 const languages = [
-  { code: "PL", Flag: FlagPL },
-  { code: "EN", Flag: FlagGB },
-  { code: "DE", Flag: FlagDE },
+  { code: "pl", label: "PL", Flag: FlagPL },
+  { code: "en", label: "EN", Flag: FlagGB },
+  { code: "de", label: "DE", Flag: FlagDE },
 ] as const
 
 interface Props {
@@ -50,25 +52,32 @@ interface Props {
 }
 
 export function LanguageSwitcher({ transparent = false }: Props) {
-  const active = "PL"
+  const locale = useLocale()
+  const router = useRouter()
+  const pathname = usePathname()
+
+  function switchLocale(code: string) {
+    router.replace(pathname, { locale: code })
+  }
 
   return (
     <div className="hidden items-center gap-1 lg:flex">
-      {languages.map(({ code, Flag }) => {
-        const isActive = code === active
+      {languages.map(({ code, label, Flag }) => {
+        const isActive = code === locale
         return (
           <button
             key={code}
-            aria-label={code}
+            aria-label={label}
+            onClick={() => switchLocale(code)}
             className={cn(
-              "flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium transition-colors",
+              "flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium transition-colors cursor-pointer",
               isActive
                 ? "bg-white/15 text-white"
                 : "text-white/60 hover:text-white hover:bg-white/10"
             )}
           >
             <Flag className="h-3.5 w-5 rounded-[2px]" />
-            {code}
+            {label}
           </button>
         )
       })}

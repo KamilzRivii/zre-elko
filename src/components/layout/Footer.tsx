@@ -1,20 +1,15 @@
-import Link from "next/link"
 import { Phone, Mail, MapPin, Clock } from "lucide-react"
+import { Link } from "@/i18n/navigation"
 import { Logo } from "@/components/layout/Logo"
 import { company } from "@/content/company"
 import { colors } from "@/lib/colors"
+import { getTranslations } from "next-intl/server"
 
-const navLinks = [
-  { label: "O nas", href: "#o-nas" },
-  { label: "Certyfikaty", href: "#certyfikaty" },
-  { label: "Realizacje", href: "/realizacje" },
-  { label: "Rozwój", href: "/rozwoj" },
-  { label: "Kadra", href: "/kadra" },
-  { label: "Galeria", href: "/galeria" },
-  { label: "Kontakt", href: "#kontakt" },
-]
+export async function Footer() {
+  const t = await getTranslations("footer")
 
-export function Footer() {
+  const navLinks: { label: string; href: string }[] = t.raw("links") as { label: string; href: string }[]
+
   return (
     <footer style={{ backgroundColor: colors.buttonCta, borderTop: "2px solid #000" }}>
       <div className="container mx-auto px-4 py-14">
@@ -24,19 +19,19 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <Logo light />
             <p className="text-sm text-white/60 leading-relaxed max-w-xs">
-              Produkcja, modernizacja i usługi montażowe w energetyce zawodowej i przemysłowej — w Polsce i za granicą.
+              {t("description")}
             </p>
             <div className="flex flex-col gap-1">
-              <p className="text-xs text-white/35">NIP: {company.nip}</p>
-              <p className="text-xs text-white/35">REGON: {company.regon}</p>
-              <p className="text-xs text-white/35">BDO: {company.bdo}</p>
+              <p className="text-xs text-white/35">{t("nip")} {company.nip}</p>
+              <p className="text-xs text-white/35">{t("regon")} {company.regon}</p>
+              <p className="text-xs text-white/35">{t("bdo")} {company.bdo}</p>
             </div>
           </div>
 
           {/* Kolumna 2 — kontakt */}
           <div className="flex flex-col gap-4">
             <p className="text-xs font-semibold uppercase tracking-widest" style={{ color: colors.logo }}>
-              Kontakt
+              {t("contactSection")}
             </p>
             <div className="flex flex-col gap-3">
               {company.phone.map((p) => (
@@ -47,7 +42,7 @@ export function Footer() {
               ))}
               <a href={`tel:${company.fax}`} className="flex items-center gap-3">
                 <Phone className="size-3.5 shrink-0 opacity-40" style={{ color: colors.logo }} />
-                <span className="text-sm text-white/50">fax: {company.fax}</span>
+                <span className="text-sm text-white/50">{t("fax")} {company.fax}</span>
               </a>
               <a href={`mailto:${company.email}`} className="flex items-center gap-3 group">
                 <Mail className="size-3.5 shrink-0" style={{ color: colors.logo }} />
@@ -62,7 +57,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Clock className="size-3.5 shrink-0" style={{ color: colors.logo }} />
-                <span className="text-sm text-white/70">{company.workingHours}</span>
+                <span className="text-sm text-white/70">{t("workingHours")}</span>
               </div>
             </div>
           </div>
@@ -70,7 +65,7 @@ export function Footer() {
           {/* Kolumna 3 — nawigacja */}
           <div className="flex flex-col gap-4">
             <p className="text-xs font-semibold uppercase tracking-widest" style={{ color: colors.logo }}>
-              Nawigacja
+              {t("navigationSection")}
             </p>
             <nav className="flex flex-col gap-2">
               {navLinks.map(({ label, href }) => (
@@ -92,12 +87,14 @@ export function Footer() {
       <div className="border-t px-4 py-5" style={{ borderColor: `${colors.logo}20` }}>
         <div className="container mx-auto flex flex-col items-center gap-2">
           <p className="text-center text-xs text-white/25 leading-relaxed">
-            Kapitał Zakładowy: {company.shareCapital}&ensp;·&ensp;
-            KRS: {company.krs}&ensp;·&ensp;
-            Sąd Rejestrowy: {company.court}
+            {t("capitalInfo", {
+              capital: company.shareCapital,
+              krs: company.krs,
+              court: company.court,
+            })}
           </p>
           <p className="text-center text-xs text-white/30">
-            © {new Date().getFullYear()} {company.name}. Wszelkie prawa zastrzeżone.
+            {t("copyright", { year: new Date().getFullYear(), name: company.name })}
           </p>
         </div>
       </div>

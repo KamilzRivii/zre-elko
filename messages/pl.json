@@ -1,0 +1,535 @@
+{
+  "nav": {
+    "home": "Główna",
+    "about": "O nas",
+    "offer": "Oferta",
+    "projects": "Realizacje",
+    "development": "Rozwój",
+    "staff": "Kadra",
+    "gallery": "Galeria",
+    "contact": "Kontakt",
+    "contactUs": "Napisz do nas"
+  },
+  "hero": {
+    "badge": "Certyfikowani elektrycy",
+    "headingParts": [
+      "Produkujemy",
+      "Modernizujemy",
+      "Montujemy"
+    ],
+    "subheading": "Kompleksowe usługi elektryczne dla klientów indywidualnych i firm. Solidnie, terminowo i zgodnie z normami.",
+    "ctaPrimary": "Sprawdź ofertę",
+    "ctaSecondary": "Skontaktuj się",
+    "stats": [
+      {
+        "value": "15+",
+        "label": "lat doświadczenia"
+      },
+      {
+        "value": "800+",
+        "label": "realizacji"
+      },
+      {
+        "value": "100%",
+        "label": "zgodność z normami"
+      }
+    ],
+    "trustCard": {
+      "heading": "Twój zaufany partner",
+      "text": "w profesjonalnych instalacjach elektrycznych dla domu i firmy."
+    },
+    "featureCards": [
+      {
+        "id": "speed",
+        "title": "Szybka realizacja",
+        "description": "Termin wykonania uzgodniony indywidualnie z każdym klientem."
+      },
+      {
+        "id": "quality",
+        "title": "Gwarancja jakości",
+        "description": "Wszystkie prace zgodne z normami PN-HD 60364."
+      },
+      {
+        "id": "quote",
+        "title": "Bezpłatna wycena",
+        "description": "Wycena bez zobowiązań w ciągu 24 godzin."
+      },
+      {
+        "id": "experience",
+        "title": "15 lat na rynku",
+        "description": "Ponad 800 zrealizowanych instalacji elektrycznych."
+      }
+    ],
+    "contactLabel": "Kontakt",
+    "contactMsg": "Kliknij, aby przejść do sekcji kontaktu →",
+    "logoAlt": "ZRE Elko — profesjonalne instalacje elektryczne"
+  },
+  "ofertaPreview": {
+    "heading": "Co oferujemy",
+    "subheading": "Szeroki zakres usług elektrycznych dopasowany do Twoich potrzeb.",
+    "seeAll": "Zobacz pełną ofertę →"
+  },
+  "realizacjePreview": {
+    "heading": "Nasze realizacje",
+    "subheading": "Wybrane projekty, które zrealizowaliśmy dla naszych klientów.",
+    "cta": "Zobacz wszystkie",
+    "label": "Realizacje",
+    "headingLine1": "Nasze",
+    "headingLine2": "projekty",
+    "noPhoto": "Zdjęcie wkrótce"
+  },
+  "ctaSection": {
+    "heading": "Potrzebujesz wyceny?",
+    "subheading": "Napisz lub zadzwoń — bezpłatna wycena w ciągu 24 godzin.",
+    "cta": "Zapytaj o wycenę"
+  },
+  "ofertaDesc": {
+    "label": "Oferta",
+    "headingLine1": "Kompleksowa realizacja",
+    "headingLine2": "instalacji energetycznych",
+    "listLabel": "Wykonujemy głównie",
+    "description": "ZRE ELKO oferują realizację zadań w pełnym zakresie — od projektowania, przez produkcję, montaż, modernizację i remonty kotłów, rurociągów, turbozespołów i innych instalacji pomocniczych, aż po uruchomienie, szkolenie obsługi i przekazanie do eksploatacji.",
+    "permissionsText": "Na wykonawstwo, modernizacje i remonty Zakłady posiadają stosowne uprawnienia nadane przez UDT, TÜV oraz ASIT/SVTI.",
+    "seeOffer": "Zobacz ofertę",
+    "items": [
+      "Kotły parowe i wodne opalane węglem o wydajnościach do ok. 50 MW lub 60 ton pary/h",
+      "Kompleksowe biomasowe kotły parowe opalane zrębkami drewna i RDF",
+      "Kompleksowe kotły opalane paliwami gazowymi",
+      "Elementy ciśnieniowe: podgrzewacze wody, przegrzewacze pary, ściany szczelne, komory, stacje redukcyjne, trójniki, kołnierze, kolektory i inne"
+    ]
+  },
+  "about": {
+    "label": "O nas",
+    "headingLine1": "Zakłady Remontowe Energetyki",
+    "headingLine2": "ELKO",
+    "headingLine3": "Sp. z o.o.",
+    "description": "Firma z siedzibą w Raciborzu specjalizująca się w produkcji, modernizacji i usługach montażowych w energetyce zawodowej i przemysłowej — w Polsce i za granicą.",
+    "tiles": [
+      {
+        "title": "Historia i profil",
+        "text": "Marzec 1991 roku to początek działalności ZRE ELKO Sp. z o.o. Naszym głównym profilem jest projektowanie od podstaw kotłów wodnych i parowych, ich produkcja, montaż i uruchomienie. Specjalizujemy się w kotłach zasilanych paliwami węglowymi, gazowymi, RDF i biomasą."
+      },
+      {
+        "title": "Pełen zakres usług",
+        "text": "ZRE ELKO realizuje zadania w pełnym zakresie — od projektowania, przez produkcję, montaż, modernizację i remonty kotłów, rurociągów i instalacji pomocniczych, po uruchomienie, szkolenie obsługi oraz przekazanie do eksploatacji instalacji energetycznych."
+      },
+      {
+        "title": "Uprawnienia i zasięg",
+        "text": "Posiadamy uprawnienia UDT, TÜV oraz ASIT/SVTI. Pracownicy montażowi mają kwalifikacje E i D. Działamy w Polsce i za granicą — Niemcy, Francja, Austria, Czechy, Wielka Brytania, Szwajcaria, Szwecja, Indie, Białoruś, Ukraina i Finlandia."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Kontakt",
+    "headingLine1": "Napisz do",
+    "headingLine2": "nas",
+    "description": "Wypełnij formularz lub skontaktuj się bezpośrednio.",
+    "form": {
+      "name": "Imię i nazwisko *",
+      "email": "Adres e-mail *",
+      "phone": "Telefon (opcjonalnie)",
+      "message": "Wiadomość *",
+      "sending": "Wysyłanie…",
+      "send": "Wyślij wiadomość",
+      "success": "Wiadomość wysłana. Odezwiemy się wkrótce!",
+      "error": "Wystąpił błąd. Spróbuj ponownie lub zadzwoń bezpośrednio."
+    }
+  },
+  "certyfikaty": {
+    "label": "Certyfikaty i uprawnienia",
+    "headingLine1": "Jakość potwierdzona",
+    "headingLine2": "dokumentami",
+    "description": "Na oferowany zakres produkcji i usług ZRE ELKO Sp. z o.o. posiada uprawnienia <b>UDT, TÜV, SVTI ASIT</b> oraz <b>EN ISO 9001:2000</b>. Wszystkie realizowane prace spełniają najwyższe wymagania techniczne i bezpieczeństwa obowiązujące w energetyce zawodowej i przemysłowej.",
+    "seeAll": "Zobacz wszystkie certyfikaty",
+    "orgs": [
+      {
+        "label": "UDT",
+        "description": "Urząd Dozoru Technicznego"
+      },
+      {
+        "label": "UDT",
+        "description": "Uprawnienia wykonawcze"
+      },
+      {
+        "label": "TÜV",
+        "description": "Technischer Überwachungsverein"
+      },
+      {
+        "label": "SVTI / ASIT",
+        "description": "Szwajcarski Instytut Bezpieczeństwa Technicznego"
+      }
+    ],
+    "page": {
+      "label": "Certyfikaty i uprawnienia",
+      "headingLine1": "Nasze",
+      "headingLine2": "uprawnienia",
+      "description": "Na oferowany zakres produkcji i usług ZRE ELKO Sp. z o.o. posiada uprawnienia <b>UDT, TÜV, SVTI ASIT</b> oraz <b>EN ISO 9001:2000</b>. Wszystkie realizowane prace spełniają najwyższe wymagania techniczne i bezpieczeństwa obowiązujące w energetyce zawodowej i przemysłowej.",
+      "certifyingOrgs": "Organizacje certyfikujące",
+      "documents": "Dokumenty i zaświadczenia",
+      "enlarge": "Powiększ",
+      "docs": [
+        "UDT — uprawnienia naprawcze",
+        "UDT — uprawnienia wytwarzenia",
+        "UDT — certyfikat produkcyjny",
+        "UDT — certyfikat produkcyjny",
+        "UDT — certyfikat jakości",
+        "UDT — uprawnienia laboratoryjne",
+        "TÜV - certyfikat",
+        "UDT - uprawnienia modernizacji",
+        "UDT - certyfikat jakości"
+      ]
+    }
+  },
+  "kadra": {
+    "label": "Zarząd",
+    "heading": "Kadra zarządzająca",
+    "roles": [
+      "Prezes Zarządu – Dyrektor Generalny",
+      "Wiceprezes Zarządu – Dyrektor ds. Realizacji",
+      "Wiceprezes Zarządu – Dyrektor Operacyjny",
+      "Wiceprezes Zarządu – Dyrektor Techniczny",
+      "Dyrektor ds. Finansowych"
+    ]
+  },
+  "galeria": {
+    "label": "Galeria",
+    "heading": "Nasze realizacje w obrazach",
+    "all": "Wszystkie",
+    "categories": [
+      "Kotły",
+      "Montaż",
+      "Rurociągi",
+      "Elementy",
+      "Inne"
+    ],
+    "noPhotos": "Zdjęcia wkrótce",
+    "shown": "Wyświetlono {shown} z {total} zdjęć — pozostało jeszcze {remaining}",
+    "showMore": "Wyświetl więcej ({remaining})"
+  },
+  "oferta": {
+    "heading": "Oferta",
+    "subheading": "Kompleksowe usługi dla energetyki zawodowej i przemysłowej.",
+    "page": {
+      "label": "Oferta",
+      "headingLine1": "Kompleksowe usługi dla",
+      "headingLine2": "energetyki",
+      "intro": "ZRE ELKO realizuje zadania w pełnym zakresie — od projektowania, przez produkcję, montaż, modernizację i remonty kotłów, rurociągów i instalacji pomocniczych, aż po uruchomienie i przekazanie do eksploatacji. Wszystkie prace wykonujemy z uprawnieniami UDT, TÜV i SVTI/ASIT.",
+      "biuroLabel": "W ramach oferty",
+      "biuroHeading": "Biuro Projektowe",
+      "enlarge": "Powiększ",
+      "biuroIntro": "Zakładowe Biuro Projektowe ELKO posiada kompetencje do zaprojektowania kotłów na różnego rodzaju paliwa — węgiel, gaz ziemny, biomasę, odpady komunalne, paliwa alternatywne (RDF, pre-RDF) — od projektu koncepcyjnego, poprzez projekt podstawowy, aż do projektów wykonawczych. Projektujemy kotły wg PN-EN 12952-3, PN-EN 12953-3 oraz WUDT/UC/2003.",
+      "biuroParagraphs": [
+        "Posiadamy również pełne kompetencje pozwalające na projektowanie różnego rodzaju rurociągów wg PN-EN 13480.",
+        "Oprócz projektów realizowanych na potrzeby produkcji i montażu prowadzonych przez ZRE ELKO Sp. z o.o. świadczymy usługi projektowe kotłów dla naszych partnerów europejskich — firm z Niemiec, Belgii, Austrii, Czech i Francji — realizowanych przez inne wytwórnie europejskie.",
+        "Ponadto Zakładowe Biuro Projektowe świadczy wszelkiego rodzaju usługi polegające na opracowaniu analiz i opinii technicznych zleconych przez Klientów zewnętrznych w zakresie projektowania kotłów i ich elementów."
+      ],
+      "biuroHighlights": [
+        "Projekty koncepcyjne, podstawowe i wykonawcze",
+        "Kotły na węgiel, gaz, biomasę, RDF i pre-RDF",
+        "Rurociągi wg PN-EN 13480",
+        "Opinie techniczne i analizy na zlecenie",
+        "Współpraca z partnerami z całej Europy"
+      ],
+      "biuroPhotos": [
+        "Biuro Projektowe ELKO — projekt kotła",
+        "Biuro Projektowe ELKO — dokumentacja techniczna",
+        "Biuro Projektowe ELKO — projektowanie rurociągów",
+        "Biuro Projektowe ELKO — projekty wykonawcze"
+      ]
+    },
+    "items": [
+      {
+        "id": "produkcja-kotlow",
+        "title": "Produkcja kotłów",
+        "description": "Wytwarzanie kotłów parowych i wodnych na węgiel, gaz, biomasę, odpady komunalne oraz paliwa alternatywne (RDF, pre-RDF) o wydajności do 50 MW lub 60 t pary/h.",
+        "icon": "flame"
+      },
+      {
+        "id": "montaz-modernizacja",
+        "title": "Montaż i modernizacja",
+        "description": "Kompleksowy montaż, remonty i modernizacje kotłów, rurociągów oraz instalacji pomocniczych na obiektach energetycznych — w Polsce i za granicą.",
+        "icon": "wrench"
+      },
+      {
+        "id": "rurociagi",
+        "title": "Rurociągi technologiczne",
+        "description": "Wykonawstwo rurociągów technologicznych wg PN-EN 13480 — od projektu koncepcyjnego, przez projekt podstawowy, aż po montaż i odbiór z uprawnieniami UDT, TÜV i SVTI.",
+        "icon": "workflow"
+      },
+      {
+        "id": "biuro-projektowe",
+        "title": "Biuro Projektowe ELKO",
+        "description": "Pełna dokumentacja techniczna kotłów wg PN-EN 12952-3 i PN-EN 12953-3 oraz WUDT/UC/2003 — dla produkcji własnej i partnerów europejskich z Niemiec, Belgii, Austrii, Czech i Francji.",
+        "icon": "drafting-compass"
+      }
+    ]
+  },
+  "realizacje": {
+    "heading": "Realizacje",
+    "subheading": "Projekty, które zrealizowaliśmy z pełnym zaangażowaniem.",
+    "filter": "Kategorie",
+    "all": "Wszystkie",
+    "backToList": "← Powrót do realizacji",
+    "noPhoto": "Zdjęcia wkrótce",
+    "gallery": "Galeria zdjęć",
+    "items": [
+      {
+        "id": "kociol-parowy-ec-jaworzno",
+        "title": "Kocioł parowy węglowy 30 MW — EC Jaworzno",
+        "description": "Produkcja i montaż kotła parowego opalanego węglem kamiennym o wydajności 30 MW dla Elektrociepłowni Jaworzno. Prace obejmowały pełny zakres — od projektu wykonawczego, przez produkcję elementów ciśnieniowych, aż po montaż, uruchomienie i szkolenie obsługi.",
+        "category": "Kotły parowe"
+      },
+      {
+        "id": "kociol-parowy-el-lodz",
+        "title": "Kocioł parowy węglowy 45 MW — EC Łódź",
+        "description": "Wytworzenie kotła parowego o mocy 45 MW dla Elektrociepłowni Łódź. Projekt realizowany zgodnie z normami PN-EN 12952-3 i obejmował produkcję ścian szczelnych, przegrzewaczy pary oraz podgrzewaczy wody.",
+        "category": "Kotły parowe"
+      },
+      {
+        "id": "kociol-parowy-el-szczecin",
+        "title": "Kocioł parowy węglowy 20 MW — Elektrownia Szczecin",
+        "description": "Dostawa i montaż kotła parowego 20 MW dla Elektrowni Szczecin. Zakres prac obejmował produkcję kotła, rurociągów parowych oraz instalację układu odpopielania.",
+        "category": "Kotły parowe"
+      },
+      {
+        "id": "kociol-parowy-export-niemcy",
+        "title": "Kocioł parowy 35 MW — Kraftwerk Bayern (Niemcy)",
+        "description": "Produkcja kotła parowego o wydajności 35 MW na zamówienie partnera z Niemiec. Projekt realizowany zgodnie ze standardami TÜV dla rynku niemieckiego.",
+        "category": "Kotły parowe"
+      },
+      {
+        "id": "kociol-wodny-cieplownia-raciboz",
+        "title": "Kocioł wodny 8 MW — Ciepłownia Racibórz",
+        "description": "Budowa kotła wodnego o mocy 8 MW dla miejskiej ciepłowni w Raciborzu. Kocioł zasilany węglem kamiennym, przystosowany do pracy w układzie sieci ciepłowniczej.",
+        "category": "Kotły wodne"
+      },
+      {
+        "id": "kociol-wodny-krakow",
+        "title": "Kocioł wodny 12 MW — Zakład Przemysłowy Kraków",
+        "description": "Dostawa i uruchomienie kotła wodnego 12 MW dla zakładu przemysłowego w Krakowie. Prace obejmowały projekt, produkcję, montaż, odbiory UDT oraz szkolenie personelu obsługi.",
+        "category": "Kotły wodne"
+      },
+      {
+        "id": "kociol-gazowy-wroclaw",
+        "title": "Kocioł gazowy 15 MW — Fabryka Wrocław",
+        "description": "Produkcja i montaż kotła gazowego z palnikami wielopaliwowymi o mocy 15 MW. Instalacja wyposażona w nowoczesny system sterowania i monitorowania parametrów pracy.",
+        "category": "Kotły gazowe"
+      },
+      {
+        "id": "kociol-gazowy-export-czechy",
+        "title": "Kocioł gazowy 10 MW — Teplárna Brno (Czechy)",
+        "description": "Dostawa kotła gazowego 10 MW dla czeskiego klienta. Projekt zrealizowany we współpracy z lokalnym partnerem, zgodnie z normami CE i wymogami rynku czeskiego.",
+        "category": "Kotły gazowe"
+      },
+      {
+        "id": "kociol-biomasowy-bydgoszcz",
+        "title": "Kocioł biomasowy 25 MW — Ciepłownia Bydgoszcz",
+        "description": "Kompleksowa realizacja kotła biomasowego 25 MW opalanego zrębkami drewna. Projekt objął pełen zakres — projektowanie, produkcję, montaż i uruchomienie instalacji wraz z układem podawania paliwa.",
+        "category": "Biomasowe"
+      },
+      {
+        "id": "kociol-biomasowy-poznan",
+        "title": "Kocioł biomasowy 20 MW — EC Poznań",
+        "description": "Budowa kotła biomasowego 20 MW dla Elektrociepłowni Poznań. Kocioł przystosowany do spalania biomasy leśnej i rolniczej, wyposażony w nowoczesny system odpylania spalin.",
+        "category": "Biomasowe"
+      },
+      {
+        "id": "kociol-rdf-krakow",
+        "title": "Kocioł RDF 18 MW — Spalarnia Odpadów Kraków",
+        "description": "Produkcja kotła parowego przystosowanego do spalania paliwa alternatywnego RDF o wydajności 18 MW. Instalacja spełnia wymagania dyrektywy IED w zakresie emisji zanieczyszczeń.",
+        "category": "Biomasowe"
+      },
+      {
+        "id": "kociol-biomasowy-export-austria",
+        "title": "Kocioł biomasowy — Heizkraftwerk Graz (Austria)",
+        "description": "Dostawa elementów ciśnieniowych kotła biomasowego dla austriackiego partnera. Projekt zrealizowany zgodnie z normami SVTI/ASIT i wymaganiami rynku austriackiego.",
+        "category": "Biomasowe"
+      },
+      {
+        "id": "rurociagi-rafineria-gdansk",
+        "title": "Rurociągi technologiczne — Rafineria Gdańsk",
+        "description": "Wykonanie rurociągów technologicznych wysokiego ciśnienia zgodnie z normą PN-EN 13480. Zakres obejmował projektowanie, prefabrykację, montaż na obiekcie oraz odbiory UDT.",
+        "category": "Rurociągi"
+      },
+      {
+        "id": "rurociagi-pulawy",
+        "title": "Rurociągi parowe — Zakład Chemiczny Puławy",
+        "description": "Modernizacja i rozbudowa sieci rurociągów parowych w Zakładach Azotowych Puławy. Prace realizowane w krótkich okienkach remontowych bez przerwy w produkcji zakładu.",
+        "category": "Rurociągi"
+      },
+      {
+        "id": "rurociagi-warszawa",
+        "title": "Rurociągi wysokoprężne — EC Warszawa",
+        "description": "Montaż rurociągów wysokociśnieniowych pary przegrzanej dla Elektrociepłowni Warszawa. Projekt obejmował ponad 2 km rurociągów DN50–DN500 wraz z armaturą i podporami.",
+        "category": "Rurociągi"
+      },
+      {
+        "id": "rurociagi-export-francja",
+        "title": "Rurociągi — Centrale Thermique Lyon (Francja)",
+        "description": "Prefabrykacja i dostawa elementów rurociągów dla francuskiej elektrowni cieplnej. Elementy wykonane z materiałów P91 i P22 zgodnie z dokumentacją techniczną zamawiającego.",
+        "category": "Rurociągi"
+      },
+      {
+        "id": "modernizacja-ec-katowice",
+        "title": "Modernizacja kotła 40 MW — EC Katowice",
+        "description": "Kompleksowa modernizacja kotła parowego 40 MW — wymiana przegrzewaczy, podgrzewaczy i ścian szczelnych. Prace zrealizowane podczas planowanego remontu kapitalnego elektrociepłowni.",
+        "category": "Modernizacje"
+      },
+      {
+        "id": "modernizacja-cieplownia-opole",
+        "title": "Modernizacja kotła 30 MW — Ciepłownia Opole",
+        "description": "Remont i modernizacja kotła wodnego 30 MW polegająca na wymianie elementów wymiennika ciepła i układu spalania. Zakres obejmował również dostosowanie instalacji do nowych norm emisji.",
+        "category": "Modernizacje"
+      },
+      {
+        "id": "remont-el-kozienice",
+        "title": "Remont kapitalny — Elektrownia Kozienice",
+        "description": "Remont kapitalny kotła parowego obejmujący wymianę ścian szczelnych, naprawę przegrzewaczy i wymianę armatury. Prace prowadzone w ścisłej koordynacji z harmonogramem remontowym elektrowni.",
+        "category": "Modernizacje"
+      },
+      {
+        "id": "modernizacja-ec-gdynia",
+        "title": "Modernizacja układu parowego — EC Gdynia",
+        "description": "Modernizacja układu parowego turbozespołu elektrociepłowni w Gdyni. Zakres prac obejmował wymianę rurociągów świeżej pary, zaworów regulacyjnych i izolacji termicznej.",
+        "category": "Modernizacje"
+      },
+      {
+        "id": "instalacje-el-rybnik",
+        "title": "Instalacje pomocnicze — Elektrownia Rybnik",
+        "description": "Wykonanie instalacji pomocniczych bloków energetycznych Elektrowni Rybnik. Prace obejmowały montaż rurociągów wody zasilającej, odwodnień i odpowietrzeń układu kotłowego.",
+        "category": "Modernizacje"
+      },
+      {
+        "id": "modernizacja-export-uk",
+        "title": "Modernizacja — Power Station (Wielka Brytania)",
+        "description": "Dostawa i montaż elementów ciśnieniowych dla modernizowanej elektrowni w Wielkiej Brytanii. Projekt zrealizowany w konsorcjum z partnerem brytyjskim, zgodnie z normami BS i wymaganiami rynku UK.",
+        "category": "Modernizacje"
+      },
+      {
+        "id": "modernizacja-export-szwajcaria",
+        "title": "Modernizacja — Heizkraftwerk (Szwajcaria)",
+        "description": "Dostawa elementów kotłowych i rurociągów dla szwajcarskiej elektrociepłowni. Realizacja zgodna z normami SVTI/ASIT i wymaganiami szwajcarskiego organu dozoru technicznego.",
+        "category": "Modernizacje"
+      },
+      {
+        "id": "kociol-parowy-export-indie",
+        "title": "Kocioł parowy — Power Plant (Indie)",
+        "description": "Produkcja i dostawa elementów ciśnieniowych kotła parowego dla indyjskiego inwestora. Projekt realizowany zgodnie z normami IBR (Indian Boiler Regulations) i wymaganiami zamawiającego.",
+        "category": "Kotły parowe"
+      }
+    ]
+  },
+  "rozwoj": {
+    "label": "Rozwój",
+    "headingLine1": "Projekty",
+    "headingLine2": "dofinansowane",
+    "headingLine3": "ze środków UE",
+    "projects": [
+      {
+        "badge": "Projekt 1 · RPO WSL 2007–2013",
+        "title": "Inwestycja w rozwój i wdrożenie innowacyjnej infrastruktury badawczo-rozwojowej, produkcyjnej oraz informatycznej dla produkcji nowoczesnych kotłów energetycznych",
+        "stats": [
+          {
+            "label": "Beneficjent",
+            "value": "ZRE ELKO Sp. z o.o."
+          },
+          {
+            "label": "Wartość projektu",
+            "value": "1 111 305 zł"
+          },
+          {
+            "label": "Dofinansowanie",
+            "value": "451 750 zł"
+          }
+        ],
+        "program": "Regionalny Program Operacyjny Województwa Śląskiego na lata 2007–2013",
+        "source": "Europejski Fundusz Rozwoju Regionalnego",
+        "url": "www.rpo.silesia-region.pl",
+        "tagline": "Regionalny Program Operacyjny Województwa Śląskiego – realna odpowiedź na realne potrzeby",
+        "infoText": "Projekt współfinansowany przez Unię Europejską z {source} w ramach {program}.",
+        "infoText2": "Informacje źródłowe dostępne na stronie {url}"
+      },
+      {
+        "badge": "Projekt 2 · Fundusz Sprawiedliwej Transformacji 2021–2027",
+        "title": "Przygotowanie niezbędnego zaplecza projektowo-technologicznego dla wdrożenia do produkcji linii kotłów gazowych z innowatorskim systemem palnikowym",
+        "description": "Celem projektu jest rozwój działalności produkcyjnej wraz z jej umiędzynarodowieniem poprzez opracowanie konstrukcji i technologii wytwarzania dla kotłów zasilanych paliwem gazowym z zastosowaniem palników multi-paliwowych. Projekt koncentruje się na implementacji rozwiązań umożliwiających osadzenie palnika w specjalistycznym gnieździe oraz nowoczesnych żebrowanych wymiennikach spaliny-woda i spaliny-powietrze — zmniejszając emisję zanieczyszczeń i zwiększając efektywność energetyczną.",
+        "stats": [
+          {
+            "label": "Beneficjent",
+            "value": "ZRE ELKO Sp. z o.o."
+          },
+          {
+            "label": "Wartość projektu",
+            "value": "1 999 600 zł"
+          },
+          {
+            "label": "Dofinansowanie UE",
+            "value": "777 355 zł"
+          },
+          {
+            "label": "Okres realizacji",
+            "value": "10.2024 – 06.2025"
+          },
+          {
+            "label": "Grupa docelowa",
+            "value": "Branża energetyczna, budowlana, produkcyjna, spożywcza"
+          },
+          {
+            "label": "Fundusz",
+            "value": "Fundusz Sprawiedliwej Transformacji 2021–2027"
+          }
+        ],
+        "tags": [
+          "#FunduszeUE",
+          "#FunduszeEuropejskie"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "description": "Produkcja, modernizacja i usługi montażowe w energetyce zawodowej i przemysłowej — w Polsce i za granicą.",
+    "contactSection": "Kontakt",
+    "navigationSection": "Nawigacja",
+    "fax": "fax:",
+    "nip": "NIP:",
+    "regon": "REGON:",
+    "bdo": "BDO:",
+    "capitalInfo": "Kapitał Zakładowy: {capital}  ·  KRS: {krs}  ·  Sąd Rejestrowy: {court}",
+    "copyright": "© {year} {name}. Wszelkie prawa zastrzeżone.",
+    "workingHours": "Pon–Pt: 8:00–17:00",
+    "links": [
+      {
+        "label": "O nas",
+        "href": "#o-nas"
+      },
+      {
+        "label": "Certyfikaty",
+        "href": "#certyfikaty"
+      },
+      {
+        "label": "Realizacje",
+        "href": "#realizacje"
+      },
+      {
+        "label": "Rozwój",
+        "href": "/rozwoj"
+      },
+      {
+        "label": "Kadra",
+        "href": "/kadra"
+      },
+      {
+        "label": "Galeria",
+        "href": "/galeria"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ]
+  },
+  "meta": {
+    "defaultTitle": "ZRE ELKO — Kotły, rurociągi, energetyka",
+    "defaultDescription": "Produkcja kotłów, rurociągów i montaż instalacji energetycznych — ZRE ELKO Sp. z o.o."
+  }
+}

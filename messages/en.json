@@ -1,0 +1,535 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "offer": "Services",
+    "projects": "Projects",
+    "development": "Development",
+    "staff": "Management",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "contactUs": "Contact us"
+  },
+  "hero": {
+    "badge": "Certified specialists",
+    "headingParts": [
+      "We manufacture",
+      "We modernise",
+      "We install"
+    ],
+    "subheading": "Comprehensive services for professional and industrial power engineering — in Poland and abroad.",
+    "ctaPrimary": "View our services",
+    "ctaSecondary": "Get in touch",
+    "stats": [
+      {
+        "value": "15+",
+        "label": "years of experience"
+      },
+      {
+        "value": "800+",
+        "label": "completed projects"
+      },
+      {
+        "value": "100%",
+        "label": "compliance with standards"
+      }
+    ],
+    "trustCard": {
+      "heading": "Your trusted partner",
+      "text": "in professional power engineering services for industry and commerce."
+    },
+    "featureCards": [
+      {
+        "id": "speed",
+        "title": "Fast delivery",
+        "description": "Completion date agreed individually with each client."
+      },
+      {
+        "id": "quality",
+        "title": "Quality guarantee",
+        "description": "All work compliant with PN-HD 60364 standards."
+      },
+      {
+        "id": "quote",
+        "title": "Free estimate",
+        "description": "No-obligation quote within 24 hours."
+      },
+      {
+        "id": "experience",
+        "title": "15 years in the market",
+        "description": "Over 800 completed power engineering installations."
+      }
+    ],
+    "contactLabel": "Contact",
+    "contactMsg": "Click to go to the contact section →",
+    "logoAlt": "ZRE Elko — professional power engineering services"
+  },
+  "ofertaPreview": {
+    "heading": "What we offer",
+    "subheading": "A wide range of power engineering services tailored to your needs.",
+    "seeAll": "View full offer →"
+  },
+  "realizacjePreview": {
+    "heading": "Our projects",
+    "subheading": "Selected projects we have completed for our clients.",
+    "cta": "See all projects",
+    "label": "Projects",
+    "headingLine1": "Our",
+    "headingLine2": "projects",
+    "noPhoto": "Photo coming soon"
+  },
+  "ctaSection": {
+    "heading": "Need a quote?",
+    "subheading": "Write or call us — free estimate within 24 hours.",
+    "cta": "Request a quote"
+  },
+  "ofertaDesc": {
+    "label": "Services",
+    "headingLine1": "Comprehensive delivery",
+    "headingLine2": "of energy installations",
+    "listLabel": "We primarily deliver",
+    "description": "ZRE ELKO provides services in full scope — from design, through manufacturing, installation, modernisation and overhauls of boilers, pipelines, turbine sets and other auxiliary installations, up to commissioning, operator training and handover.",
+    "permissionsText": "For construction, modernisation and overhaul works, the Company holds relevant authorisations issued by UDT, TÜV and ASIT/SVTI.",
+    "seeOffer": "View services",
+    "items": [
+      "Steam and hot-water coal-fired boilers with capacities up to approx. 50 MW or 60 t steam/h",
+      "Complete biomass steam boilers fired with wood chips and RDF",
+      "Complete gas-fired boilers",
+      "Pressure elements: water heaters, steam superheaters, membrane walls, headers, reduction stations, tees, flanges, manifolds and others"
+    ]
+  },
+  "about": {
+    "label": "About us",
+    "headingLine1": "Energy Repair Works",
+    "headingLine2": "ELKO",
+    "headingLine3": "Ltd.",
+    "description": "A company based in Racibórz, specialising in manufacturing, modernisation and installation services in professional and industrial power engineering — in Poland and abroad.",
+    "tiles": [
+      {
+        "title": "History & profile",
+        "text": "March 1991 marks the beginning of ZRE ELKO Sp. z o.o.'s operations. Our core profile is the design from scratch, manufacturing, installation and commissioning of water and steam boilers. We specialise in boilers fired with coal, gas, RDF and biomass fuels."
+      },
+      {
+        "title": "Full service scope",
+        "text": "ZRE ELKO delivers tasks in full scope — from design, through manufacturing, installation, modernisation and overhauls of boilers, pipelines and auxiliary installations, to commissioning, operator training and handover of power engineering systems."
+      },
+      {
+        "title": "Authorisations & reach",
+        "text": "We hold UDT, TÜV and ASIT/SVTI authorisations. Assembly personnel hold E and D qualifications. We operate in Poland and abroad — Germany, France, Austria, Czech Republic, Great Britain, Switzerland, Sweden, India, Belarus, Ukraine and Finland."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "headingLine1": "Write to",
+    "headingLine2": "us",
+    "description": "Fill in the form or contact us directly.",
+    "form": {
+      "name": "Full name *",
+      "email": "Email address *",
+      "phone": "Phone (optional)",
+      "message": "Message *",
+      "sending": "Sending…",
+      "send": "Send message",
+      "success": "Message sent. We will get back to you shortly!",
+      "error": "An error occurred. Please try again or call us directly."
+    }
+  },
+  "certyfikaty": {
+    "label": "Certificates & authorisations",
+    "headingLine1": "Quality confirmed",
+    "headingLine2": "by documents",
+    "description": "For the offered scope of production and services, ZRE ELKO Sp. z o.o. holds <b>UDT, TÜV, SVTI ASIT</b> and <b>EN ISO 9001:2000</b> authorisations. All works meet the highest technical and safety requirements applicable in professional and industrial power engineering.",
+    "seeAll": "View all certificates",
+    "orgs": [
+      {
+        "label": "UDT",
+        "description": "Office of Technical Inspection (Poland)"
+      },
+      {
+        "label": "UDT",
+        "description": "Construction authorisations"
+      },
+      {
+        "label": "TÜV",
+        "description": "Technischer Überwachungsverein"
+      },
+      {
+        "label": "SVTI / ASIT",
+        "description": "Swiss Technical Safety Institute"
+      }
+    ],
+    "page": {
+      "label": "Certificates & authorisations",
+      "headingLine1": "Our",
+      "headingLine2": "authorisations",
+      "description": "For the offered scope of production and services, ZRE ELKO Sp. z o.o. holds <b>UDT, TÜV, SVTI ASIT</b> and <b>EN ISO 9001:2000</b> authorisations. All works meet the highest technical and safety requirements applicable in professional and industrial power engineering.",
+      "certifyingOrgs": "Certifying organisations",
+      "documents": "Documents & certificates",
+      "enlarge": "Enlarge",
+      "docs": [
+        "UDT — repair authorisations",
+        "UDT — manufacturing authorisations",
+        "UDT — production certificate",
+        "UDT — production certificate",
+        "UDT — quality certificate",
+        "UDT — laboratory authorisations",
+        "TÜV — certificate",
+        "UDT — modernisation authorisations",
+        "UDT — quality certificate"
+      ]
+    }
+  },
+  "kadra": {
+    "label": "Board",
+    "heading": "Management",
+    "roles": [
+      "President of the Board – General Director",
+      "Vice-President of the Board – Director of Projects",
+      "Vice-President of the Board – Operations Director",
+      "Vice-President of the Board – Technical Director",
+      "Financial Director"
+    ]
+  },
+  "galeria": {
+    "label": "Gallery",
+    "heading": "Our projects in pictures",
+    "all": "All",
+    "categories": [
+      "Boilers",
+      "Installation",
+      "Pipelines",
+      "Components",
+      "Other"
+    ],
+    "noPhotos": "Photos coming soon",
+    "shown": "Showing {shown} of {total} photos — {remaining} remaining",
+    "showMore": "Show more ({remaining})"
+  },
+  "oferta": {
+    "heading": "Services",
+    "subheading": "Comprehensive services for professional and industrial power engineering.",
+    "page": {
+      "label": "Services",
+      "headingLine1": "Comprehensive services for",
+      "headingLine2": "power engineering",
+      "intro": "ZRE ELKO delivers tasks in full scope — from design, through manufacturing, installation, modernisation and overhauls of boilers, pipelines and auxiliary installations, to commissioning and handover. All work is performed with UDT, TÜV and SVTI/ASIT authorisations.",
+      "biuroLabel": "Within our offer",
+      "biuroHeading": "Design Office",
+      "enlarge": "Enlarge",
+      "biuroIntro": "The ZRE ELKO In-house Design Office has the competences to design boilers for various fuels — coal, natural gas, biomass, municipal waste, alternative fuels (RDF, pre-RDF) — from concept design, through basic design, up to detailed engineering. We design boilers according to PN-EN 12952-3, PN-EN 12953-3 and WUDT/UC/2003.",
+      "biuroParagraphs": [
+        "We also have full competences to design various types of pipelines according to PN-EN 13480.",
+        "In addition to projects for ZRE ELKO's own manufacturing and installation activities, we provide boiler design services to our European partners — companies from Germany, Belgium, Austria, Czech Republic and France — produced by other European manufacturers.",
+        "Furthermore, the In-house Design Office provides all types of services consisting in the preparation of technical analyses and expert opinions commissioned by external Clients in the field of boiler and component design."
+      ],
+      "biuroHighlights": [
+        "Concept, basic and detailed engineering",
+        "Boilers for coal, gas, biomass, RDF and pre-RDF",
+        "Pipelines according to PN-EN 13480",
+        "Technical expert opinions and analyses on commission",
+        "Cooperation with partners across Europe"
+      ],
+      "biuroPhotos": [
+        "ELKO Design Office — boiler design",
+        "ELKO Design Office — technical documentation",
+        "ELKO Design Office — pipeline design",
+        "ELKO Design Office — detailed engineering"
+      ]
+    },
+    "items": [
+      {
+        "id": "produkcja-kotlow",
+        "title": "Boiler manufacturing",
+        "description": "Manufacturing of steam and hot-water boilers for coal, gas, biomass, municipal waste and alternative fuels (RDF, pre-RDF) with capacity up to 50 MW or 60 t steam/h.",
+        "icon": "flame"
+      },
+      {
+        "id": "montaz-modernizacja",
+        "title": "Installation & modernisation",
+        "description": "Comprehensive installation, overhaul and modernisation of boilers, pipelines and auxiliary systems at power engineering facilities — in Poland and abroad.",
+        "icon": "wrench"
+      },
+      {
+        "id": "rurociagi",
+        "title": "Industrial pipelines",
+        "description": "Construction of industrial pipelines according to PN-EN 13480 — from concept design, through basic design, to installation and acceptance with UDT, TÜV and SVTI authorisations.",
+        "icon": "workflow"
+      },
+      {
+        "id": "biuro-projektowe",
+        "title": "ELKO Design Office",
+        "description": "Full technical documentation for boilers according to PN-EN 12952-3, PN-EN 12953-3 and WUDT/UC/2003 — for own production and European partners from Germany, Belgium, Austria, Czech Republic and France.",
+        "icon": "drafting-compass"
+      }
+    ]
+  },
+  "realizacje": {
+    "heading": "Projects",
+    "subheading": "Projects we have completed with full commitment.",
+    "filter": "Categories",
+    "all": "All",
+    "backToList": "← Back to projects",
+    "noPhoto": "Photos coming soon",
+    "gallery": "Photo gallery",
+    "items": [
+      {
+        "id": "kociol-parowy-ec-jaworzno",
+        "title": "30 MW coal-fired steam boiler — EC Jaworzno",
+        "description": "Manufacturing and installation of a 30 MW coal-fired steam boiler for Elektrociepłownia Jaworzno. The scope covered the full cycle — from detail design, through pressure element production, to installation, commissioning and operator training.",
+        "category": "Steam boilers"
+      },
+      {
+        "id": "kociol-parowy-el-lodz",
+        "title": "45 MW coal-fired steam boiler — EC Łódź",
+        "description": "Manufacture of a 45 MW steam boiler for the Łódź combined heat and power plant. The project was executed in compliance with PN-EN 12952-3 and included production of membrane walls, steam superheaters and water preheaters.",
+        "category": "Steam boilers"
+      },
+      {
+        "id": "kociol-parowy-el-szczecin",
+        "title": "20 MW coal-fired steam boiler — Elektrownia Szczecin",
+        "description": "Supply and installation of a 20 MW steam boiler for Elektrownia Szczecin. The scope of work included boiler production, steam pipelines and installation of the ash-removal system.",
+        "category": "Steam boilers"
+      },
+      {
+        "id": "kociol-parowy-export-niemcy",
+        "title": "35 MW steam boiler — Kraftwerk Bayern (Germany)",
+        "description": "Manufacture of a 35 MW steam boiler for a German partner. The project was executed in accordance with TÜV standards for the German market.",
+        "category": "Steam boilers"
+      },
+      {
+        "id": "kociol-wodny-cieplownia-raciboz",
+        "title": "8 MW hot-water boiler — Ciepłownia Racibórz",
+        "description": "Construction of an 8 MW hot-water boiler for the municipal heat plant in Racibórz. The coal-fired boiler is adapted for operation in a district heating network.",
+        "category": "Water boilers"
+      },
+      {
+        "id": "kociol-wodny-krakow",
+        "title": "12 MW hot-water boiler — Industrial Plant Kraków",
+        "description": "Supply and commissioning of a 12 MW hot-water boiler for an industrial plant in Kraków. Work included design, manufacture, installation, UDT acceptance and operator training.",
+        "category": "Water boilers"
+      },
+      {
+        "id": "kociol-gazowy-wroclaw",
+        "title": "15 MW gas-fired boiler — Factory Wrocław",
+        "description": "Manufacture and installation of a 15 MW gas-fired boiler with multi-fuel burners. The installation is equipped with a modern control and process-monitoring system.",
+        "category": "Gas boilers"
+      },
+      {
+        "id": "kociol-gazowy-export-czechy",
+        "title": "10 MW gas-fired boiler — Teplárna Brno (Czech Republic)",
+        "description": "Delivery of a 10 MW gas-fired boiler to a Czech client. The project was executed in cooperation with a local partner, in compliance with CE standards and Czech market requirements.",
+        "category": "Gas boilers"
+      },
+      {
+        "id": "kociol-biomasowy-bydgoszcz",
+        "title": "25 MW biomass boiler — Ciepłownia Bydgoszcz",
+        "description": "Complete delivery of a 25 MW wood-chip biomass boiler. The project covered the full scope — design, manufacture, installation and commissioning of the plant including the fuel-feeding system.",
+        "category": "Biomass"
+      },
+      {
+        "id": "kociol-biomasowy-poznan",
+        "title": "20 MW biomass boiler — EC Poznań",
+        "description": "Construction of a 20 MW biomass boiler for the Poznań combined heat and power plant. The boiler is designed for burning forestry and agricultural biomass and is equipped with a modern flue-gas dedusting system.",
+        "category": "Biomass"
+      },
+      {
+        "id": "kociol-rdf-krakow",
+        "title": "18 MW RDF boiler — Waste-to-Energy Plant Kraków",
+        "description": "Manufacture of a steam boiler adapted for burning RDF alternative fuel with a capacity of 18 MW. The installation meets the requirements of the IED directive regarding pollutant emissions.",
+        "category": "Biomass"
+      },
+      {
+        "id": "kociol-biomasowy-export-austria",
+        "title": "Biomass boiler — Heizkraftwerk Graz (Austria)",
+        "description": "Supply of pressure components for a biomass boiler for an Austrian partner. The project was executed in accordance with SVTI/ASIT standards and Austrian market requirements.",
+        "category": "Biomass"
+      },
+      {
+        "id": "rurociagi-rafineria-gdansk",
+        "title": "Process pipelines — Gdańsk Refinery",
+        "description": "Fabrication of high-pressure process pipelines in accordance with PN-EN 13480. The scope included design, prefabrication, on-site installation and UDT acceptance.",
+        "category": "Pipelines"
+      },
+      {
+        "id": "rurociagi-pulawy",
+        "title": "Steam pipelines — Chemical Plant Puławy",
+        "description": "Modernisation and expansion of the steam pipeline network at Zakłady Azotowe Puławy. Work was carried out within short maintenance windows without interrupting plant production.",
+        "category": "Pipelines"
+      },
+      {
+        "id": "rurociagi-warszawa",
+        "title": "High-pressure pipelines — EC Warszawa",
+        "description": "Installation of high-pressure superheated steam pipelines for Elektrociepłownia Warszawa. The project covered over 2 km of DN50–DN500 pipelines with valves and supports.",
+        "category": "Pipelines"
+      },
+      {
+        "id": "rurociagi-export-francja",
+        "title": "Pipelines — Centrale Thermique Lyon (France)",
+        "description": "Prefabrication and supply of pipeline components for a French thermal power plant. Components made from P91 and P22 materials in accordance with the client's technical documentation.",
+        "category": "Pipelines"
+      },
+      {
+        "id": "modernizacja-ec-katowice",
+        "title": "Boiler modernisation 40 MW — EC Katowice",
+        "description": "Comprehensive modernisation of a 40 MW steam boiler — replacement of superheaters, preheaters and membrane walls. Work was completed during the planned major overhaul of the combined heat and power plant.",
+        "category": "Modernisations"
+      },
+      {
+        "id": "modernizacja-cieplownia-opole",
+        "title": "Boiler modernisation 30 MW — Ciepłownia Opole",
+        "description": "Overhaul and modernisation of a 30 MW hot-water boiler consisting of replacement of heat exchanger components and the combustion system. The scope also included adaptation of the installation to new emission standards.",
+        "category": "Modernisations"
+      },
+      {
+        "id": "remont-el-kozienice",
+        "title": "Major overhaul — Elektrownia Kozienice",
+        "description": "Major overhaul of a steam boiler including replacement of membrane walls, repair of superheaters and replacement of valves. Work was carried out in close coordination with the power plant's maintenance schedule.",
+        "category": "Modernisations"
+      },
+      {
+        "id": "modernizacja-ec-gdynia",
+        "title": "Steam system modernisation — EC Gdynia",
+        "description": "Modernisation of the steam system of the turbine set at the Gdynia combined heat and power plant. The scope of work included replacement of fresh-steam pipelines, control valves and thermal insulation.",
+        "category": "Modernisations"
+      },
+      {
+        "id": "instalacje-el-rybnik",
+        "title": "Auxiliary installations — Elektrownia Rybnik",
+        "description": "Construction of auxiliary installations for the power units of Elektrownia Rybnik. Work included installation of feed-water pipelines, drains and vents of the boiler system.",
+        "category": "Modernisations"
+      },
+      {
+        "id": "modernizacja-export-uk",
+        "title": "Modernisation — Power Station (United Kingdom)",
+        "description": "Supply and installation of pressure components for a modernised power station in the United Kingdom. The project was carried out in a consortium with a British partner, in compliance with BS standards and UK market requirements.",
+        "category": "Modernisations"
+      },
+      {
+        "id": "modernizacja-export-szwajcaria",
+        "title": "Modernisation — Heizkraftwerk (Switzerland)",
+        "description": "Supply of boiler components and pipelines for a Swiss combined heat and power plant. Execution compliant with SVTI/ASIT standards and requirements of the Swiss technical inspection authority.",
+        "category": "Modernisations"
+      },
+      {
+        "id": "kociol-parowy-export-indie",
+        "title": "Steam boiler — Power Plant (India)",
+        "description": "Manufacture and supply of pressure components for a steam boiler for an Indian investor. The project was executed in compliance with IBR (Indian Boiler Regulations) and client requirements.",
+        "category": "Steam boilers"
+      }
+    ]
+  },
+  "rozwoj": {
+    "label": "Development",
+    "headingLine1": "Projects",
+    "headingLine2": "co-financed",
+    "headingLine3": "by EU funds",
+    "projects": [
+      {
+        "badge": "Project 1 · RPO WSL 2007–2013",
+        "title": "Investment in the development and implementation of innovative R&D, production and IT infrastructure for the manufacturing of modern energy boilers",
+        "stats": [
+          {
+            "label": "Beneficiary",
+            "value": "ZRE ELKO Sp. z o.o."
+          },
+          {
+            "label": "Project value",
+            "value": "PLN 1,111,305"
+          },
+          {
+            "label": "Co-financing",
+            "value": "PLN 451,750"
+          }
+        ],
+        "program": "Regional Operational Programme of Silesian Voivodeship 2007–2013",
+        "source": "European Regional Development Fund",
+        "url": "www.rpo.silesia-region.pl",
+        "tagline": "Regional Operational Programme of Silesian Voivodeship – a real response to real needs",
+        "infoText": "Project co-financed by the European Union from the {source} under the {program}.",
+        "infoText2": "Source information available at {url}"
+      },
+      {
+        "badge": "Project 2 · Just Transition Fund 2021–2027",
+        "title": "Preparation of the necessary design and technological background for the introduction of a line of gas boilers with an innovative burner system into production",
+        "description": "The aim of the project is to develop production activities along with their internationalisation through the development of the design and manufacturing technology for gas-fuelled boilers using multi-fuel burners. The project focuses on implementing solutions enabling the burner to be seated in a specialised socket and modern finned flue-gas-to-water and flue-gas-to-air heat exchangers — reducing pollutant emissions and increasing energy efficiency.",
+        "stats": [
+          {
+            "label": "Beneficiary",
+            "value": "ZRE ELKO Sp. z o.o."
+          },
+          {
+            "label": "Project value",
+            "value": "PLN 1,999,600"
+          },
+          {
+            "label": "EU co-financing",
+            "value": "PLN 777,355"
+          },
+          {
+            "label": "Implementation period",
+            "value": "10.2024 – 06.2025"
+          },
+          {
+            "label": "Target group",
+            "value": "Energy, construction, manufacturing, food industries"
+          },
+          {
+            "label": "Fund",
+            "value": "Just Transition Fund 2021–2027"
+          }
+        ],
+        "tags": [
+          "#EUFunds",
+          "#EuropeanFunds"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "description": "Manufacturing, modernisation and installation services in professional and industrial power engineering — in Poland and abroad.",
+    "contactSection": "Contact",
+    "navigationSection": "Navigation",
+    "fax": "fax:",
+    "nip": "VAT-EU:",
+    "regon": "REGON:",
+    "bdo": "BDO:",
+    "capitalInfo": "Share Capital: {capital}  ·  KRS: {krs}  ·  Registry Court: {court}",
+    "copyright": "© {year} {name}. All rights reserved.",
+    "workingHours": "Mon–Fri: 8:00–17:00",
+    "links": [
+      {
+        "label": "About us",
+        "href": "#o-nas"
+      },
+      {
+        "label": "Certificates",
+        "href": "#certyfikaty"
+      },
+      {
+        "label": "Projects",
+        "href": "#realizacje"
+      },
+      {
+        "label": "Development",
+        "href": "/rozwoj"
+      },
+      {
+        "label": "Management",
+        "href": "/kadra"
+      },
+      {
+        "label": "Gallery",
+        "href": "/galeria"
+      },
+      {
+        "label": "Contact",
+        "href": "#kontakt"
+      }
+    ]
+  },
+  "meta": {
+    "defaultTitle": "ZRE ELKO — Boilers, pipelines, power engineering",
+    "defaultDescription": "Manufacturing of boilers, pipelines and installation of power engineering systems — ZRE ELKO Sp. z o.o."
+  }
+}

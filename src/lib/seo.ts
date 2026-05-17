@@ -10,7 +10,7 @@ export function buildMetadata(overrides: Partial<Metadata> = {}): Metadata {
       default: company.name,
       template: `%s | ${company.name}`,
     },
-    description: company.tagline,
+    description: "ZRE ELKO — produkcja kotłów, rurociągów i montaż instalacji energetycznych.",
     openGraph: {
       siteName: company.name,
       locale: "pl_PL",
@@ -25,7 +25,7 @@ export function buildLocalBusinessJsonLd() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: company.name,
-    description: company.tagline,
+    description: "ZRE ELKO — produkcja kotłów, rurociągów i montaż instalacji energetycznych.",
     telephone: company.phone,
     email: company.email,
     address: {

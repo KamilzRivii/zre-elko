@@ -1,35 +1,24 @@
 "use client"
 
 import { useCallback, useEffect, useRef, useState } from "react"
-import Link from "next/link"
-import { usePathname } from "next/navigation"
+import { usePathname } from "@/i18n/navigation"
+import { Link } from "@/i18n/navigation"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/layout/Logo"
 import { LanguageSwitcher } from "@/components/layout/LanguageSwitcher"
 import { CTAButton } from "@/components/layout/CTAButton"
+import { useTranslations } from "next-intl"
 import { cn } from "@/lib/utils"
 import { colors } from "@/lib/colors"
 
-const navLinks = [
-  { label: "Główna", href: "/" },
-  { label: "O nas", href: "#o-nas" },
-  { label: "Oferta", href: "/oferta", sectionId: "oferta" },
-  { label: "Realizacje", href: "/realizacje", sectionId: "realizacje" },
-  { label: "Rozwój", href: "/rozwoj" },
-  { label: "Kadra", href: "/kadra" },
-  { label: "Galeria", href: "/galeria" },
-  { label: "Kontakt", href: "#kontakt" },
-]
-
 const ANCHOR_IDS = ["o-nas", "certyfikaty", "realizacje", "oferta", "kontakt"]
 
-// Mapuje id sekcji na href linka w nawigacji
 const SECTION_TO_HREF: Record<string, string> = {
   "o-nas": "#o-nas",
   "certyfikaty": "#certyfikaty",
-  "realizacje": "/realizacje",
-  "oferta": "/oferta",
+  "realizacje": "#realizacje",
+  "oferta": "#oferta",
   "kontakt": "#kontakt",
 }
 
@@ -65,6 +54,7 @@ function useActiveSection(enabled: boolean, lockRef: React.RefObject<boolean>) {
 }
 
 export function Header() {
+  const t = useTranslations("nav")
   const pathname = usePathname()
   const isHome = pathname === "/"
   const [scrolled, setScrolled] = useState(false)
@@ -73,10 +63,19 @@ export function Header() {
   const scrollTimerRef = useRef<ReturnType<typeof setTimeout>>(undefined)
   const { active: activeSection, setActive: setActiveSection, compute: refreshSection } = useActiveSection(isHome, scrollLockRef)
 
+  const navLinks = [
+    { label: t("home"), href: "/" },
+    { label: t("about"), href: "#o-nas" },
+    { label: t("offer"), href: "#oferta" },
+    { label: t("projects"), href: "#realizacje" },
+    { label: t("development"), href: "/rozwoj" },
+    { label: t("staff"), href: "/kadra" },
+    { label: t("gallery"), href: "/galeria" },
+    { label: t("contact"), href: "#kontakt" },
+  ]
+
   function scrollTo(target: string | "top") {
-    // Natychmiastowe podświetlenie klikniętej sekcji
     setActiveSection(target === "top" ? null : target)
-    // Blokujemy scroll spy na czas animacji
     scrollLockRef.current = true
     clearTimeout(scrollTimerRef.current)
     if (target === "top") {
@@ -146,15 +145,6 @@ export function Header() {
               )
             }
 
-            if (isHome && "sectionId" in link && link.sectionId) {
-              return (
-                <button key={link.href} className={className} style={style}
-                  onClick={() => scrollTo(link.sectionId!)}>
-                  {link.label}
-                </button>
-              )
-            }
-
             if (isAnchor) {
               if (isHome) {
                 return (
@@ -219,15 +209,6 @@ export function Header() {
                 )
               }
 
-              if (isHome && "sectionId" in link && link.sectionId) {
-                return (
-                  <button key={link.href} className={className} style={style}
-                    onClick={() => { scrollTo(link.sectionId!); setMenuOpen(false) }}>
-                    {link.label}
-                  </button>
-                )
-              }
-
               if (isAnchor) {
                 if (isHome) {
                   return (
@@ -251,7 +232,7 @@ export function Header() {
               )
             })}
             <Button asChild size="sm" className="mt-4 w-full">
-              <Link href="/kontakt">Napisz do nas</Link>
+              <Link href="/kontakt">{t("contactUs")}</Link>
             </Button>
           </nav>
         </div>

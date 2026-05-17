@@ -1,0 +1,535 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "offer": "Leistungen",
+    "projects": "Referenzen",
+    "development": "Entwicklung",
+    "staff": "Führung",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "contactUs": "Kontaktieren Sie uns"
+  },
+  "hero": {
+    "badge": "Zertifizierte Fachleute",
+    "headingParts": [
+      "Wir produzieren",
+      "Wir modernisieren",
+      "Wir montieren"
+    ],
+    "subheading": "Umfassende Dienstleistungen für die berufliche und industrielle Energietechnik — in Polen und im Ausland.",
+    "ctaPrimary": "Leistungen ansehen",
+    "ctaSecondary": "Kontakt aufnehmen",
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Jahre Erfahrung"
+      },
+      {
+        "value": "800+",
+        "label": "abgeschlossene Projekte"
+      },
+      {
+        "value": "100%",
+        "label": "Normkonformität"
+      }
+    ],
+    "trustCard": {
+      "heading": "Ihr zuverlässiger Partner",
+      "text": "für professionelle energietechnische Dienstleistungen in Industrie und Gewerbe."
+    },
+    "featureCards": [
+      {
+        "id": "speed",
+        "title": "Schnelle Ausführung",
+        "description": "Fertigstellungstermin individuell mit jedem Kunden vereinbart."
+      },
+      {
+        "id": "quality",
+        "title": "Qualitätsgarantie",
+        "description": "Alle Arbeiten gemäß PN-HD 60364 Normen."
+      },
+      {
+        "id": "quote",
+        "title": "Kostenloser Kostenvoranschlag",
+        "description": "Unverbindliches Angebot innerhalb von 24 Stunden."
+      },
+      {
+        "id": "experience",
+        "title": "15 Jahre am Markt",
+        "description": "Über 800 abgeschlossene energietechnische Anlagen."
+      }
+    ],
+    "contactLabel": "Kontakt",
+    "contactMsg": "Klicken Sie, um zum Kontaktbereich zu gelangen →",
+    "logoAlt": "ZRE Elko — professionelle Energietechnik"
+  },
+  "ofertaPreview": {
+    "heading": "Was wir anbieten",
+    "subheading": "Ein breites Spektrum an energietechnischen Leistungen, zugeschnitten auf Ihre Bedürfnisse.",
+    "seeAll": "Vollständiges Angebot →"
+  },
+  "realizacjePreview": {
+    "heading": "Unsere Referenzen",
+    "subheading": "Ausgewählte Projekte, die wir für unsere Kunden realisiert haben.",
+    "cta": "Alle Referenzen",
+    "label": "Referenzen",
+    "headingLine1": "Unsere",
+    "headingLine2": "Projekte",
+    "noPhoto": "Foto demnächst verfügbar"
+  },
+  "ctaSection": {
+    "heading": "Benötigen Sie ein Angebot?",
+    "subheading": "Schreiben oder rufen Sie uns an — kostenloser Kostenvoranschlag innerhalb von 24 Stunden.",
+    "cta": "Angebot anfordern"
+  },
+  "ofertaDesc": {
+    "label": "Leistungen",
+    "headingLine1": "Umfassende Realisierung",
+    "headingLine2": "von Energieanlagen",
+    "listLabel": "Wir realisieren hauptsächlich",
+    "description": "ZRE ELKO erbringt Leistungen im vollen Umfang — von der Planung über Fertigung, Montage, Modernisierung und Überholung von Kesseln, Rohrleitungen, Turbosätzen und anderen Hilfsanlagen bis zur Inbetriebnahme, Schulung des Betriebspersonals und Übergabe.",
+    "permissionsText": "Für Bau-, Modernisierungs- und Überholungsarbeiten verfügt das Unternehmen über entsprechende Genehmigungen von UDT, TÜV und ASIT/SVTI.",
+    "seeOffer": "Leistungen ansehen",
+    "items": [
+      "Dampf- und Heißwasserkessel mit Kohlefeuerung mit Leistungen bis ca. 50 MW oder 60 t Dampf/h",
+      "Komplette Biomasse-Dampfkessel mit Holzhackschnitzel- und RDF-Feuerung",
+      "Komplette gasgefeuerte Kessel",
+      "Druckbauteile: Wasservorwärmer, Dampfüberhitzer, Membranwände, Sammler, Druckminderstation, T-Stücke, Flansche, Verteiler und andere"
+    ]
+  },
+  "about": {
+    "label": "Über uns",
+    "headingLine1": "Energiereparaturwerke",
+    "headingLine2": "ELKO",
+    "headingLine3": "GmbH",
+    "description": "Ein Unternehmen mit Sitz in Racibórz, spezialisiert auf Fertigung, Modernisierung und Montagedienstleistungen in der beruflichen und industriellen Energietechnik — in Polen und im Ausland.",
+    "tiles": [
+      {
+        "title": "Geschichte & Profil",
+        "text": "März 1991 markiert den Beginn der Tätigkeit von ZRE ELKO Sp. z o.o. Unser Kernprofil ist die Konstruktion, Fertigung, Montage und Inbetriebnahme von Wasser- und Dampfkesseln. Wir sind spezialisiert auf Kessel mit Kohle-, Gas-, RDF- und Biomassefeuerung."
+      },
+      {
+        "title": "Vollständiger Leistungsumfang",
+        "text": "ZRE ELKO führt Aufgaben im vollen Umfang durch — von der Planung über Fertigung, Montage, Modernisierung und Überholung von Kesseln, Rohrleitungen und Hilfsanlagen bis zur Inbetriebnahme, Schulung des Betriebspersonals und Übergabe der Energieanlagen."
+      },
+      {
+        "title": "Genehmigungen & Reichweite",
+        "text": "Wir verfügen über UDT-, TÜV- und ASIT/SVTI-Genehmigungen. Das Montagepersonal besitzt E- und D-Qualifikationen. Wir sind in Polen und im Ausland tätig — Deutschland, Frankreich, Österreich, Tschechische Republik, Großbritannien, Schweiz, Schweden, Indien, Weißrussland, Ukraine und Finnland."
+      }
+    ]
+  },
+  "contact": {
+    "label": "Kontakt",
+    "headingLine1": "Schreiben Sie",
+    "headingLine2": "uns",
+    "description": "Füllen Sie das Formular aus oder kontaktieren Sie uns direkt.",
+    "form": {
+      "name": "Vor- und Nachname *",
+      "email": "E-Mail-Adresse *",
+      "phone": "Telefon (optional)",
+      "message": "Nachricht *",
+      "sending": "Wird gesendet…",
+      "send": "Nachricht senden",
+      "success": "Nachricht gesendet. Wir melden uns in Kürze!",
+      "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an."
+    }
+  },
+  "certyfikaty": {
+    "label": "Zertifikate & Genehmigungen",
+    "headingLine1": "Qualität bestätigt",
+    "headingLine2": "durch Dokumente",
+    "description": "Für den angebotenen Produktions- und Leistungsumfang verfügt ZRE ELKO Sp. z o.o. über <b>UDT, TÜV, SVTI ASIT</b>- und <b>EN ISO 9001:2000</b>-Genehmigungen. Alle Arbeiten erfüllen die höchsten technischen und sicherheitstechnischen Anforderungen in der beruflichen und industriellen Energietechnik.",
+    "seeAll": "Alle Zertifikate ansehen",
+    "orgs": [
+      {
+        "label": "UDT",
+        "description": "Amt für Technische Überwachung (Polen)"
+      },
+      {
+        "label": "UDT",
+        "description": "Baugenehmigungen"
+      },
+      {
+        "label": "TÜV",
+        "description": "Technischer Überwachungsverein"
+      },
+      {
+        "label": "SVTI / ASIT",
+        "description": "Schweizerisches Institut für Technische Sicherheit"
+      }
+    ],
+    "page": {
+      "label": "Zertifikate & Genehmigungen",
+      "headingLine1": "Unsere",
+      "headingLine2": "Genehmigungen",
+      "description": "Für den angebotenen Produktions- und Leistungsumfang verfügt ZRE ELKO Sp. z o.o. über <b>UDT, TÜV, SVTI ASIT</b>- und <b>EN ISO 9001:2000</b>-Genehmigungen. Alle Arbeiten erfüllen die höchsten technischen und sicherheitstechnischen Anforderungen in der beruflichen und industriellen Energietechnik.",
+      "certifyingOrgs": "Zertifizierungsorganisationen",
+      "documents": "Dokumente & Bescheinigungen",
+      "enlarge": "Vergrößern",
+      "docs": [
+        "UDT — Reparaturgenehmigungen",
+        "UDT — Herstellungsgenehmigungen",
+        "UDT — Produktionszertifikat",
+        "UDT — Produktionszertifikat",
+        "UDT — Qualitätszertifikat",
+        "UDT — Laborgenehmigungen",
+        "TÜV — Zertifikat",
+        "UDT — Modernisierungsgenehmigungen",
+        "UDT — Qualitätszertifikat"
+      ]
+    }
+  },
+  "kadra": {
+    "label": "Vorstand",
+    "heading": "Führungsteam",
+    "roles": [
+      "Vorstandsvorsitzender – Generaldirektor",
+      "Stellvertretender Vorstandsvorsitzender – Direktor Projektrealisierung",
+      "Stellvertretender Vorstandsvorsitzender – Betriebsdirektor",
+      "Stellvertretender Vorstandsvorsitzender – Technischer Direktor",
+      "Finanzdirektor"
+    ]
+  },
+  "galeria": {
+    "label": "Galerie",
+    "heading": "Unsere Projekte in Bildern",
+    "all": "Alle",
+    "categories": [
+      "Kessel",
+      "Montage",
+      "Rohrleitungen",
+      "Komponenten",
+      "Sonstiges"
+    ],
+    "noPhotos": "Fotos demnächst verfügbar",
+    "shown": "{shown} von {total} Fotos angezeigt — noch {remaining} verbleibend",
+    "showMore": "Mehr anzeigen ({remaining})"
+  },
+  "oferta": {
+    "heading": "Leistungen",
+    "subheading": "Umfassende Leistungen für die berufliche und industrielle Energietechnik.",
+    "page": {
+      "label": "Leistungen",
+      "headingLine1": "Umfassende Leistungen für die",
+      "headingLine2": "Energietechnik",
+      "intro": "ZRE ELKO führt Aufgaben im vollen Umfang durch — von der Planung über Fertigung, Montage, Modernisierung und Überholung von Kesseln, Rohrleitungen und Hilfsanlagen bis zur Inbetriebnahme und Übergabe. Alle Arbeiten werden mit UDT-, TÜV- und SVTI/ASIT-Genehmigungen durchgeführt.",
+      "biuroLabel": "Im Rahmen unseres Angebots",
+      "biuroHeading": "Konstruktionsbüro",
+      "enlarge": "Vergrößern",
+      "biuroIntro": "Das betriebseigene Konstruktionsbüro ELKO verfügt über die Kompetenz, Kessel für verschiedene Brennstoffe zu entwerfen — Kohle, Erdgas, Biomasse, Siedlungsabfälle, alternative Brennstoffe (RDF, pre-RDF) — vom Konzeptentwurf über den Grundentwurf bis hin zu Ausführungsprojekten. Wir entwerfen Kessel gemäß PN-EN 12952-3, PN-EN 12953-3 und WUDT/UC/2003.",
+      "biuroParagraphs": [
+        "Wir verfügen auch über die volle Kompetenz zur Planung verschiedener Arten von Rohrleitungen gemäß PN-EN 13480.",
+        "Neben Projekten für die eigene Fertigung und Montage von ZRE ELKO Sp. z o.o. erbringen wir Kesselplanungsleistungen für unsere europäischen Partner — Unternehmen aus Deutschland, Belgien, Österreich, Tschechien und Frankreich — die von anderen europäischen Herstellern produziert werden.",
+        "Darüber hinaus erbringt das betriebseigene Konstruktionsbüro alle Arten von Dienstleistungen zur Ausarbeitung technischer Analysen und Fachgutachten, die von externen Kunden im Bereich der Kessel- und Komponentenkonstruktion in Auftrag gegeben werden."
+      ],
+      "biuroHighlights": [
+        "Konzept-, Grund- und Ausführungsplanung",
+        "Kessel für Kohle, Gas, Biomasse, RDF und pre-RDF",
+        "Rohrleitungen gemäß PN-EN 13480",
+        "Technische Fachgutachten und Analysen auf Bestellung",
+        "Zusammenarbeit mit Partnern in ganz Europa"
+      ],
+      "biuroPhotos": [
+        "ELKO Konstruktionsbüro — Kesselentwurf",
+        "ELKO Konstruktionsbüro — technische Dokumentation",
+        "ELKO Konstruktionsbüro — Rohrleitungsplanung",
+        "ELKO Konstruktionsbüro — Ausführungsplanung"
+      ]
+    },
+    "items": [
+      {
+        "id": "produkcja-kotlow",
+        "title": "Kesselproduktion",
+        "description": "Herstellung von Dampf- und Heißwasserkesseln für Kohle, Gas, Biomasse, Siedlungsabfälle und alternative Brennstoffe (RDF, pre-RDF) mit einer Leistung bis zu 50 MW oder 60 t Dampf/h.",
+        "icon": "flame"
+      },
+      {
+        "id": "montaz-modernizacja",
+        "title": "Montage & Modernisierung",
+        "description": "Umfassende Montage, Überholung und Modernisierung von Kesseln, Rohrleitungen und Hilfssystemen an Energieanlagen — in Polen und im Ausland.",
+        "icon": "wrench"
+      },
+      {
+        "id": "rurociagi",
+        "title": "Industrielle Rohrleitungen",
+        "description": "Bau von Industrierohrleitungen gemäß PN-EN 13480 — vom Konzeptentwurf über den Grundentwurf bis zur Montage und Abnahme mit UDT-, TÜV- und SVTI-Genehmigungen.",
+        "icon": "workflow"
+      },
+      {
+        "id": "biuro-projektowe",
+        "title": "ELKO Konstruktionsbüro",
+        "description": "Vollständige technische Dokumentation für Kessel gemäß PN-EN 12952-3, PN-EN 12953-3 und WUDT/UC/2003 — für die eigene Produktion und europäische Partner aus Deutschland, Belgien, Österreich, Tschechien und Frankreich.",
+        "icon": "drafting-compass"
+      }
+    ]
+  },
+  "realizacje": {
+    "heading": "Referenzen",
+    "subheading": "Projekte, die wir mit vollem Engagement realisiert haben.",
+    "filter": "Kategorien",
+    "all": "Alle",
+    "backToList": "← Zurück zur Übersicht",
+    "noPhoto": "Fotos demnächst verfügbar",
+    "gallery": "Fotogalerie",
+    "items": [
+      {
+        "id": "kociol-parowy-ec-jaworzno",
+        "title": "30-MW-Kohledampfkessel — EC Jaworzno",
+        "description": "Herstellung und Montage eines kohlebefeuerten Dampfkessels mit 30 MW für das Heizkraftwerk Jaworzno. Der Umfang umfasste den gesamten Zyklus — von der Ausführungsplanung über die Produktion der Druckbauteile bis hin zu Montage, Inbetriebnahme und Schulung des Betriebspersonals.",
+        "category": "Dampfkessel"
+      },
+      {
+        "id": "kociol-parowy-el-lodz",
+        "title": "45-MW-Kohledampfkessel — EC Łódź",
+        "description": "Herstellung eines 45-MW-Dampfkessels für das Heizkraftwerk Łódź. Das Projekt wurde gemäß PN-EN 12952-3 ausgeführt und umfasste die Produktion von Membranwänden, Dampfüberhitzern und Wasservorwärmern.",
+        "category": "Dampfkessel"
+      },
+      {
+        "id": "kociol-parowy-el-szczecin",
+        "title": "20-MW-Kohledampfkessel — Elektrownia Szczecin",
+        "description": "Lieferung und Montage eines 20-MW-Dampfkessels für das Kraftwerk Szczecin. Der Leistungsumfang umfasste Kesselproduktion, Dampfrohrleitungen sowie die Installation des Entaschungssystems.",
+        "category": "Dampfkessel"
+      },
+      {
+        "id": "kociol-parowy-export-niemcy",
+        "title": "35-MW-Dampfkessel — Kraftwerk Bayern (Deutschland)",
+        "description": "Herstellung eines 35-MW-Dampfkessels im Auftrag eines deutschen Partners. Das Projekt wurde gemäß TÜV-Standards für den deutschen Markt ausgeführt.",
+        "category": "Dampfkessel"
+      },
+      {
+        "id": "kociol-wodny-cieplownia-raciboz",
+        "title": "8-MW-Heizwasserkessel — Fernheizwerk Racibórz",
+        "description": "Bau eines 8-MW-Heizwasserkessels für das städtische Fernheizwerk in Racibórz. Der kohlebefeuerte Kessel ist für den Betrieb im Fernwärmenetz ausgelegt.",
+        "category": "Wasserkessel"
+      },
+      {
+        "id": "kociol-wodny-krakow",
+        "title": "12-MW-Heizwasserkessel — Industriebetrieb Kraków",
+        "description": "Lieferung und Inbetriebnahme eines 12-MW-Heizwasserkessels für einen Industriebetrieb in Kraków. Die Arbeiten umfassten Planung, Fertigung, Montage, UDT-Abnahmen sowie Schulung des Betriebspersonals.",
+        "category": "Wasserkessel"
+      },
+      {
+        "id": "kociol-gazowy-wroclaw",
+        "title": "15-MW-Gaskessel — Fabrik Wrocław",
+        "description": "Herstellung und Montage eines 15-MW-Gaskessels mit Mehrstoffbrennern. Die Anlage ist mit einem modernen Steuerungs- und Prozessüberwachungssystem ausgestattet.",
+        "category": "Gaskessel"
+      },
+      {
+        "id": "kociol-gazowy-export-czechy",
+        "title": "10-MW-Gaskessel — Teplárna Brno (Tschechien)",
+        "description": "Lieferung eines 10-MW-Gaskessels an einen tschechischen Kunden. Das Projekt wurde in Zusammenarbeit mit einem lokalen Partner gemäß CE-Normen und den Anforderungen des tschechischen Marktes ausgeführt.",
+        "category": "Gaskessel"
+      },
+      {
+        "id": "kociol-biomasowy-bydgoszcz",
+        "title": "25-MW-Biomassekessel — Fernheizwerk Bydgoszcz",
+        "description": "Komplette Realisierung eines mit Holzhackschnitzeln befeuerten 25-MW-Biomassekessels. Das Projekt umfasste den gesamten Umfang — Planung, Fertigung, Montage und Inbetriebnahme einschließlich des Brennstoffzufuhrsystems.",
+        "category": "Biomasse"
+      },
+      {
+        "id": "kociol-biomasowy-poznan",
+        "title": "20-MW-Biomassekessel — EC Poznań",
+        "description": "Bau eines 20-MW-Biomassekessels für das Heizkraftwerk Poznań. Der Kessel ist für die Verbrennung von Forst- und Landwirtschaftsbiomasse ausgelegt und mit einem modernen Rauchgasentstaubungssystem ausgestattet.",
+        "category": "Biomasse"
+      },
+      {
+        "id": "kociol-rdf-krakow",
+        "title": "18-MW-RDF-Kessel — Abfallverbrennungsanlage Kraków",
+        "description": "Herstellung eines für die Verbrennung von Ersatzbrennstoff RDF ausgelegten Dampfkessels mit 18 MW. Die Anlage erfüllt die Anforderungen der IED-Richtlinie hinsichtlich Schadstoffemissionen.",
+        "category": "Biomasse"
+      },
+      {
+        "id": "kociol-biomasowy-export-austria",
+        "title": "Biomassekessel — Heizkraftwerk Graz (Österreich)",
+        "description": "Lieferung von Druckbauteilen für einen Biomassekessel an einen österreichischen Partner. Das Projekt wurde gemäß SVTI/ASIT-Normen und den Anforderungen des österreichischen Marktes ausgeführt.",
+        "category": "Biomasse"
+      },
+      {
+        "id": "rurociagi-rafineria-gdansk",
+        "title": "Prozessrohrleitungen — Raffinerie Gdańsk",
+        "description": "Ausführung von Hochdruck-Prozessrohrleitungen gemäß PN-EN 13480. Der Umfang umfasste Planung, Vorfertigung, Montage vor Ort sowie UDT-Abnahmen.",
+        "category": "Rohrleitungen"
+      },
+      {
+        "id": "rurociagi-pulawy",
+        "title": "Dampfrohrleitungen — Chemiewerk Puławy",
+        "description": "Modernisierung und Erweiterung des Dampfrohrleitungsnetzes bei den Stickstoffwerken Puławy. Die Arbeiten wurden in kurzen Wartungsfenstern ohne Produktionsunterbrechung des Werks ausgeführt.",
+        "category": "Rohrleitungen"
+      },
+      {
+        "id": "rurociagi-warszawa",
+        "title": "Hochdruckrohrleitungen — EC Warszawa",
+        "description": "Montage von Hochdruck-Heißdampfrohrleitungen für das Heizkraftwerk Warszawa. Das Projekt umfasste über 2 km Rohrleitungen DN50–DN500 mit Armaturen und Rohrhalterungen.",
+        "category": "Rohrleitungen"
+      },
+      {
+        "id": "rurociagi-export-francja",
+        "title": "Rohrleitungen — Centrale Thermique Lyon (Frankreich)",
+        "description": "Vorfertigung und Lieferung von Rohrleitungskomponenten für ein französisches Wärmekraftwerk. Komponenten aus P91- und P22-Werkstoffen gemäß technischer Dokumentation des Auftraggebers.",
+        "category": "Rohrleitungen"
+      },
+      {
+        "id": "modernizacja-ec-katowice",
+        "title": "Kesselmodernisierung 40 MW — EC Katowice",
+        "description": "Umfassende Modernisierung eines 40-MW-Dampfkessels — Austausch von Überhitzern, Vorwärmern und Membranwänden. Die Arbeiten wurden während der planmäßigen Generalüberholung des Heizkraftwerks ausgeführt.",
+        "category": "Modernisierungen"
+      },
+      {
+        "id": "modernizacja-cieplownia-opole",
+        "title": "Kesselmodernisierung 30 MW — Fernheizwerk Opole",
+        "description": "Überholung und Modernisierung eines 30-MW-Heizwasserkessels durch Austausch der Wärmetauscherkomponenten und des Verbrennungssystems. Der Umfang umfasste auch die Anpassung der Anlage an neue Emissionsnormen.",
+        "category": "Modernisierungen"
+      },
+      {
+        "id": "remont-el-kozienice",
+        "title": "Generalüberholung — Kraftwerk Kozienice",
+        "description": "Generalüberholung eines Dampfkessels einschließlich Austausch der Membranwände, Reparatur der Überhitzer und Austausch der Armaturen. Die Arbeiten wurden in enger Koordination mit dem Wartungsplan des Kraftwerks durchgeführt.",
+        "category": "Modernisierungen"
+      },
+      {
+        "id": "modernizacja-ec-gdynia",
+        "title": "Dampfsystemmodernisierung — EC Gdynia",
+        "description": "Modernisierung des Dampfsystems des Turbosatzes im Heizkraftwerk Gdynia. Der Arbeitsumfang umfasste den Austausch von Frischdampfrohrleitungen, Regelventilen und Wärmedämmung.",
+        "category": "Modernisierungen"
+      },
+      {
+        "id": "instalacje-el-rybnik",
+        "title": "Hilfsanlagen — Kraftwerk Rybnik",
+        "description": "Ausführung der Hilfsanlagen der Kraftwerksblöcke des Kraftwerks Rybnik. Die Arbeiten umfassten die Montage von Speisewasserrohrleitungen, Entwässerungen und Entlüftungen des Kesselsystems.",
+        "category": "Modernisierungen"
+      },
+      {
+        "id": "modernizacja-export-uk",
+        "title": "Modernisierung — Power Station (Großbritannien)",
+        "description": "Lieferung und Montage von Druckbauteilen für ein modernisiertes Kraftwerk in Großbritannien. Das Projekt wurde in einem Konsortium mit einem britischen Partner gemäß BS-Normen und UK-Marktanforderungen ausgeführt.",
+        "category": "Modernisierungen"
+      },
+      {
+        "id": "modernizacja-export-szwajcaria",
+        "title": "Modernisierung — Heizkraftwerk (Schweiz)",
+        "description": "Lieferung von Kesselkomponenten und Rohrleitungen für ein Schweizer Heizkraftwerk. Ausführung gemäß SVTI/ASIT-Normen und Anforderungen der schweizerischen technischen Überwachungsbehörde.",
+        "category": "Modernisierungen"
+      },
+      {
+        "id": "kociol-parowy-export-indie",
+        "title": "Dampfkessel — Power Plant (Indien)",
+        "description": "Herstellung und Lieferung von Druckbauteilen eines Dampfkessels für einen indischen Investor. Das Projekt wurde gemäß IBR (Indian Boiler Regulations) und den Anforderungen des Auftraggebers ausgeführt.",
+        "category": "Dampfkessel"
+      }
+    ]
+  },
+  "rozwoj": {
+    "label": "Entwicklung",
+    "headingLine1": "Projekte",
+    "headingLine2": "kofinanziert",
+    "headingLine3": "durch EU-Mittel",
+    "projects": [
+      {
+        "badge": "Projekt 1 · RPO WSL 2007–2013",
+        "title": "Investition in die Entwicklung und Implementierung einer innovativen Forschungs-, Produktions- und IT-Infrastruktur für die Herstellung moderner Energiekessel",
+        "stats": [
+          {
+            "label": "Begünstigter",
+            "value": "ZRE ELKO Sp. z o.o."
+          },
+          {
+            "label": "Projektvolumen",
+            "value": "1.111.305 PLN"
+          },
+          {
+            "label": "Kofinanzierung",
+            "value": "451.750 PLN"
+          }
+        ],
+        "program": "Regionales Operationelles Programm der Woiwodschaft Schlesien 2007–2013",
+        "source": "Europäischer Fonds für regionale Entwicklung",
+        "url": "www.rpo.silesia-region.pl",
+        "tagline": "Regionales Operationelles Programm der Woiwodschaft Schlesien – eine echte Antwort auf echte Bedürfnisse",
+        "infoText": "Projekt kofinanziert von der Europäischen Union aus dem {source} im Rahmen des {program}.",
+        "infoText2": "Quellinformationen verfügbar unter {url}"
+      },
+      {
+        "badge": "Projekt 2 · Fonds für gerechten Übergang 2021–2027",
+        "title": "Vorbereitung des erforderlichen konstruktions- und technologischen Hintergrunds für die Einführung einer Linie von Gaskesseln mit einem innovativen Brennersystem in die Produktion",
+        "description": "Ziel des Projekts ist die Entwicklung der Produktionstätigkeit zusammen mit ihrer Internationalisierung durch die Entwicklung der Konstruktion und Fertigungstechnologie für gasbetriebene Kessel unter Verwendung von Multi-Brenner-Systemen. Das Projekt konzentriert sich auf die Implementierung von Lösungen, die die Einbettung des Brenners in eine spezielle Halterung sowie moderne gerippte Rauchgas-Wasser- und Rauchgas-Luft-Wärmetauscher ermöglichen — wodurch Schadstoffemissionen reduziert und die Energieeffizienz erhöht werden.",
+        "stats": [
+          {
+            "label": "Begünstigter",
+            "value": "ZRE ELKO Sp. z o.o."
+          },
+          {
+            "label": "Projektvolumen",
+            "value": "1.999.600 PLN"
+          },
+          {
+            "label": "EU-Kofinanzierung",
+            "value": "777.355 PLN"
+          },
+          {
+            "label": "Umsetzungszeitraum",
+            "value": "10.2024 – 06.2025"
+          },
+          {
+            "label": "Zielgruppe",
+            "value": "Energie-, Bau-, Fertigungs-, Lebensmittelbranche"
+          },
+          {
+            "label": "Fonds",
+            "value": "Fonds für gerechten Übergang 2021–2027"
+          }
+        ],
+        "tags": [
+          "#EUFonds",
+          "#EuropäischeFonds"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "description": "Fertigung, Modernisierung und Montagedienstleistungen in der beruflichen und industriellen Energietechnik — in Polen und im Ausland.",
+    "contactSection": "Kontakt",
+    "navigationSection": "Navigation",
+    "fax": "Fax:",
+    "nip": "USt-IdNr.:",
+    "regon": "REGON:",
+    "bdo": "BDO:",
+    "capitalInfo": "Stammkapital: {capital}  ·  KRS: {krs}  ·  Registergericht: {court}",
+    "copyright": "© {year} {name}. Alle Rechte vorbehalten.",
+    "workingHours": "Mo–Fr: 8:00–17:00",
+    "links": [
+      {
+        "label": "Über uns",
+        "href": "#o-nas"
+      },
+      {
+        "label": "Zertifikate",
+        "href": "#certyfikaty"
+      },
+      {
+        "label": "Referenzen",
+        "href": "#realizacje"
+      },
+      {
+        "label": "Entwicklung",
+        "href": "/rozwoj"
+      },
+      {
+        "label": "Führung",
+        "href": "/kadra"
+      },
+      {
+        "label": "Galerie",
+        "href": "/galeria"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ]
+  },
+  "meta": {
+    "defaultTitle": "ZRE ELKO — Kessel, Rohrleitungen, Energietechnik",
+    "defaultDescription": "Kesselproduktion, Rohrleitungen und Montage energietechnischer Anlagen — ZRE ELKO Sp. z o.o."
+  }
+}

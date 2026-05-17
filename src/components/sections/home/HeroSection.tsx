@@ -1,20 +1,22 @@
 import Image from "next/image"
-import Link from "next/link"
+import { Link } from "@/i18n/navigation"
 import { Phone, Mail, MapPin, ArrowRight, Clock } from "lucide-react"
 import { CertBadge } from "@/components/sections/home/CertBadge"
-import { homeContent } from "@/content/home"
 import { company } from "@/content/company"
 import { colors } from "@/lib/colors"
 import { StatsBar } from "@/components/sections/home/StatsBar"
+import { getTranslations } from "next-intl/server"
 
-export function HeroSection() {
-  const { badge, headingParts, stats } = homeContent.hero
+export async function HeroSection() {
+  const t = await getTranslations("hero")
+  const headingParts = t.raw("headingParts") as string[]
+  const stats = t.raw("stats") as { value: string; label: string }[]
 
   return (
     <section className="relative h-screen min-h-[640px] overflow-hidden">
       <Image
         src="/images/hero.jpg"
-        alt="ZRE Elko — profesjonalne instalacje elektryczne"
+        alt={t("logoAlt")}
         fill
         className="object-cover"
         priority
@@ -66,7 +68,7 @@ export function HeroSection() {
             className="hidden lg:flex flex-col gap-4 rounded-2xl border border-white/20 bg-white/10 backdrop-blur-md px-7 py-6 w-72 shrink-0 hover:bg-white/15 transition-colors group"
           >
             <div className="flex items-center justify-between">
-              <span className="text-xs font-semibold uppercase tracking-widest text-white/60">Kontakt</span>
+              <span className="text-xs font-semibold uppercase tracking-widest text-white/60">{t("contactLabel")}</span>
               <ArrowRight className="size-4 text-white/40 group-hover:text-white/70 transition-colors" />
             </div>
 
@@ -109,7 +111,7 @@ export function HeroSection() {
             <div className="h-px bg-white/15" />
 
             <span className="text-xs text-white/50 group-hover:text-white/70 transition-colors">
-              Kliknij, aby przejść do sekcji kontaktu →
+              {t("contactMsg")}
             </span>
           </Link>
         </div>
@@ -118,7 +120,7 @@ export function HeroSection() {
         <div className="flex items-end justify-between pb-10">
           <StatsBar stats={stats} />
 
-          <CertBadge label={badge} />
+          <CertBadge label={t("badge")} />
         </div>
       </div>
     </section>
