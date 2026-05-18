@@ -22,7 +22,7 @@
     "ctaSecondary": "Skontaktuj się",
     "stats": [
       {
-        "value": "15+",
+        "value": "35+",
         "label": "lat doświadczenia"
       },
       {
@@ -274,148 +274,172 @@
     "gallery": "Galeria zdjęć",
     "items": [
       {
-        "id": "kociol-parowy-ec-jaworzno",
-        "title": "Kocioł parowy węglowy 30 MW — EC Jaworzno",
-        "description": "Produkcja i montaż kotła parowego opalanego węglem kamiennym o wydajności 30 MW dla Elektrociepłowni Jaworzno. Prace obejmowały pełny zakres — od projektu wykonawczego, przez produkcję elementów ciśnieniowych, aż po montaż, uruchomienie i szkolenie obsługi.",
-        "category": "Kotły parowe"
+        "id": "halle",
+        "title": "Kocioł parowy do spalania odpadów oczyszczalni — Halle (Niemcy)",
+        "description": "Montaż kotła parowego typ OSr-4,75 przeznaczonego do spalania odpadów z oczyszczalni ścieków w Lochau koło Halle. Kocioł zaprojektowany i wyprodukowany przez Rafako SA w Raciborzu.",
+        "category": "Kotły parowe",
+        "longDescription": "<p>W 2021 roku, od stycznia do lipca, ZRE ELKO Sp. z o.o. przeprowadziła <strong style=\"color:#B1E994\">montaż kotła parowego typ OSr-4,75</strong> przeznaczonego do spalania odpadów z oczyszczalni ścieków.</p><p>Kocioł został zaprojektowany i wyprodukowany przez <strong style=\"color:#B1E994\">Rafako SA</strong> w Raciborzu. Kontrakt ZRE ELKO Sp. z o.o. z Rafako SA obejmował wykonanie montażu dostarczonego kotła.</p><div class=\"note\">Realizacja prac montażowych w Lochau koło Halle w Niemczech przebiegała zgodnie z planem i zakończyła się w <strong>sierpniu 2021</strong>.</div>"
       },
       {
-        "id": "kociol-parowy-el-lodz",
-        "title": "Kocioł parowy węglowy 45 MW — EC Łódź",
-        "description": "Wytworzenie kotła parowego o mocy 45 MW dla Elektrociepłowni Łódź. Projekt realizowany zgodnie z normami PN-EN 12952-3 i obejmował produkcję ścian szczelnych, przegrzewaczy pary oraz podgrzewaczy wody.",
-        "category": "Kotły parowe"
+        "id": "kluczewo",
+        "title": "Kocioł gazowy OG-30 — Cukrownia Kluczewo (Stargard)",
+        "description": "Projekt, dostawa, montaż i uruchomienie kotła gazowego OG-30 dla Cukrowni Kluczewo w Stargardzie. Kocioł parowy wodnorurowy produkujący parę przegrzaną 480°C / 60 bar.",
+        "category": "Kotły gazowe",
+        "longDescription": "<p>W latach <strong style=\"color:#B1E994\">2021–2022</strong> ZRE ELKO Sp. z o.o. zostały wybrane przez <strong>Krajową Grupę Spożywczą S.A.</strong> do realizacji modernizacji elektrociepłowni w Cukrowni Kluczewo w Stargardzie — projektu, dostawy, montażu, uruchomienia i odbiorów kotła gazowego OG-30.</p><h3>Parametry kotła OG-30</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">60 bar</span><span class=\"param-label\">ciśnienie pary</span></div><div class=\"param\"><span class=\"param-value\">480°C</span><span class=\"param-label\">temperatura pary przegrzanej</span></div><div class=\"param\"><span class=\"param-value\">100 mg/m³</span><span class=\"param-label\">emisja NOx</span></div></div><h3>Charakterystyka techniczna</h3><ul><li>Kocioł parowy wodnorurowy, pionowy, jednowalczakowy z naturalnym obiegiem</li><li>Jeden palnik niskoemisyjny do spalania gazu ziemnego</li><li>Sterowany zawór bezpieczeństwa i zawór rozruchowy z tłumikami hałasu</li><li>Izolacja termiczna wszystkich zewnętrznych elementów</li><li>Sterowanie oparte na systemie PCS7 zintegrowanym z systemem Cukrowni</li></ul><h3>Zakres dodatkowy</h3><ul><li>Rozbiórka dachu nad miejscem montażu nowego kotła</li><li>Instalacja oświetleniowa podstawowa i ewakuacyjna</li><li>Przyłącze do stacji redukcyjno-pomiarowej gazu</li><li>Decyzja Środowiskowa, Pozwolenie na Budowę, dokumentacja UDT</li></ul><div class=\"note\">Kocioł zabudowano na istniejącym fundamencie po zdemontowanym kotle OR-32. Zapewnia wysoką sprawność w szerokim zakresie wydajności parowych oraz krótki czas rozruchu.</div>"
       },
       {
-        "id": "kociol-parowy-el-szczecin",
-        "title": "Kocioł parowy węglowy 20 MW — Elektrownia Szczecin",
-        "description": "Dostawa i montaż kotła parowego 20 MW dla Elektrowni Szczecin. Zakres prac obejmował produkcję kotła, rurociągów parowych oraz instalację układu odpopielania.",
-        "category": "Kotły parowe"
+        "id": "kruszwica_2024",
+        "title": "Modernizacja kotłów węglowych na gazowe — Cukrownia Kruszwica",
+        "description": "Modernizacja dwóch kotłów OR-42E ze zmiany zasilania z węgla na gaz ziemny w Cukrowni Kruszwica. Nowe kotły OG-50 osiągają wydajność 50 t/h pary przy ciśnieniu 40 bar.",
+        "category": "Modernizacje",
+        "longDescription": "<p>Na zlecenie <strong style=\"color:#B1E994\">Krajowej Grupy Spożywczej Toruń — Cukrownia Kruszwica</strong>, od marca do września 2024 roku ZRE ELKO Sp. z o.o. przeprowadziło modernizację dwóch kotłów typu <strong>OR-42E</strong> zasilanych miałem węglowym, polegającą na zmianie źródła zasilania z węgla na gaz ziemny.</p><h3>Zakres demontaży</h3><ul><li>Ruszt oraz instalacja odżużlania</li><li>Instalacja przygotowania i podawania paliwa</li><li>Instalacja odsiarczania spalin (IOS)</li></ul><h3>Zakres modernizacji</h3><ul><li>Nowy projekt kotłów gazowych</li><li>Produkcja wymaganych elementów ciśnieniowych</li><li>Montaż palników gazowych</li><li>Doprowadzenie gazowych rurociągów zasilających palniki</li></ul><h3>Parametry zmodernizowanych kotłów OG-50</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">50 t/h</span><span class=\"param-label\">wydajność parowa (każdy kocioł)</span></div><div class=\"param\"><span class=\"param-value\">40 bar</span><span class=\"param-label\">ciśnienie pary</span></div><div class=\"param\"><span class=\"param-value\">430°C</span><span class=\"param-label\">temperatura pary</span></div></div><div class=\"note\">Od września 2024 oba kotły zostały uruchomione i stanowią <strong>jedyne źródło produkcji pary</strong> w Cukrowni Kruszwica.</div>"
       },
       {
-        "id": "kociol-parowy-export-niemcy",
-        "title": "Kocioł parowy 35 MW — Kraftwerk Bayern (Niemcy)",
-        "description": "Produkcja kotła parowego o wydajności 35 MW na zamówienie partnera z Niemiec. Projekt realizowany zgodnie ze standardami TÜV dla rynku niemieckiego.",
-        "category": "Kotły parowe"
+        "id": "kussnacht",
+        "title": "Biomasowy kocioł odzysku ciepła — Küssnacht (Szwajcaria)",
+        "description": "Produkcja i montaż kotła biomasowego odzyskującego ciepło ze spalania zrębków drewna i kory w Küssnacht. Kocioł 31 t/h, 75 bar, 465°C — zlecenie pozyskane 2019/2020.",
+        "category": "Biomasowe",
+        "longDescription": "<p>W roku <strong style=\"color:#B1E994\">2019/2020</strong> ZRE ELKO Sp. z o.o. pozyskała zlecenie na produkcję oraz montaż kotła biomasowego wraz z rurociągami i konstrukcją nośną podestów w Küssnacht w Szwajcarii.</p><p>Kocioł odzyskuje ciepło ze spalania biomasy w postaci <strong>zrębków drewna, wiórów i kory</strong> — odpadów poprodukcyjnych z pobliskich zakładów przetwórstwa drewna.</p><h3>Parametry kotła</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">31 t/h</span><span class=\"param-label\">wydajność parowa</span></div><div class=\"param\"><span class=\"param-value\">75 bar</span><span class=\"param-label\">ciśnienie maksymalne</span></div><div class=\"param\"><span class=\"param-value\">465°C</span><span class=\"param-label\">temperatura pary wylotowej</span></div></div><h3>Zakres wykonania</h3><ul><li>Prefabrykacja i montaż ścian szczelnych, wężownic ECO, wężownic parownika i przegrzewaczy</li><li>Rurociągi parowe i wodne</li><li>Dostawa i montaż walczaka</li><li>Ocynkowana konstrukcja nośna pod kocioł i podesty</li><li>Montaż zdmuchiwaczy parowych</li><li>Pomontażowe czyszczenie i dmuchanie kotła</li><li>Izolacja kotła</li></ul>"
       },
       {
-        "id": "kociol-wodny-cieplownia-raciboz",
-        "title": "Kocioł wodny 8 MW — Ciepłownia Racibórz",
-        "description": "Budowa kotła wodnego o mocy 8 MW dla miejskiej ciepłowni w Raciborzu. Kocioł zasilany węglem kamiennym, przystosowany do pracy w układzie sieci ciepłowniczej.",
-        "category": "Kotły wodne"
+        "id": "malbork",
+        "title": "Modernizacja elektrociepłowni — Cukrownia Malbork (KSC)",
+        "description": "Modernizacja elektrociepłowni Cukrowni Malbork w 2020 r. Trzy kotły rusztowe (71 t/h łącznie) + turbogenerator przeciwprężny Siemens 10 MW.",
+        "category": "Modernizacje",
+        "longDescription": "<p>W <strong style=\"color:#B1E994\">2020 roku</strong> ZRE ELKO Sp. z o.o. zrealizowała modernizację Elektrociepłowni Cukrowni Malbork wchodzącej w skład <strong>Krajowej Spółki Cukrowej</strong> z siedzibą w Toruniu.</p><h3>Kotły rusztowe</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">OR32/21M</span><span class=\"param-label\">1 kocioł</span></div><div class=\"param\"><span class=\"param-value\">2× OSR32/25M</span><span class=\"param-label\">2 kotły</span></div><div class=\"param\"><span class=\"param-value\">~71 t/h</span><span class=\"param-label\">sumaryczny przepływ pary</span></div><div class=\"param\"><span class=\"param-value\">4 MPa / 450°C</span><span class=\"param-label\">parametry pary</span></div></div><h3>Turbogenerator Siemens</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">10 MW</span><span class=\"param-label\">moc czynna generatora</span></div><div class=\"param\"><span class=\"param-value\">65 t/h</span><span class=\"param-label\">nominalny przepływ pary</span></div><div class=\"param\"><span class=\"param-value\">15,75 kV</span><span class=\"param-label\">napięcie generatora</span></div><div class=\"param\"><span class=\"param-value\">0,3 MPa</span><span class=\"param-label\">ciśnienie na wylocie</span></div></div><h3>Pozostały zakres prac</h3><ul><li>Rurociągi pary świeżej — kolektor i zasilanie turbiny Siemens oraz Jugoturbiny</li><li>Modernizacja stacji redukcyjnej pary (4,0 / 0,3 MPa)</li><li>Stacja przygotowania wody zdemineralizowanej 15 t/h + zbiornik buforowy 40 m³</li><li>Pompy wody zasilającej 3×35 t/h</li><li>AKPiA kotłów, turbogeneratora i instalacji EC</li><li>Instalacje elektryczne SN i nN</li><li>Oczyszczanie spalin wg standardów emisyjnych od 01.01.2025 r.</li><li>Próby techniczne, uruchomienia, szkolenie obsługi, pomiary gwarancyjne</li></ul>"
       },
       {
-        "id": "kociol-wodny-krakow",
-        "title": "Kocioł wodny 12 MW — Zakład Przemysłowy Kraków",
-        "description": "Dostawa i uruchomienie kotła wodnego 12 MW dla zakładu przemysłowego w Krakowie. Prace obejmowały projekt, produkcję, montaż, odbiory UDT oraz szkolenie personelu obsługi.",
-        "category": "Kotły wodne"
+        "id": "munkedal_2022",
+        "title": "Biomasowy kocioł parowy OS-47,5 — Munkedal (Szwecja)",
+        "description": "Projektowanie, produkcja, dostawa i montaż biomasowego kotła parowego OS-47,5 o wydajności 47,5 t/h w Munkedal w Szwecji. Kocioł opalany biomasą leśną, produkuje parę nasyconą dla technologii.",
+        "category": "Biomasowe",
+        "longDescription": "<p>W czasie od <strong style=\"color:#B1E994\">grudnia 2020 do kwietnia 2022</strong> ZRE ELKO Sp. z o.o. realizowała projektowanie, produkcję, dostawę i montaż biomasowego kotła parowego w Munkedal w Szwecji.</p><h3>Parametry kotła OS-47,5</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">47,5 t/h</span><span class=\"param-label\">wydajność parowa</span></div><div class=\"param\"><span class=\"param-value\">236°C</span><span class=\"param-label\">temperatura pary</span></div><div class=\"param\"><span class=\"param-value\">30 bar</span><span class=\"param-label\">ciśnienie</span></div></div><h3>Charakterystyka techniczna</h3><ul><li>Paliwo: biomasa leśna</li><li>Produkt: para nasycona dla technologii</li><li>Konstrukcja: kocioł 3-ciągowy w ścianach szczelnych</li><li>Dwa puste ciągi oraz trzeci z wężownicami parownika</li><li>Czwarty ciąg jako kanał spalin z 4-stopniowym podgrzewaczem wody</li></ul>"
       },
       {
-        "id": "kociol-gazowy-wroclaw",
-        "title": "Kocioł gazowy 15 MW — Fabryka Wrocław",
-        "description": "Produkcja i montaż kotła gazowego z palnikami wielopaliwowymi o mocy 15 MW. Instalacja wyposażona w nowoczesny system sterowania i monitorowania parametrów pracy.",
-        "category": "Kotły gazowe"
+        "id": "poznan",
+        "title": "Budowa nowej elektrociepłowni gazowej — Cukrownia Środa Wielkopolska",
+        "description": "Kompleksowa realizacja \"pod klucz\" nowej elektrociepłowni gazowej dla Pfeifer & Langen Polska SA. Dwa kotły parowe OG55 i OG45 oraz kocioł c.o. PP dostarczające łącznie do 120 t/h pary.",
+        "category": "Kotły gazowe",
+        "longDescription": "<p>Na zlecenie <strong style=\"color:#B1E994\">Pfeifer & Langen Polska SA</strong> od 2023 roku ZRE ELKO Sp. z o.o. realizowało zadanie <em>„Budowa nowej elektrociepłowni gazowej wraz z niezbędną infrastrukturą towarzyszącą i przyłączami na terenie Cukrowni Środa Wlkp.&#8221;</em> w systemie <strong>&#8222;pod klucz&#8221;</strong>.</p><h3>Zabudowane kotły</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">OG-55</span><span class=\"param-label\">55 Mg/h · 40 bar · 440°C</span></div><div class=\"param\"><span class=\"param-value\">OG-45</span><span class=\"param-label\">45 Mg/h · 40 bar · 440°C</span></div><div class=\"param\"><span class=\"param-value\">PP</span><span class=\"param-label\">20 Mg/h · 7 bar · 160°C (c.o.)</span></div></div><h3>Zakres prac</h3><ul><li>Kompletna dokumentacja projektowa i nadzór autorski</li><li>Część budowlana, technologiczna, elektryczna i AKPiA</li><li>Przyłącza i zasilanie elektryczne, doprowadzenie gazu</li><li>Stacja uzdatniania wody kotłowej</li><li>Układ ciągłego pomiaru emisji spalin (NOx, CO)</li><li>Stacja korekcji wody z zdalnym pomiarem parametrów</li><li>System sterowania Yokogawa DCS + sterowniki bezpieczeństwa</li><li>Nowy budynek kotłowni z instalacjami wewnętrznymi</li><li>Infrastruktura drogowa, w tym droga dojazdowa ppoż.</li><li>Pozwolenie na budowę i pozwolenie na użytkowanie</li></ul><h3>Rozwiązania techniczne</h3><ul><li>Kotły zasilane gazem ziemnym wysokometanowym E wg PN-C-04750</li><li>Redundowany ring światłowodowy połączony z istniejącym systemem DCS</li><li>Pomieszczenia rozdzielni i AKPiA z klimatyzacją</li><li>Zautomatyzowane rozprężacze odmulin i odsolin</li><li>Część ciśnieniowa zgodna z Dyrektywą 2014/68/UE (PED)</li></ul><div class=\"note\">Uruchomienie całej instalacji nastąpiło w <strong>listopadzie 2024</strong>.</div>"
       },
       {
-        "id": "kociol-gazowy-export-czechy",
-        "title": "Kocioł gazowy 10 MW — Teplárna Brno (Czechy)",
-        "description": "Dostawa kotła gazowego 10 MW dla czeskiego klienta. Projekt zrealizowany we współpracy z lokalnym partnerem, zgodnie z normami CE i wymogami rynku czeskiego.",
-        "category": "Kotły gazowe"
+        "id": "wyszkow",
+        "title": "Kogeneracja biomasowa OS-13,5 — Ciepłownia PEC Wyszków",
+        "description": "Budowa wysokosprawnej kogeneracji z biomasą leśną dla PEC Wyszków. Kocioł OS-13,5 (13,5 t/h, 485°C, 67 bar) z turbogeneratorem 2,7 MW — uruchomienie 2024.",
+        "category": "Biomasowe",
+        "longDescription": "<p>Od <strong style=\"color:#B1E994\">2021 roku</strong> ZRE ELKO Sp. z o.o. wspólnie z austriackim <strong>VAS Energy Systems International GmbH</strong> realizowało zadanie <em>&#8222;Zaprojektowanie i wykonanie modernizacji istniejącej Ciepłowni Miejskiej poprzez budowę wysokosprawnej kogeneracji z wykorzystaniem OZE (biomasa)&#8221;</em> w Wyszkowie.</p><h3>Parametry kotła biomasowego OS-13,5</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">13,5 t/h</span><span class=\"param-label\">wydajność parowa</span></div><div class=\"param\"><span class=\"param-value\">485°C</span><span class=\"param-label\">temperatura pary</span></div><div class=\"param\"><span class=\"param-value\">67 bar</span><span class=\"param-label\">ciśnienie</span></div><div class=\"param\"><span class=\"param-value\">2,7 MW</span><span class=\"param-label\">moc turbogeneratora</span></div></div><h3>Skład układu kogeneracyjnego</h3><ul><li>Oddzielny ruszt schodkowy</li><li>Kocioł biomasowy OS-13,5 opalany leśną biomasą</li><li>Turbogenerator z turbiną kondensacyjno-upustową 2,7 MW</li><li>Kompletna instalacja stacji uzdatniania wody (SUW)</li><li>Układ rurociągów technologicznych i ciepłowniczych</li></ul><h3>Zakres prac ZRE ELKO</h3><ul><li>Projektowanie, wykonanie, dostawa, montaż i uruchomienie</li><li>Zasilanie sieci ciepłowniczej i produkcja energii elektrycznej</li><li>Praca w zakresie od 30 do 100% mocy</li></ul><div class=\"note\">Instalacja kogeneracyjna została uruchomiona w <strong>2024 roku</strong>.</div>"
       },
       {
-        "id": "kociol-biomasowy-bydgoszcz",
-        "title": "Kocioł biomasowy 25 MW — Ciepłownia Bydgoszcz",
-        "description": "Kompleksowa realizacja kotła biomasowego 25 MW opalanego zrębkami drewna. Projekt objął pełen zakres — projektowanie, produkcję, montaż i uruchomienie instalacji wraz z układem podawania paliwa.",
-        "category": "Biomasowe"
+        "id": "benkovac",
+        "title": "Biomasowy kocioł parowy 38 t/h — Benkovec",
+        "description": "Produkcja kotła biomasowego 38 t/h dla czeskiego klienta. Kocioł 4-ciągowy w technologii ścian szczelnych z ECO i wymiennikiem powietrza z rur żebrowanych — łącznie ~100 ton stali.",
+        "category": "Biomasowe",
+        "longDescription": "<p>ZRE ELKO Sp. z o.o. zrealizowała zlecenie dla <strong style=\"color:#B1E994\">czeskiego klienta</strong> w zakresie produkcji kotła na biomasę.</p><h3>Parametry kotła</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">38 t/h</span><span class=\"param-label\">wydajność parowa</span></div><div class=\"param\"><span class=\"param-value\">~100 t</span><span class=\"param-label\">łączna masa elementów</span></div></div><h3>Charakterystyka konstrukcji</h3><ul><li>Kocioł <strong>4-ciągowy</strong> — pierwsze trzy ciągi w technologii ścian szczelnych</li><li>Czwarty ciąg — ECO obudowane blachą</li><li>Podgrzewacz powietrza do spalania: wymiennik ciepła z rur żebrowanych</li></ul>"
       },
       {
-        "id": "kociol-biomasowy-poznan",
-        "title": "Kocioł biomasowy 20 MW — EC Poznań",
-        "description": "Budowa kotła biomasowego 20 MW dla Elektrociepłowni Poznań. Kocioł przystosowany do spalania biomasy leśnej i rolniczej, wyposażony w nowoczesny system odpylania spalin.",
-        "category": "Biomasowe"
+        "id": "dabrowa_gornicza",
+        "title": "Rekuperatory pieca hutniczego — Dąbrowa Górnicza",
+        "description": "Produkcja rekuperatorów wymieniających ciepło między spalinami (1100°C) a powietrzem dla pieca hutniczego. Łącznie ~11 ton elementów, w tym ~7,5 tony w gatunku żaroodpornym.",
+        "category": "Modernizacje",
+        "longDescription": "<p>ZRE ELKO Sp. z o.o. wyprodukowała <strong style=\"color:#B1E994\">rekuperatory pieca hutniczego</strong> przeznaczone do odzysku ciepła ze spalin.</p><h3>Zasada działania</h3><p>Spaliny o temperaturze rzędu <strong>1100°C</strong> omywają żaroodporne rury, w których przepływa ogrzewane powietrze. W ten sposób odzyskiwane jest ciepło spalin i przekazywane do powietrza podmuchowego pieca.</p><h3>Dane techniczne</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">~1100°C</span><span class=\"param-label\">temperatura spalin</span></div><div class=\"param\"><span class=\"param-value\">~11 t</span><span class=\"param-label\">łączna masa elementów</span></div><div class=\"param\"><span class=\"param-value\">~7,5 t</span><span class=\"param-label\">masa elementów żaroodpornych</span></div></div>"
       },
       {
-        "id": "kociol-rdf-krakow",
-        "title": "Kocioł RDF 18 MW — Spalarnia Odpadów Kraków",
-        "description": "Produkcja kotła parowego przystosowanego do spalania paliwa alternatywnego RDF o wydajności 18 MW. Instalacja spełnia wymagania dyrektywy IED w zakresie emisji zanieczyszczeń.",
-        "category": "Biomasowe"
+        "id": "gliwice",
+        "title": "Budowa elektrociepłowni — SFW Energia Gliwice",
+        "description": "Budowa elektrociepłowni dla SFW Energia w Gliwicach &#8222;pod klucz&#8221;. Kocioł OR16-N (16 t/h, 4,1 MPa, 450°C) + turbozespół Siemens SST-110 (1528 kW). Uruchomienie: styczeń 2017.",
+        "category": "Kotły parowe",
+        "longDescription": "<p>ZRE ELKO Sp. z o.o. zrealizowała budowę elektrociepłowni dla <strong style=\"color:#B1E994\">SFW Energia Sp. z o.o.</strong> na terenie Zakładu Ciepłowniczego w Gliwicach — w pełnym zakresie &#8222;pod klucz&#8221;.</p><h3>Kocioł OR16-N BTK-ELKO</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">16 t/h</span><span class=\"param-label\">wydajność parowa nominalna</span></div><div class=\"param\"><span class=\"param-value\">4,1 MPa</span><span class=\"param-label\">ciśnienie pary</span></div><div class=\"param\"><span class=\"param-value\">450°C</span><span class=\"param-label\">temperatura pary</span></div></div><h3>Turbozespół Siemens SST-110</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">1 528 kW</span><span class=\"param-label\">moc na zaciskach</span></div></div><h3>Zakres prac</h3><ul><li>Dokumentacja projektowa w całym zakresie dostaw i montażu</li><li>Dostawa i montaż kotła OR16-N z osprzętem</li><li>Dostawa i montaż turbozespołu przeciwprężnego z osprzętem</li><li>Rurociągi, stacje redukcyjno-schładzające, AKPiA, instalacje elektryczne</li><li>Pompownie, armatura, zbiorniki</li><li>Roboty budowlane: fundamenty, konstrukcje wsporcze, pomosty techniczne</li><li>Wszelkie sprawy formalno-prawne i pozwolenia na eksploatację</li><li>Rozruch, próby funkcjonalne, szkolenie pracowników</li></ul><div class=\"note\">Oddanie do eksploatacji nastąpiło w <strong>styczniu 2017 r.</strong></div>"
       },
       {
-        "id": "kociol-biomasowy-export-austria",
-        "title": "Kocioł biomasowy — Heizkraftwerk Graz (Austria)",
-        "description": "Dostawa elementów ciśnieniowych kotła biomasowego dla austriackiego partnera. Projekt zrealizowany zgodnie z normami SVTI/ASIT i wymaganiami rynku austriackiego.",
-        "category": "Biomasowe"
+        "id": "kruszwica_2010",
+        "title": "Modernizacja kotłów OR-32 → OR-42E — Cukrownia Kruszwica 2010",
+        "description": "Modernizacja 2 kotłów OR-32 do OR-42E w Cukrowni Kruszwica (luty–wrzesień 2010). Wydajność wzrosła z 32 do 42 t/h (max >50 t/h), 4 MPa, 450°C, sprawność >86%.",
+        "category": "Modernizacje",
+        "longDescription": "<p>W lutym 2010 ZRE ELKO Sp. z o.o. przystąpiło do modernizacji <strong style=\"color:#B1E994\">2 kotłów rusztowych OR-32 na kotły OR-42E</strong> w Cukrowni Kruszwica, zasilanych węglem kamiennym.</p><h3>Zakres modernizacji</h3><ul><li>Zwiększenie wydajności z 32 t/h do nominalnej 42 t/h</li><li>Wykonanie w technologii ścian szczelnych — konstrukcja 3-ciągowa</li><li>Instalacja parowych zdmuchiwaczy popiołu</li><li>Instalacja odpylania spalin i instalacja wtryskowa</li></ul><h3>Parametry po modernizacji</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">42 t/h</span><span class=\"param-label\">nominalna wydajność pary</span></div><div class=\"param\"><span class=\"param-value\">&gt;50 t/h</span><span class=\"param-label\">wydajność maksymalna</span></div><div class=\"param\"><span class=\"param-value\">4 MPa</span><span class=\"param-label\">ciśnienie pary</span></div><div class=\"param\"><span class=\"param-value\">450°C</span><span class=\"param-label\">temperatura pary</span></div><div class=\"param\"><span class=\"param-value\">&gt;86%</span><span class=\"param-label\">sprawność</span></div></div><div class=\"note\">Modernizacje zakończono 15 września 2010. Pomiary gwarancyjne po miesiącu pracy potwierdziły wszystkie oferowane parametry — wydajność maksymalna przekroczyła 50 t/h pary.</div>"
       },
       {
-        "id": "rurociagi-rafineria-gdansk",
-        "title": "Rurociągi technologiczne — Rafineria Gdańsk",
-        "description": "Wykonanie rurociągów technologicznych wysokiego ciśnienia zgodnie z normą PN-EN 13480. Zakres obejmował projektowanie, prefabrykację, montaż na obiekcie oraz odbiory UDT.",
-        "category": "Rurociągi"
+        "id": "lacq_2008",
+        "title": "Pilotażowy kocioł OS-5 — Rafineria Total, Lacq (Francja)",
+        "description": "Projekt, wykonanie, dostawa i montaż kotła biomasowego OS-5 dla Rafinerii Total w Lacq — pilotażowa instalacja zgazowania odpadów w złożu fluidalnym. Uruchomienie styczeń 2009.",
+        "category": "Biomasowe",
+        "longDescription": "<p>ZRE ELKO Sp. z o.o. zrealizowała dla klienta <strong>Op Systemes</strong> — działającego na rzecz Rafinerii <strong>Total w Lacq</strong> — projekt, wykonanie, dostawę i montaż pilotażowego kotła odzysku ciepła typu <strong style=\"color:#B1E994\">OS-5</strong>.</p><p>Kocioł stanowił kluczowy element pilotażowej instalacji <strong>zgazowania odpadów w złożu fluidalnym</strong> połączonej ze spalaniem w wysokiej temperaturze odpadów przemysłowych, niebezpiecznych, tworzyw sztucznych i biomasy.</p><div class=\"params\"><div class=\"param\"><span class=\"param-value\">OS-5</span><span class=\"param-label\">typ kotła</span></div><div class=\"param\"><span class=\"param-value\">Op Systemes / Total</span><span class=\"param-label\">klient / inwestor</span></div><div class=\"param\"><span class=\"param-value\">Styczeń 2009</span><span class=\"param-label\">uruchomienie</span></div></div><div class=\"note\">Sukces instalacji pilotażowej OS-5 stał się podstawą zamówienia kolejnej, większej instalacji z kotłem OS-14,5 zrealizowanej przez ZRE ELKO w roku 2011.</div>"
       },
       {
-        "id": "rurociagi-pulawy",
-        "title": "Rurociągi parowe — Zakład Chemiczny Puławy",
-        "description": "Modernizacja i rozbudowa sieci rurociągów parowych w Zakładach Azotowych Puławy. Prace realizowane w krótkich okienkach remontowych bez przerwy w produkcji zakładu.",
-        "category": "Rurociągi"
+        "id": "lacq_2011",
+        "title": "Kocioł biomasowy OS-14,5 — Lacq 2011 (Francja)",
+        "description": "Projekt, wykonanie, dostawa i montaż kotła biomasowego OS-14,5 dla Rafinerii Total w Lacq. Instalacja zgazowania odpadów w złożu fluidalnym — uruchomienie czerwiec 2011.",
+        "category": "Biomasowe",
+        "longDescription": "<p>Pilotażowa instalacja zintegrowanej <strong style=\"color:#B1E994\">gazyfikacji odpadów w złożu fluidalnym</strong> — połączona ze spalaniem w wysokiej temperaturze odpadów przemysłowych, niebezpiecznych, tworzyw sztucznych i biomasy — spełniła oczekiwania Inwestora, tj. <strong>Rafinerii Total</strong>.</p><p>W związku z sukcesem poprzedniej fazy (kocioł OS-5), Total zamówił kolejną instalację z kotłem OS-14,5. Generalnym wykonawcą był <strong>Op System</strong>, który zlecił ZRE ELKO Sp. z o.o. zaprojektowanie, wykonanie, dostawę i montaż kotła.</p><div class=\"params\"><div class=\"param\"><span class=\"param-value\">OS-14,5</span><span class=\"param-label\">typ kotła biomasowego</span></div><div class=\"param\"><span class=\"param-value\">Czerwiec 2011</span><span class=\"param-label\">uruchomienie</span></div></div><div class=\"note\">Spalane paliwa: odpady przemysłowe i niebezpieczne, tworzywa sztuczne oraz biomasa.</div>"
       },
       {
-        "id": "rurociagi-warszawa",
-        "title": "Rurociągi wysokoprężne — EC Warszawa",
-        "description": "Montaż rurociągów wysokociśnieniowych pary przegrzanej dla Elektrociepłowni Warszawa. Projekt obejmował ponad 2 km rurociągów DN50–DN500 wraz z armaturą i podporami.",
-        "category": "Rurociągi"
+        "id": "lenzing",
+        "title": "Kocioł RB i kocioł sodowy — Lenzing Biocel Paskov (Czechy)",
+        "description": "Montaż kotła RB (145 t/h, 485°C) i kotła sodowego (44,6 t/h, 465°C) w zakładach papierniczych koło Ostrawy (2011–2013). Łączna masa montowanych elementów ~1000 ton.",
+        "category": "Kotły parowe",
+        "longDescription": "<p>W latach <strong style=\"color:#B1E994\">2011–2013</strong> ZRE ELKO Sp. z o.o. zmontowała dwa kotły w zakładach papierniczych <strong>Lenzing Biocel Paskov</strong> w okolicy Ostrawy w Czechach.</p><h3>Kocioł RB — spalanie odpadów z produkcji celulozy</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">145 t/h</span><span class=\"param-label\">wydajność parowa</span></div><div class=\"param\"><span class=\"param-value\">485°C</span><span class=\"param-label\">temperatura pary pierwotnej</span></div></div><h3>Kocioł sodowy — spalanie płynnej sody</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">44,6 t/h</span><span class=\"param-label\">wydajność parowa</span></div><div class=\"param\"><span class=\"param-value\">465°C</span><span class=\"param-label\">temperatura pary pierwotnej</span></div></div><div class=\"note\">Łączna masa zmontowanych elementów obu kotłów: <strong>~1000 ton</strong>.</div>"
       },
       {
-        "id": "rurociagi-export-francja",
-        "title": "Rurociągi — Centrale Thermique Lyon (Francja)",
-        "description": "Prefabrykacja i dostawa elementów rurociągów dla francuskiej elektrowni cieplnej. Elementy wykonane z materiałów P91 i P22 zgodnie z dokumentacją techniczną zamawiającego.",
-        "category": "Rurociągi"
+        "id": "munkedal_2021",
+        "title": "Kocioł biomasowy — Munkedal 2021 (Szwecja)",
+        "description": "Produkcja kompletnej dokumentacji koncesyjnej i montaż kotła biomasowego w Szwecji. Kocioł 3-ciągowy w ścianach szczelnych produkujący parę nasyconą dla technologii.",
+        "category": "Biomasowe",
+        "longDescription": "<p>ZRE ELKO Sp. z o.o. realizuje projekt obejmujący opracowanie <strong style=\"color:#B1E994\">kompletnej dokumentacji koncesyjnej kotła</strong> oraz jego montaż w Munkedal w Szwecji.</p><h3>Charakterystyka kotła</h3><ul><li>Kocioł produkuje <strong>parę nasyconą</strong> dla technologii</li><li>Konstrukcja 3-ciągowa w ścianach szczelnych</li><li>Dwa puste ciągi oraz trzeci z wężownicami parownika</li><li>Czwarty ciąg — kanał spalin z 4-stopniowym podgrzewaczem wody</li></ul><div class=\"note\">Kocioł dostarczony na budowę w Szwecji i zmontowany kompletny do próby wodnej przez ZRE ELKO Sp. z o.o.</div>"
       },
       {
-        "id": "modernizacja-ec-katowice",
-        "title": "Modernizacja kotła 40 MW — EC Katowice",
-        "description": "Kompleksowa modernizacja kotła parowego 40 MW — wymiana przegrzewaczy, podgrzewaczy i ścian szczelnych. Prace zrealizowane podczas planowanego remontu kapitalnego elektrociepłowni.",
-        "category": "Modernizacje"
+        "id": "plock",
+        "title": "Elementy ciśnieniowe kotłów OOG320 K1/K2/K3 — PKN Orlen Płock",
+        "description": "Dostawa elementów ciśnieniowych trzech kotłów OOG320 dla PKN Orlen w Płocku (2014–2015). 113 ton na kocioł — ekrany komory paleniskowej, palniki Babcock i rurociągi opadowe. Łącznie ponad 340 ton.",
+        "category": "Modernizacje",
+        "longDescription": "<p>W roku <strong style=\"color:#B1E994\">2014 i 2015</strong> ZRE ELKO Sp. z o.o. zrealizowała dostawy w ramach trzech zamówień na elementy ciśnieniowe kotłów <strong>OOG320 K1, K2 i K3</strong> dla PKN Orlen S.A. w Płocku.</p><h3>Skala projektu</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">113 t</span><span class=\"param-label\">masa elementów na każdy kocioł</span></div><div class=\"param\"><span class=\"param-value\">&gt;340 t</span><span class=\"param-label\">łączna masa wszystkich dostaw</span></div><div class=\"param\"><span class=\"param-value\">3</span><span class=\"param-label\">kotły K1, K2, K3</span></div></div><h3>Zakres dostaw</h3><ul><li>Wszystkie ekrany komory paleniskowej od poziomu 2 m do 14 m</li><li>Palniki firmy <strong>Babcock</strong> sprowadzane z Niemiec</li><li>Rurociągi łączące rury opadowe z komorami dolnymi ekranów</li></ul>"
       },
       {
-        "id": "modernizacja-cieplownia-opole",
-        "title": "Modernizacja kotła 30 MW — Ciepłownia Opole",
-        "description": "Remont i modernizacja kotła wodnego 30 MW polegająca na wymianie elementów wymiennika ciepła i układu spalania. Zakres obejmował również dostosowanie instalacji do nowych norm emisji.",
-        "category": "Modernizacje"
+        "id": "rybnik",
+        "title": "Remont kotła OP650 K6 — EDF Rybnik",
+        "description": "Wymiana 520 rur komory paleniskowej kotła OP650 K6 w elektrowni EDF Rybnik — 320 rur ekranu tylnego i po 100 rur na ekranach bocznych (poziomy 11–28 m).",
+        "category": "Modernizacje",
+        "longDescription": "<p>ZRE ELKO Sp. z o.o. uczestniczyła w <strong style=\"color:#B1E994\">kompleksowym remoncie kotła OP650 K6</strong> w elektrowni EDF Rybnik, realizowanym od grudnia do marca.</p><h3>Zakres prac</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">520</span><span class=\"param-label\">wymienionych rur łącznie</span></div><div class=\"param\"><span class=\"param-value\">320</span><span class=\"param-label\">rury ekranu tylnego</span></div><div class=\"param\"><span class=\"param-value\">2×100</span><span class=\"param-label\">rury ekranów bocznych</span></div><div class=\"param\"><span class=\"param-value\">~17 m</span><span class=\"param-label\">długość każdej rury</span></div></div><h3>Szczegóły techniczne</h3><ul><li>Wymiana rur na poziomach <strong>11 m do 28 m</strong></li><li>W górnej części rury z odgięciami pod dysze OFA</li><li>Nowo montowane rury powleczone <strong>niespawalną powłoką</strong> zabezpieczającą materiał rdzeniowy</li></ul><div class=\"note\">Prace przebiegały planowo z zachowaniem najwyższych standardów jakościowych i bezpieczeństwa obowiązujących na elektrowni EDF Rybnik.</div>"
       },
       {
-        "id": "remont-el-kozienice",
-        "title": "Remont kapitalny — Elektrownia Kozienice",
-        "description": "Remont kapitalny kotła parowego obejmujący wymianę ścian szczelnych, naprawę przegrzewaczy i wymianę armatury. Prace prowadzone w ścisłej koordynacji z harmonogramem remontowym elektrowni.",
-        "category": "Modernizacje"
+        "id": "siekierki",
+        "title": "Elementy ciśnieniowe kotłów PTWM 100 — EC Siekierki i EC Wola",
+        "description": "Dostawa części ciśnieniowej kotłów PTWM 100 dla EC Siekierki i EC Wola w 2014 r. Łącznie 470 ton elementów dla 5 kotłów.",
+        "category": "Modernizacje",
+        "longDescription": "<p>W roku <strong style=\"color:#B1E994\">2014</strong> ZRE ELKO Sp. z o.o. zrealizowała dostawę części ciśnieniowej kotłów <strong>PTWM 100</strong> dla <strong>EC Siekierki</strong> i <strong>EC Wola</strong> w Warszawie.</p><div class=\"params\"><div class=\"param\"><span class=\"param-value\">470 t</span><span class=\"param-label\">całkowita masa dostarczonych elementów</span></div><div class=\"param\"><span class=\"param-value\">5</span><span class=\"param-label\">kotłów objętych dostawą</span></div></div>"
       },
       {
-        "id": "modernizacja-ec-gdynia",
-        "title": "Modernizacja układu parowego — EC Gdynia",
-        "description": "Modernizacja układu parowego turbozespołu elektrociepłowni w Gdyni. Zakres prac obejmował wymianę rurociągów świeżej pary, zaworów regulacyjnych i izolacji termicznej.",
-        "category": "Modernizacje"
+        "id": "sokolow",
+        "title": "Kocioł dwuprzepływowy odzysku ciepła — Sokołów (Czechy)",
+        "description": "Produkcja i dostawa dwuprzepływowego kotła odzysku ciepła dla czeskiego klienta: 18 t/h pary, 415°C. Dostarczony blokiem 35-tonowym w kwietniu 2008.",
+        "category": "Kotły parowe",
+        "longDescription": "<p>ZRE ELKO Sp. z o.o. zrealizowała zlecenie produkcji i dostawy <strong style=\"color:#B1E994\">dwuprzepływowego kotła odzysku ciepła</strong> dla klienta czeskiego.</p><h3>Parametry kotła</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">18 t/h</span><span class=\"param-label\">wydajność parowa</span></div><div class=\"param\"><span class=\"param-value\">415°C</span><span class=\"param-label\">temperatura pary</span></div><div class=\"param\"><span class=\"param-value\">35 t</span><span class=\"param-label\">masa bloku dostawczego</span></div></div><div class=\"note\">Kocioł dostarczony jako jeden kompletny blok o masie 35 ton w kwietniu 2008.</div>"
       },
       {
-        "id": "instalacje-el-rybnik",
-        "title": "Instalacje pomocnicze — Elektrownia Rybnik",
-        "description": "Wykonanie instalacji pomocniczych bloków energetycznych Elektrowni Rybnik. Prace obejmowały montaż rurociągów wody zasilającej, odwodnień i odpowietrzeń układu kotłowego.",
-        "category": "Modernizacje"
+        "id": "walcz",
+        "title": "Elektrociepłownia biomasowa OS-14 + 2×XU-8,5 — Wałcz",
+        "description": "Biomasowa elektrociepłownia w Wałczu: kocioł OS-14 (14 t/h, 4,5 MPa, 460°C) + 2 kotły odzysku ciepła XU-8,5 (11 t/h każdy) + turbogenerator ~7 MW. Inwestor M-PLUS, GW AWBUD.",
+        "category": "Biomasowe",
+        "longDescription": "<p>ZRE ELKO Sp. z o.o. zrealizowała kluczowe dostawy na potrzeby <strong style=\"color:#B1E994\">biomasowej elektrociepłowni w Wałczu</strong>, realizowanej przez Inwestora <strong>M-PLUS</strong> z generalnym wykonawcą <strong>AWBUD</strong>.</p><h3>Kocioł biomasowy OS-14</h3><p>Kocioł parowy na spalanie <strong>słomy rzepakowej i zrębków drewna</strong>.</p><div class=\"params\"><div class=\"param\"><span class=\"param-value\">14 t/h</span><span class=\"param-label\">wydajność parowa</span></div><div class=\"param\"><span class=\"param-value\">4,5 MPa</span><span class=\"param-label\">ciśnienie pary</span></div><div class=\"param\"><span class=\"param-value\">460°C</span><span class=\"param-label\">temperatura pary</span></div><div class=\"param\"><span class=\"param-value\">Grudzień 2010</span><span class=\"param-label\">uruchomienie</span></div></div><h3>Kotły odzysku ciepła 2×XU-8,5</h3><p>Dwa kotły odzysku ciepła spalin z silników gazowych.</p><div class=\"params\"><div class=\"param\"><span class=\"param-value\">11 t/h</span><span class=\"param-label\">wydajność parowa (każdy)</span></div><div class=\"param\"><span class=\"param-value\">4,5 MPa</span><span class=\"param-label\">ciśnienie pary</span></div><div class=\"param\"><span class=\"param-value\">460°C</span><span class=\"param-label\">temperatura pary</span></div><div class=\"param\"><span class=\"param-value\">Czerwiec/Lipiec 2011</span><span class=\"param-label\">uruchomienie</span></div></div><h3>Turbogenerator</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">~7 MW</span><span class=\"param-label\">moc elektryczna turbogeneratora</span></div></div>"
       },
       {
-        "id": "modernizacja-export-uk",
-        "title": "Modernizacja — Power Station (Wielka Brytania)",
-        "description": "Dostawa i montaż elementów ciśnieniowych dla modernizowanej elektrowni w Wielkiej Brytanii. Projekt zrealizowany w konsorcjum z partnerem brytyjskim, zgodnie z normami BS i wymaganiami rynku UK.",
-        "category": "Modernizacje"
+        "id": "zbiersk",
+        "title": "Dostawa i montaż 2×OR-16N — Zbiersk",
+        "description": "Dostawa i montaż dwóch kompletnych kotłów parowych rusztowych OR-16N w Zbiersku (2018/2019). Wydajność 16 t/h każdy, para 6,7 MPa / 480°C, sprawność ≥87%.",
+        "category": "Kotły parowe",
+        "longDescription": "<p>W roku <strong style=\"color:#B1E994\">2018/2019</strong> ZRE ELKO zrealizowała zlecenie pod nazwą <em>&#8222;Dostawa i montaż dwóch kompletnych kotłów parowych, rusztowych na ścianach szczelnych typu OR-16N&#8221;</em>.</p><h3>Parametry kotłów OR-16N</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">16 t/h</span><span class=\"param-label\">wydajność maksymalna trwała</span></div><div class=\"param\"><span class=\"param-value\">6,7 MPa</span><span class=\"param-label\">ciśnienie pary</span></div><div class=\"param\"><span class=\"param-value\">480°C</span><span class=\"param-label\">temperatura pary</span></div><div class=\"param\"><span class=\"param-value\">≥87%</span><span class=\"param-label\">sprawność obliczeniowa</span></div></div><h3>Zakres prac projektowych</h3><ul><li>Projekt budowlany ramy podporowej pod kotły</li><li>Przeróbka dachu i modernizacja zasobników węgla wraz ze słupami nośnymi</li><li>Projekty technologiczne kotłów OR-16N, rurociągów i nowego kolektora parowego</li><li>Projekty układu wody zasilającej</li></ul><h3>Zakres dostaw i montażu</h3><ul><li>Prefabrykacja ścian szczelnych, wężownic, rurociągów, kolektora, kanałów spalin</li><li>Kanały i podgrzewacze powietrza, podesty, zasobniki węgla</li><li>Dostawa ramy nośnej, rusztów mechanicznych, walczaków, armatury i wentylatorów</li><li>Montaż kompletnych kotłów wraz z automatyką i izolacją</li></ul><div class=\"note\">Kotły przekazane Inwestorowi w stanie gotowym do rejestracji w UDT wraz z kompletną dokumentacją.</div>"
       },
       {
-        "id": "modernizacja-export-szwajcaria",
-        "title": "Modernizacja — Heizkraftwerk (Szwajcaria)",
-        "description": "Dostawa elementów kotłowych i rurociągów dla szwajcarskiej elektrociepłowni. Realizacja zgodna z normami SVTI/ASIT i wymaganiami szwajcarskiego organu dozoru technicznego.",
-        "category": "Modernizacje"
+        "id": "zdunska_wola",
+        "title": "Dostawa i montaż 2×OR-16 — EC Zduńska Wola",
+        "description": "Dostawa i montaż dwóch kotłów rusztowych OR-16 w EC Zduńska Wola (2018/2019). Para 16 t/h / 470°C, emisja pyłu <30 mg/m³, pełny zakres &#8222;pod klucz&#8221; z pozwoleniem na użytkowanie.",
+        "category": "Kotły parowe",
+        "longDescription": "<p>W roku <strong style=\"color:#B1E994\">2018/2019</strong> ZRE ELKO Sp. z o.o. zrealizowała dostawy i montaż dwóch kompletnych kotłów rusztowych parowych w systemie ścian szczelnych typu OR-16 w EC Zduńska Wola — w pełnym zakresie &#8222;pod klucz&#8221;.</p><h3>Parametry kotłów OR-16</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">&gt;16 t/h</span><span class=\"param-label\">wydajność parowa nominalna</span></div><div class=\"param\"><span class=\"param-value\">470°C</span><span class=\"param-label\">temperatura pary (8–16 t/h)</span></div><div class=\"param\"><span class=\"param-value\">≥87%</span><span class=\"param-label\">sprawność dla 16 t/h</span></div><div class=\"param\"><span class=\"param-value\">&lt;30 mg/m³</span><span class=\"param-label\">emisja pyłu (przy 6% O₂)</span></div></div><h3>Zakres prac</h3><ul><li>Projekt budowlano-wykonawczy, pozwolenie na budowę i pozwolenie na użytkowanie</li><li>Projekty techniczno-wykonawcze kotłów OR-16N w ścianach szczelnych</li><li>Wyburzenia i demontaże technologiczne</li><li>Dostawa i montaż dwóch kotłów z instalacjami towarzyszącymi</li><li>Rurociągi parowe i wodne w obrębie kotłów i turbiny</li><li>Kompletne instalacje oczyszczania spalin z wentylatorami wyciągowymi</li><li>Ruszty mechaniczne i odżużlacze, obmurza i wymurówki</li><li>Systemy AKPiA nadrzędne i przynależne do kotłów</li><li>Instalacje elektryczne i kanały spalin</li><li>Uzgodnienie dokumentacji w UDT i CLDT oraz wymagane odbiory</li></ul>"
       },
       {
-        "id": "kociol-parowy-export-indie",
-        "title": "Kocioł parowy — Power Plant (Indie)",
-        "description": "Produkcja i dostawa elementów ciśnieniowych kotła parowego dla indyjskiego inwestora. Projekt realizowany zgodnie z normami IBR (Indian Boiler Regulations) i wymaganiami zamawiającego.",
-        "category": "Kotły parowe"
+        "id": "zulpich",
+        "title": "Kocioł parowy 100 t/h — Smurfit Kappa Zülpich (Niemcy)",
+        "description": "Montaż dwurusztowego kotła parowego 100 t/h na węgiel brunatny i biomasę w zakładach papierniczych Smurfit Kappa Zülpich (kwiecień 2009 – styczeń 2010). Masa elementów ciśnieniowych: 1100 ton.",
+        "category": "Kotły parowe",
+        "longDescription": "<p>Od <strong style=\"color:#B1E994\">16 kwietnia 2009</strong> ZRE ELKO Sp. z o.o. realizowała montaż dwurusztowego kotła parowego w zakładach papierniczych <strong>Smurfit Kappa Zülpich Papier</strong> koło Bonn w Niemczech. Generalnym wykonawcą była firma <strong>AE&amp;E Inova GmbH</strong> z siedzibą w Kolonii.</p><h3>Parametry kotła</h3><div class=\"params\"><div class=\"param\"><span class=\"param-value\">100 t/h</span><span class=\"param-label\">wydajność parowa</span></div><div class=\"param\"><span class=\"param-value\">1 100 t</span><span class=\"param-label\">masa elementów ciśnieniowych</span></div></div><h3>Paliwa</h3><ul><li>Węgiel brunatny</li><li>Biomasa w postaci ścinków papieru</li></ul><div class=\"note\">Próba wodna kotła zakończona wynikiem pozytywnym: <strong>02.10.2009</strong>. Montaż zakończony w <strong>styczniu 2010</strong>. Kocioł oddany do ruchu w <strong>czerwcu 2010</strong>.</div>"
       }
     ]
   },

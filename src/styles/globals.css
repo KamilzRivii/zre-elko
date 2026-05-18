@@ -117,6 +117,25 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* ── Realizacja detail rich content ─────────────────────────────────────── */
+.realizacja-content p          { margin-bottom: 1rem; }
+.realizacja-content p:last-child { margin-bottom: 0; }
+.realizacja-content h3         { color: #B1E994; font-weight: 600; font-size: 0.8125rem;
+                                  text-transform: uppercase; letter-spacing: 0.08em;
+                                  margin-top: 1.75rem; margin-bottom: 0.5rem; }
+.realizacja-content ul         { list-style: none; padding: 0; margin-bottom: 1rem; display: flex; flex-direction: column; gap: 0.375rem; }
+.realizacja-content ul li      { padding-left: 1.25rem; position: relative; }
+.realizacja-content ul li::before { content: "—"; position: absolute; left: 0; color: #B1E994; }
+.realizacja-content .params    { display: flex; flex-wrap: wrap; gap: 0.75rem;
+                                  margin-top: 1.25rem; margin-bottom: 1.25rem; }
+.realizacja-content .param     { background: rgba(177,233,148,0.08); border: 1px solid rgba(177,233,148,0.2);
+                                  border-radius: 0.75rem; padding: 0.625rem 1rem; min-width: 9rem; }
+.realizacja-content .param-value { display: block; color: #B1E994; font-weight: 700; font-size: 1.125rem; }
+.realizacja-content .param-label { display: block; color: rgba(255,255,255,0.45); font-size: 0.75rem; margin-top: 0.125rem; }
+.realizacja-content .note      { background: rgba(177,233,148,0.06); border-left: 3px solid #B1E994;
+                                  border-radius: 0 0.5rem 0.5rem 0; padding: 0.75rem 1rem;
+                                  margin-top: 1rem; color: rgba(255,255,255,0.6); font-size: 0.875rem; }
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

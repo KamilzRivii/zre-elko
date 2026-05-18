@@ -1,29 +1,50 @@
 "use client"
 
-import { useRef } from "react"
+import { useState, useRef } from "react"
 import { Link } from "@/i18n/navigation"
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react"
 import { colors } from "@/lib/colors"
 import { realizacje } from "@/content/realizacje"
 import { useTranslations } from "next-intl"
 
+const CARD_W = 288 // w-72
+const GAP    = 24  // gap-6
+const STEP   = CARD_W + GAP
+
 export function RealizacjeCarousel() {
-  const t = useTranslations("realizacje")
+  const t       = useTranslations("realizacje")
   const tPreview = useTranslations("realizacjePreview")
   const allItems = t.raw("items") as {
     id: string; title: string; description: string; category: string
   }[]
   const items = allItems.slice(0, 8)
+  const n = items.length
 
-  const trackRef = useRef<HTMLDivElement>(null)
+  // Trzy kopie → startujemy w środkowej (index n)
+  const extended = [...items, ...items, ...items]
 
-  function scroll(dir: "left" | "right") {
-    const track = trackRef.current
-    if (!track) return
-    const card = track.querySelector("[data-card]") as HTMLElement
-    const gap = 24
-    const amount = (card?.offsetWidth ?? 320) + gap
-    track.scrollBy({ left: dir === "left" ? -amount : amount, behavior: "smooth" })
+  const [idx, setIdx]           = useState(n)
+  const [animated, setAnimated] = useState(true)
+  const busy = useRef(false)
+
+  function move(dir: 1 | -1) {
+    if (busy.current) return
+    const next = idx + dir
+    setIdx(next)
+
+    // Po zakończeniu animacji — cicha teleportacja do środkowej kopii
+    const needsJump = next >= n * 2 || next < n
+    if (needsJump) {
+      busy.current = true
+      setTimeout(() => {
+        setAnimated(false)
+        setIdx(next >= n * 2 ? n : n * 2 - 1)
+        setTimeout(() => {
+          setAnimated(true)
+          busy.current = false
+        }, 20)
+      }, 320)
+    }
   }
 
   return (
@@ -40,17 +61,15 @@ export function RealizacjeCarousel() {
               {tPreview("headingLine1")} <span style={{ color: colors.logo }}>{tPreview("headingLine2")}</span>
             </h2>
           </div>
-
-          {/* Strzałki */}
           <div className="hidden sm:flex gap-2">
-            {(["left", "right"] as const).map((dir) => (
+            {([-1, 1] as const).map((dir) => (
               <button
                 key={dir}
-                onClick={() => scroll(dir)}
+                onClick={() => move(dir)}
                 className="flex size-10 items-center justify-center rounded-full border transition-colors hover:bg-white/10 cursor-pointer"
                 style={{ borderColor: `${colors.logo}50`, color: colors.logo }}
               >
-                {dir === "left" ? <ChevronLeft className="size-5" /> : <ChevronRight className="size-5" />}
+                {dir === -1 ? <ChevronLeft className="size-5" /> : <ChevronRight className="size-5" />}
               </button>
             ))}
           </div>
@@ -58,54 +77,66 @@ export function RealizacjeCarousel() {
 
         <div className="h-px w-24 mb-10" style={{ backgroundColor: colors.logo }} />
 
-        {/* Karuzela */}
-        <div
-          ref={trackRef}
-          className="flex gap-6 overflow-x-auto py-2 pb-4 scroll-smooth snap-x snap-mandatory"
-          style={{ scrollbarWidth: "none" }}
-        >
-          {items.map((item) => {
-            const real = realizacje.find((r) => r.id === item.id)
-            return (
-              <Link
-                key={item.id}
-                href={`/realizacje/${item.id}`}
-                data-card
-                className="flex-none w-72 snap-start rounded-2xl border overflow-hidden transition-colors duration-200"
-                style={{ backgroundColor: colors.buttonCta, borderColor: `${colors.logo}30` }}
-                onMouseEnter={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = `${colors.logo}22` }}
-                onMouseLeave={(e) => { (e.currentTarget as HTMLElement).style.backgroundColor = colors.buttonCta }}
-              >
-                <div
-                  className="h-48 w-full flex items-center justify-center"
-                  style={{ backgroundColor: "#1b3a2a" }}
+        {/* Track */}
+        <div className="overflow-hidden">
+          <div
+            className="flex"
+            style={{
+              gap: `${GAP}px`,
+              transform: `translateX(calc(-1 * ${idx} * ${STEP}px))`,
+              transition: animated ? "transform 320ms ease" : "none",
+            }}
+          >
+            {extended.map((item, i) => {
+              const real = realizacje.find((r) => r.id === item.id)
+              return (
+                <Link
+                  key={i}
+                  href={`/realizacje/${item.id}`}
+                  className="flex-none rounded-2xl border overflow-hidden transition-colors duration-200"
+                  style={{
+                    width: CARD_W,
+                    backgroundColor: colors.buttonCta,
+                    borderColor: `${colors.logo}30`,
+                  }}
+                  onMouseEnter={(e) => {
+                    ;(e.currentTarget as HTMLElement).style.backgroundColor = `${colors.logo}22`
+                  }}
+                  onMouseLeave={(e) => {
+                    ;(e.currentTarget as HTMLElement).style.backgroundColor = colors.buttonCta
+                  }}
                 >
-                  {real?.photos[0] ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img src={real.photos[0]} alt={item.title} className="h-full w-full object-cover" />
-                  ) : (
-                    <span className="text-xs text-white/20 uppercase tracking-widest">
-                      {tPreview("noPhoto")}
-                    </span>
-                  )}
-                </div>
-
-                <div className="p-5 flex flex-col gap-2">
-                  <div className="flex items-center gap-2">
-                    <span
-                      className="rounded-full px-2.5 py-0.5 text-xs font-medium"
-                      style={{ backgroundColor: `${colors.logo}20`, color: colors.logo }}
-                    >
-                      {item.category}
-                    </span>
-                    <span className="text-xs text-white/40">{real?.year}</span>
+                  <div
+                    className="h-48 w-full flex items-center justify-center"
+                    style={{ backgroundColor: "#1b3a2a" }}
+                  >
+                    {(real?.thumbnail ?? real?.photos[0]) ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={real.thumbnail ?? real.photos[0]} alt={item.title} className="h-full w-full object-cover" />
+                    ) : (
+                      <span className="text-xs text-white/20 uppercase tracking-widest">
+                        {tPreview("noPhoto")}
+                      </span>
+                    )}
                   </div>
-                  <h3 className="text-sm font-semibold text-white leading-snug">{item.title}</h3>
-                  <p className="text-xs text-white/60 leading-relaxed line-clamp-2">{item.description}</p>
-                </div>
-              </Link>
-            )
-          })}
+
+                  <div className="p-5 flex flex-col gap-2">
+                    <div className="flex items-center gap-2">
+                      <span
+                        className="rounded-full px-2.5 py-0.5 text-xs font-medium"
+                        style={{ backgroundColor: `${colors.logo}20`, color: colors.logo }}
+                      >
+                        {item.category}
+                      </span>
+                      <span className="text-xs text-white/40">{real?.year}</span>
+                    </div>
+                    <h3 className="text-sm font-semibold text-white leading-snug">{item.title}</h3>
+                    <p className="text-xs text-white/60 leading-relaxed line-clamp-2">{item.description}</p>
+                  </div>
+                </Link>
+              )
+            })}
+          </div>
         </div>
 
         {/* CTA */}

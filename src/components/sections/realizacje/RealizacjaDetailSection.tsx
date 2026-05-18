@@ -5,7 +5,7 @@ import type { RealizacjaItem } from "@/types/realizacje"
 
 interface Props {
   realizacja: RealizacjaItem
-  item: { id: string; title: string; description: string; category: string }
+  item: { id: string; title: string; description: string; category: string; longDescription?: string }
 }
 
 export function RealizacjaDetailSection({ realizacja, item }: Props) {
@@ -37,9 +37,16 @@ export function RealizacjaDetailSection({ realizacja, item }: Props) {
         </h1>
         <div className="h-px w-24 mb-8" style={{ backgroundColor: colors.logo }} />
 
-        <p className="text-white/70 text-base leading-relaxed max-w-3xl mb-16">
-          {item.description}
-        </p>
+        {item.longDescription ? (
+          <div
+            className="text-white/70 text-base leading-relaxed max-w-3xl mb-16 realizacja-content"
+            dangerouslySetInnerHTML={{ __html: item.longDescription }}
+          />
+        ) : (
+          <p className="text-white/70 text-base leading-relaxed max-w-3xl mb-16">
+            {item.description}
+          </p>
+        )}
 
         <p className="text-xs font-semibold uppercase tracking-widest mb-5 text-white/40">
           Galeria zdjęć

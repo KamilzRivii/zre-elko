@@ -33,7 +33,7 @@ export default async function RealizacjaPage({
 
   const t = await getTranslations("realizacje")
   const items = t.raw("items") as {
-    id: string; title: string; description: string; category: string
+    id: string; title: string; description: string; category: string; longDescription?: string
   }[]
   const item = items.find((i) => i.id === id)
   if (!item) notFound()

@@ -22,7 +22,7 @@
     "ctaSecondary": "Kontakt aufnehmen",
     "stats": [
       {
-        "value": "15+",
+        "value": "35+",
         "label": "Jahre Erfahrung"
       },
       {
@@ -274,147 +274,147 @@
     "gallery": "Fotogalerie",
     "items": [
       {
-        "id": "kociol-parowy-ec-jaworzno",
-        "title": "30-MW-Kohledampfkessel — EC Jaworzno",
-        "description": "Herstellung und Montage eines kohlebefeuerten Dampfkessels mit 30 MW für das Heizkraftwerk Jaworzno. Der Umfang umfasste den gesamten Zyklus — von der Ausführungsplanung über die Produktion der Druckbauteile bis hin zu Montage, Inbetriebnahme und Schulung des Betriebspersonals.",
-        "category": "Dampfkessel"
+        "id": "halle",
+        "title": "Kesselmodernisierung — Halle (Deutschland)",
+        "description": "Umfassende Modernisierung eines Dampfkessels an einem Energieobjekt in Halle. Der Leistungsumfang umfasste den Austausch von Druckbauteilen, Rohrleitungen und Wärmedämmung.",
+        "category": "Modernisierungen"
       },
       {
-        "id": "kociol-parowy-el-lodz",
-        "title": "45-MW-Kohledampfkessel — EC Łódź",
-        "description": "Herstellung eines 45-MW-Dampfkessels für das Heizkraftwerk Łódź. Das Projekt wurde gemäß PN-EN 12952-3 ausgeführt und umfasste die Produktion von Membranwänden, Dampfüberhitzern und Wasservorwärmern.",
-        "category": "Dampfkessel"
-      },
-      {
-        "id": "kociol-parowy-el-szczecin",
-        "title": "20-MW-Kohledampfkessel — Elektrownia Szczecin",
-        "description": "Lieferung und Montage eines 20-MW-Dampfkessels für das Kraftwerk Szczecin. Der Leistungsumfang umfasste Kesselproduktion, Dampfrohrleitungen sowie die Installation des Entaschungssystems.",
-        "category": "Dampfkessel"
-      },
-      {
-        "id": "kociol-parowy-export-niemcy",
-        "title": "35-MW-Dampfkessel — Kraftwerk Bayern (Deutschland)",
-        "description": "Herstellung eines 35-MW-Dampfkessels im Auftrag eines deutschen Partners. Das Projekt wurde gemäß TÜV-Standards für den deutschen Markt ausgeführt.",
-        "category": "Dampfkessel"
-      },
-      {
-        "id": "kociol-wodny-cieplownia-raciboz",
-        "title": "8-MW-Heizwasserkessel — Fernheizwerk Racibórz",
-        "description": "Bau eines 8-MW-Heizwasserkessels für das städtische Fernheizwerk in Racibórz. Der kohlebefeuerte Kessel ist für den Betrieb im Fernwärmenetz ausgelegt.",
-        "category": "Wasserkessel"
-      },
-      {
-        "id": "kociol-wodny-krakow",
-        "title": "12-MW-Heizwasserkessel — Industriebetrieb Kraków",
-        "description": "Lieferung und Inbetriebnahme eines 12-MW-Heizwasserkessels für einen Industriebetrieb in Kraków. Die Arbeiten umfassten Planung, Fertigung, Montage, UDT-Abnahmen sowie Schulung des Betriebspersonals.",
-        "category": "Wasserkessel"
-      },
-      {
-        "id": "kociol-gazowy-wroclaw",
-        "title": "15-MW-Gaskessel — Fabrik Wrocław",
-        "description": "Herstellung und Montage eines 15-MW-Gaskessels mit Mehrstoffbrennern. Die Anlage ist mit einem modernen Steuerungs- und Prozessüberwachungssystem ausgestattet.",
-        "category": "Gaskessel"
-      },
-      {
-        "id": "kociol-gazowy-export-czechy",
-        "title": "10-MW-Gaskessel — Teplárna Brno (Tschechien)",
-        "description": "Lieferung eines 10-MW-Gaskessels an einen tschechischen Kunden. Das Projekt wurde in Zusammenarbeit mit einem lokalen Partner gemäß CE-Normen und den Anforderungen des tschechischen Marktes ausgeführt.",
-        "category": "Gaskessel"
-      },
-      {
-        "id": "kociol-biomasowy-bydgoszcz",
-        "title": "25-MW-Biomassekessel — Fernheizwerk Bydgoszcz",
-        "description": "Komplette Realisierung eines mit Holzhackschnitzeln befeuerten 25-MW-Biomassekessels. Das Projekt umfasste den gesamten Umfang — Planung, Fertigung, Montage und Inbetriebnahme einschließlich des Brennstoffzufuhrsystems.",
-        "category": "Biomasse"
-      },
-      {
-        "id": "kociol-biomasowy-poznan",
-        "title": "20-MW-Biomassekessel — EC Poznań",
-        "description": "Bau eines 20-MW-Biomassekessels für das Heizkraftwerk Poznań. Der Kessel ist für die Verbrennung von Forst- und Landwirtschaftsbiomasse ausgelegt und mit einem modernen Rauchgasentstaubungssystem ausgestattet.",
-        "category": "Biomasse"
-      },
-      {
-        "id": "kociol-rdf-krakow",
-        "title": "18-MW-RDF-Kessel — Abfallverbrennungsanlage Kraków",
-        "description": "Herstellung eines für die Verbrennung von Ersatzbrennstoff RDF ausgelegten Dampfkessels mit 18 MW. Die Anlage erfüllt die Anforderungen der IED-Richtlinie hinsichtlich Schadstoffemissionen.",
-        "category": "Biomasse"
-      },
-      {
-        "id": "kociol-biomasowy-export-austria",
-        "title": "Biomassekessel — Heizkraftwerk Graz (Österreich)",
-        "description": "Lieferung von Druckbauteilen für einen Biomassekessel an einen österreichischen Partner. Das Projekt wurde gemäß SVTI/ASIT-Normen und den Anforderungen des österreichischen Marktes ausgeführt.",
-        "category": "Biomasse"
-      },
-      {
-        "id": "rurociagi-rafineria-gdansk",
-        "title": "Prozessrohrleitungen — Raffinerie Gdańsk",
-        "description": "Ausführung von Hochdruck-Prozessrohrleitungen gemäß PN-EN 13480. Der Umfang umfasste Planung, Vorfertigung, Montage vor Ort sowie UDT-Abnahmen.",
+        "id": "kluczewo",
+        "title": "Prozessrohrleitungen — Kluczewo",
+        "description": "Montage von Hochdruck-Prozessrohrleitungen gemäß PN-EN 13480. Vorfertigung und Montage vor Ort mit vollständigem UDT-Abnahmeumfang.",
         "category": "Rohrleitungen"
       },
       {
-        "id": "rurociagi-pulawy",
-        "title": "Dampfrohrleitungen — Chemiewerk Puławy",
-        "description": "Modernisierung und Erweiterung des Dampfrohrleitungsnetzes bei den Stickstoffwerken Puławy. Die Arbeiten wurden in kurzen Wartungsfenstern ohne Produktionsunterbrechung des Werks ausgeführt.",
+        "id": "kruszwica_2024",
+        "title": "Generalüberholung — Kruszwica 2024",
+        "description": "Generalüberholung eines Dampfkessels im Werk Kruszwica. Austausch der Membranwände, Reparatur der Überhitzer und Modernisierung des Verbrennungssystems gemäß aktuellen Emissionsnormen.",
+        "category": "Modernisierungen"
+      },
+      {
+        "id": "kussnacht",
+        "title": "Kesselproduktion — Küssnacht (Schweiz)",
+        "description": "Herstellung von Druckbauteilen eines Dampfkessels für einen Schweizer Partner. Ausführung gemäß SVTI/ASIT-Normen und den Anforderungen der schweizerischen technischen Überwachungsbehörde.",
+        "category": "Dampfkessel"
+      },
+      {
+        "id": "malbork",
+        "title": "Anlagenmontage — Malbork",
+        "description": "Montage von Energieanlagen an einem Objekt in Malbork. Die Arbeiten umfassten die Installation von Rohrleitungen, Armaturen und Hilfssystemen gemäß technischer Dokumentation.",
+        "category": "Modernisierungen"
+      },
+      {
+        "id": "munkedal_2022",
+        "title": "Modernisierung — Munkedal 2024 (Schweden)",
+        "description": "Modernisierung eines Biomassekessels am Objekt in Munkedal. Austausch von Druckbauteilen und Rohrleitungen mit Anpassung der Anlage an neue Betriebsparameter.",
+        "category": "Modernisierungen"
+      },
+      {
+        "id": "poznan",
+        "title": "Biomassekessel — Posen",
+        "description": "Herstellung und Montage eines mit Holzhackschnitzeln befeuerten Biomassekessels für einen Kunden in Poznań. Die Anlage umfasst ein modernes Brennstoffzufuhr- und Rauchgasentstaubungssystem.",
+        "category": "Biomasse"
+      },
+      {
+        "id": "wyszkow",
+        "title": "Dampfkessel — Wyszków",
+        "description": "Vollständige Realisierung eines Dampfkessels für ein Energiewerk in Wyszków. Der Umfang umfasste Planung, Herstellung der Druckbauteile, Montage und Inbetriebnahme.",
+        "category": "Dampfkessel"
+      },
+      {
+        "id": "benkovac",
+        "title": "Modernisierung — Benkovec (Serbien)",
+        "description": "Modernisierung einer Kesselanlage an einem Industrieobjekt in Benkovec. Lieferung und Montage von Druckbauteilen und Rohrleitungen gemäß Ausführungsplanung.",
+        "category": "Modernisierungen"
+      },
+      {
+        "id": "dabrowa_gornicza",
+        "title": "Prozessrohrleitungen — Dąbrowa Górnicza",
+        "description": "Vorfertigung und Montage von Prozessrohrleitungen an einem Energieobjekt in Dąbrowa Górnicza. Ausführung gemäß PN-EN 13480 mit UDT-Abnahmen.",
         "category": "Rohrleitungen"
       },
       {
-        "id": "rurociagi-warszawa",
-        "title": "Hochdruckrohrleitungen — EC Warszawa",
-        "description": "Montage von Hochdruck-Heißdampfrohrleitungen für das Heizkraftwerk Warszawa. Das Projekt umfasste über 2 km Rohrleitungen DN50–DN500 mit Armaturen und Rohrhalterungen.",
+        "id": "gliwice",
+        "title": "Dampfkessel — Gleiwitz",
+        "description": "Herstellung und Montage eines Dampfkessels für einen Industriebetrieb in Gliwice. Vollständiger Projektumfang — von der technischen Dokumentation bis zu Abnahmen und Inbetriebnahme.",
+        "category": "Dampfkessel"
+      },
+      {
+        "id": "kruszwica_2010",
+        "title": "Dampfkessel — Kruszwica 2010",
+        "description": "Herstellung und Montage eines Dampfkessels für einen Industriebetrieb in Kruszwica. Vollständiger Projektumfang — von der Ausführungsplanung bis zur Inbetriebnahme und Personalschulung.",
+        "category": "Dampfkessel"
+      },
+      {
+        "id": "lacq_2008",
+        "title": "Pilotkessel OS-5 — Total-Raffinerie, Lacq (Frankreich)",
+        "description": "Planung, Herstellung, Lieferung und Montage des Wärmerückgewinnungskessels OS-5 für die Total-Raffinerie in Lacq — Pilotanlage zur Wirbelschicht-Vergasung von Abfällen. Inbetriebnahme Januar 2009.",
+        "category": "Biomasse"
+      },
+      {
+        "id": "lacq_2011",
+        "title": "Rohrleitungen — Lacq 2011 (Frankreich)",
+        "description": "Fortsetzung der Rohrleitunsarbeiten am Objekt in Lacq. Montage von Hochdruckanlagen und Armaturen gemäß europäischen Normen.",
         "category": "Rohrleitungen"
       },
       {
-        "id": "rurociagi-export-francja",
-        "title": "Rohrleitungen — Centrale Thermique Lyon (Frankreich)",
-        "description": "Vorfertigung und Lieferung von Rohrleitungskomponenten für ein französisches Wärmekraftwerk. Komponenten aus P91- und P22-Werkstoffen gemäß technischer Dokumentation des Auftraggebers.",
+        "id": "lenzing",
+        "title": "Biomassekessel — Lenzing (Österreich)",
+        "description": "Lieferung von Druckbauteilen eines Biomassekessels für einen Industriebetrieb in Lenzing. Ausführung gemäß SVTI/ASIT-Normen und den Anforderungen des österreichischen Marktes.",
+        "category": "Biomasse"
+      },
+      {
+        "id": "munkedal_2021",
+        "title": "Biomassekessel — Munkedal 2021 (Schweden)",
+        "description": "Lieferung und Montage von Biomassekesselkomponenten für einen schwedischen Industriebetrieb. Projekt 2021 gemäß europäischen technischen Normen ausgeführt.",
+        "category": "Biomasse"
+      },
+      {
+        "id": "plock",
+        "title": "Prozessrohrleitungen — Płock",
+        "description": "Ausführung von Hochdruck-Prozessrohrleitungen an einem Objekt in Płock. Der Umfang umfasste Planung, Vorfertigung, Montage vor Ort und UDT-Abnahmen.",
         "category": "Rohrleitungen"
       },
       {
-        "id": "modernizacja-ec-katowice",
-        "title": "Kesselmodernisierung 40 MW — EC Katowice",
-        "description": "Umfassende Modernisierung eines 40-MW-Dampfkessels — Austausch von Überhitzern, Vorwärmern und Membranwänden. Die Arbeiten wurden während der planmäßigen Generalüberholung des Heizkraftwerks ausgeführt.",
+        "id": "rybnik",
+        "title": "Hilfsanlagen — Rybnik",
+        "description": "Montage von Hilfsanlagen des Kesselsystems in Rybnik. Der Leistungsumfang umfasste Speisewasserrohrleitungen, Entwässerungen, Entlüftungen und Regelarmaturen.",
         "category": "Modernisierungen"
       },
       {
-        "id": "modernizacja-cieplownia-opole",
-        "title": "Kesselmodernisierung 30 MW — Fernheizwerk Opole",
-        "description": "Überholung und Modernisierung eines 30-MW-Heizwasserkessels durch Austausch der Wärmetauscherkomponenten und des Verbrennungssystems. Der Umfang umfasste auch die Anpassung der Anlage an neue Emissionsnormen.",
+        "id": "siekierki",
+        "title": "Dampfkessel — Siekierki",
+        "description": "Herstellung und Montage eines Dampfkessels für das Heizkraftwerk Siekierki. Vollständiger Umfang — Membranwände, Überhitzer, Wasservorwärmer und Dampfrohrleitungen.",
+        "category": "Dampfkessel"
+      },
+      {
+        "id": "sokolow",
+        "title": "Zweizügiger Wärmerückgewinnungskessel — Sokołów (Tschechien)",
+        "description": "Herstellung und Lieferung eines zweizügigen Wärmerückgewinnungskessels für einen tschechischen Kunden: 18 t/h Dampf, 415°C. Als einzelner 35-Tonnen-Block im April 2008 geliefert.",
+        "category": "Dampfkessel"
+      },
+      {
+        "id": "walcz",
+        "title": "Biomasse-KWK OS-14 + 2×XU-8,5 — Wałcz",
+        "description": "Biomasse-Kraft-Wärme-Kopplung in Wałcz: Kessel OS-14 (14 t/h, 4,5 MPa, 460°C) + 2 Wärmerückgewinnungskessel XU-8,5 (je 11 t/h) + Turbogenerator ~7 MW. Investor M-PLUS, GU AWBUD.",
+        "category": "Biomasse"
+      },
+      {
+        "id": "zbiersk",
+        "title": "Modernisierung — Zbiersk",
+        "description": "Modernisierung eines Dampfkessels an einem Energieobjekt in Zbiersk. Austausch von Druckbauteilen und Anpassung der Anlage an aktuelle technische Normen.",
         "category": "Modernisierungen"
       },
       {
-        "id": "remont-el-kozienice",
-        "title": "Generalüberholung — Kraftwerk Kozienice",
-        "description": "Generalüberholung eines Dampfkessels einschließlich Austausch der Membranwände, Reparatur der Überhitzer und Austausch der Armaturen. Die Arbeiten wurden in enger Koordination mit dem Wartungsplan des Kraftwerks durchgeführt.",
-        "category": "Modernisierungen"
+        "id": "zdunska_wola",
+        "title": "Dampfkessel — Zduńska Wola",
+        "description": "Herstellung und Montage eines Dampfkessels für einen Industriebetrieb in Zduńska Wola. Vollständiger Projektumfang — von der Ausführungsplanung bis zur Inbetriebnahme und Personalschulung.",
+        "category": "Dampfkessel"
       },
       {
-        "id": "modernizacja-ec-gdynia",
-        "title": "Dampfsystemmodernisierung — EC Gdynia",
-        "description": "Modernisierung des Dampfsystems des Turbosatzes im Heizkraftwerk Gdynia. Der Arbeitsumfang umfasste den Austausch von Frischdampfrohrleitungen, Regelventilen und Wärmedämmung.",
-        "category": "Modernisierungen"
-      },
-      {
-        "id": "instalacje-el-rybnik",
-        "title": "Hilfsanlagen — Kraftwerk Rybnik",
-        "description": "Ausführung der Hilfsanlagen der Kraftwerksblöcke des Kraftwerks Rybnik. Die Arbeiten umfassten die Montage von Speisewasserrohrleitungen, Entwässerungen und Entlüftungen des Kesselsystems.",
-        "category": "Modernisierungen"
-      },
-      {
-        "id": "modernizacja-export-uk",
-        "title": "Modernisierung — Power Station (Großbritannien)",
-        "description": "Lieferung und Montage von Druckbauteilen für ein modernisiertes Kraftwerk in Großbritannien. Das Projekt wurde in einem Konsortium mit einem britischen Partner gemäß BS-Normen und UK-Marktanforderungen ausgeführt.",
-        "category": "Modernisierungen"
-      },
-      {
-        "id": "modernizacja-export-szwajcaria",
-        "title": "Modernisierung — Heizkraftwerk (Schweiz)",
-        "description": "Lieferung von Kesselkomponenten und Rohrleitungen für ein Schweizer Heizkraftwerk. Ausführung gemäß SVTI/ASIT-Normen und Anforderungen der schweizerischen technischen Überwachungsbehörde.",
-        "category": "Modernisierungen"
-      },
-      {
-        "id": "kociol-parowy-export-indie",
-        "title": "Dampfkessel — Power Plant (Indien)",
-        "description": "Herstellung und Lieferung von Druckbauteilen eines Dampfkessels für einen indischen Investor. Das Projekt wurde gemäß IBR (Indian Boiler Regulations) und den Anforderungen des Auftraggebers ausgeführt.",
+        "id": "zulpich",
+        "title": "Kesselmontage — Zülpich (Deutschland)",
+        "description": "Montage eines Dampfkessels an einem Industrieobjekt in Zülpich. Ausführung gemäß TÜV-Standards mit vollständigem Prüf- und Abnahmeumfang für den deutschen Markt.",
         "category": "Dampfkessel"
       }
     ]

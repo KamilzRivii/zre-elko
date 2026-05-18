@@ -22,7 +22,7 @@
     "ctaSecondary": "Get in touch",
     "stats": [
       {
-        "value": "15+",
+        "value": "35+",
         "label": "years of experience"
       },
       {
@@ -274,147 +274,147 @@
     "gallery": "Photo gallery",
     "items": [
       {
-        "id": "kociol-parowy-ec-jaworzno",
-        "title": "30 MW coal-fired steam boiler — EC Jaworzno",
-        "description": "Manufacturing and installation of a 30 MW coal-fired steam boiler for Elektrociepłownia Jaworzno. The scope covered the full cycle — from detail design, through pressure element production, to installation, commissioning and operator training.",
-        "category": "Steam boilers"
+        "id": "halle",
+        "title": "Boiler modernisation — Halle (Germany)",
+        "description": "Comprehensive modernisation of a steam boiler at an energy facility in Halle. The scope of work included replacement of pressure elements, pipelines and thermal insulation.",
+        "category": "Modernisations"
       },
       {
-        "id": "kociol-parowy-el-lodz",
-        "title": "45 MW coal-fired steam boiler — EC Łódź",
-        "description": "Manufacture of a 45 MW steam boiler for the Łódź combined heat and power plant. The project was executed in compliance with PN-EN 12952-3 and included production of membrane walls, steam superheaters and water preheaters.",
-        "category": "Steam boilers"
-      },
-      {
-        "id": "kociol-parowy-el-szczecin",
-        "title": "20 MW coal-fired steam boiler — Elektrownia Szczecin",
-        "description": "Supply and installation of a 20 MW steam boiler for Elektrownia Szczecin. The scope of work included boiler production, steam pipelines and installation of the ash-removal system.",
-        "category": "Steam boilers"
-      },
-      {
-        "id": "kociol-parowy-export-niemcy",
-        "title": "35 MW steam boiler — Kraftwerk Bayern (Germany)",
-        "description": "Manufacture of a 35 MW steam boiler for a German partner. The project was executed in accordance with TÜV standards for the German market.",
-        "category": "Steam boilers"
-      },
-      {
-        "id": "kociol-wodny-cieplownia-raciboz",
-        "title": "8 MW hot-water boiler — Ciepłownia Racibórz",
-        "description": "Construction of an 8 MW hot-water boiler for the municipal heat plant in Racibórz. The coal-fired boiler is adapted for operation in a district heating network.",
-        "category": "Water boilers"
-      },
-      {
-        "id": "kociol-wodny-krakow",
-        "title": "12 MW hot-water boiler — Industrial Plant Kraków",
-        "description": "Supply and commissioning of a 12 MW hot-water boiler for an industrial plant in Kraków. Work included design, manufacture, installation, UDT acceptance and operator training.",
-        "category": "Water boilers"
-      },
-      {
-        "id": "kociol-gazowy-wroclaw",
-        "title": "15 MW gas-fired boiler — Factory Wrocław",
-        "description": "Manufacture and installation of a 15 MW gas-fired boiler with multi-fuel burners. The installation is equipped with a modern control and process-monitoring system.",
-        "category": "Gas boilers"
-      },
-      {
-        "id": "kociol-gazowy-export-czechy",
-        "title": "10 MW gas-fired boiler — Teplárna Brno (Czech Republic)",
-        "description": "Delivery of a 10 MW gas-fired boiler to a Czech client. The project was executed in cooperation with a local partner, in compliance with CE standards and Czech market requirements.",
-        "category": "Gas boilers"
-      },
-      {
-        "id": "kociol-biomasowy-bydgoszcz",
-        "title": "25 MW biomass boiler — Ciepłownia Bydgoszcz",
-        "description": "Complete delivery of a 25 MW wood-chip biomass boiler. The project covered the full scope — design, manufacture, installation and commissioning of the plant including the fuel-feeding system.",
-        "category": "Biomass"
-      },
-      {
-        "id": "kociol-biomasowy-poznan",
-        "title": "20 MW biomass boiler — EC Poznań",
-        "description": "Construction of a 20 MW biomass boiler for the Poznań combined heat and power plant. The boiler is designed for burning forestry and agricultural biomass and is equipped with a modern flue-gas dedusting system.",
-        "category": "Biomass"
-      },
-      {
-        "id": "kociol-rdf-krakow",
-        "title": "18 MW RDF boiler — Waste-to-Energy Plant Kraków",
-        "description": "Manufacture of a steam boiler adapted for burning RDF alternative fuel with a capacity of 18 MW. The installation meets the requirements of the IED directive regarding pollutant emissions.",
-        "category": "Biomass"
-      },
-      {
-        "id": "kociol-biomasowy-export-austria",
-        "title": "Biomass boiler — Heizkraftwerk Graz (Austria)",
-        "description": "Supply of pressure components for a biomass boiler for an Austrian partner. The project was executed in accordance with SVTI/ASIT standards and Austrian market requirements.",
-        "category": "Biomass"
-      },
-      {
-        "id": "rurociagi-rafineria-gdansk",
-        "title": "Process pipelines — Gdańsk Refinery",
-        "description": "Fabrication of high-pressure process pipelines in accordance with PN-EN 13480. The scope included design, prefabrication, on-site installation and UDT acceptance.",
+        "id": "kluczewo",
+        "title": "Process pipelines — Kluczewo",
+        "description": "Installation of high-pressure process pipelines in accordance with PN-EN 13480. Prefabrication and on-site assembly with full UDT inspection scope.",
         "category": "Pipelines"
       },
       {
-        "id": "rurociagi-pulawy",
-        "title": "Steam pipelines — Chemical Plant Puławy",
-        "description": "Modernisation and expansion of the steam pipeline network at Zakłady Azotowe Puławy. Work was carried out within short maintenance windows without interrupting plant production.",
+        "id": "kruszwica_2024",
+        "title": "Major overhaul — Kruszwica 2024",
+        "description": "Major overhaul of a steam boiler at the Kruszwica plant. Replacement of membrane walls, repair of superheaters and combustion system modernisation to meet current emission standards.",
+        "category": "Modernisations"
+      },
+      {
+        "id": "kussnacht",
+        "title": "Boiler production — Küssnacht (Switzerland)",
+        "description": "Manufacture of pressure components for a steam boiler for a Swiss partner. Execution in compliance with SVTI/ASIT standards and requirements of the Swiss technical inspection authority.",
+        "category": "Steam boilers"
+      },
+      {
+        "id": "malbork",
+        "title": "Plant installation — Malbork",
+        "description": "Installation of energy systems at a facility in Malbork. Work covered pipeline installation, valves and auxiliary systems in accordance with the technical documentation.",
+        "category": "Modernisations"
+      },
+      {
+        "id": "munkedal_2022",
+        "title": "Modernisation — Munkedal 2024 (Sweden)",
+        "description": "Modernisation of a biomass boiler at the Munkedal facility. Replacement of pressure elements and pipelines with adaptation to new operating parameters.",
+        "category": "Modernisations"
+      },
+      {
+        "id": "poznan",
+        "title": "Biomass boiler — Poznań",
+        "description": "Manufacture and installation of a wood-chip biomass boiler for a client in Poznań. The installation includes a modern fuel-feeding system and flue-gas dedusting.",
+        "category": "Biomass"
+      },
+      {
+        "id": "wyszkow",
+        "title": "Steam boiler — Wyszków",
+        "description": "Comprehensive delivery of a steam boiler for an energy plant in Wyszków. The scope covered design, manufacture of pressure elements, installation and commissioning.",
+        "category": "Steam boilers"
+      },
+      {
+        "id": "benkovac",
+        "title": "Modernisation — Benkovec (Serbia)",
+        "description": "Modernisation of a boiler installation at an industrial facility in Benkovec. Supply and assembly of pressure elements and pipelines in accordance with the execution design.",
+        "category": "Modernisations"
+      },
+      {
+        "id": "dabrowa_gornicza",
+        "title": "Process pipelines — Dąbrowa Górnicza",
+        "description": "Prefabrication and installation of process pipelines at an energy facility in Dąbrowa Górnicza. Work executed in compliance with PN-EN 13480 with UDT inspections.",
         "category": "Pipelines"
       },
       {
-        "id": "rurociagi-warszawa",
-        "title": "High-pressure pipelines — EC Warszawa",
-        "description": "Installation of high-pressure superheated steam pipelines for Elektrociepłownia Warszawa. The project covered over 2 km of DN50–DN500 pipelines with valves and supports.",
+        "id": "gliwice",
+        "title": "Steam boiler — Gliwice",
+        "description": "Manufacture and installation of a steam boiler for an industrial plant in Gliwice. Full project scope — from technical documentation through inspections and commissioning.",
+        "category": "Steam boilers"
+      },
+      {
+        "id": "kruszwica_2010",
+        "title": "Steam boiler — Kruszwica 2010",
+        "description": "Manufacture and installation of a steam boiler for an industrial plant in Kruszwica. Full project scope — from detail design through commissioning and operator training.",
+        "category": "Steam boilers"
+      },
+      {
+        "id": "lacq_2008",
+        "title": "Pilot boiler OS-5 — Total Refinery, Lacq (France)",
+        "description": "Design, manufacture, supply and installation of the OS-5 heat recovery boiler for Total Refinery in Lacq — pilot fluidised-bed waste gasification plant. Commissioned January 2009.",
+        "category": "Biomass"
+      },
+      {
+        "id": "lacq_2011",
+        "title": "Pipelines — Lacq 2011 (France)",
+        "description": "Continuation of pipeline works at the Lacq site. Installation of high-pressure systems and valves in compliance with European standards.",
         "category": "Pipelines"
       },
       {
-        "id": "rurociagi-export-francja",
-        "title": "Pipelines — Centrale Thermique Lyon (France)",
-        "description": "Prefabrication and supply of pipeline components for a French thermal power plant. Components made from P91 and P22 materials in accordance with the client's technical documentation.",
+        "id": "lenzing",
+        "title": "Biomass boiler — Lenzing (Austria)",
+        "description": "Supply of pressure components for a biomass boiler at an industrial plant in Lenzing. Execution in compliance with SVTI/ASIT standards and Austrian market requirements.",
+        "category": "Biomass"
+      },
+      {
+        "id": "munkedal_2021",
+        "title": "Biomass boiler — Munkedal 2021 (Sweden)",
+        "description": "Supply and assembly of biomass boiler components for a Swedish industrial plant. Project completed in 2021 in accordance with European technical standards.",
+        "category": "Biomass"
+      },
+      {
+        "id": "plock",
+        "title": "Process pipelines — Płock",
+        "description": "Fabrication of high-pressure process pipelines at a facility in Płock. The scope included design, prefabrication, on-site assembly and UDT inspections.",
         "category": "Pipelines"
       },
       {
-        "id": "modernizacja-ec-katowice",
-        "title": "Boiler modernisation 40 MW — EC Katowice",
-        "description": "Comprehensive modernisation of a 40 MW steam boiler — replacement of superheaters, preheaters and membrane walls. Work was completed during the planned major overhaul of the combined heat and power plant.",
+        "id": "rybnik",
+        "title": "Auxiliary installations — Rybnik",
+        "description": "Installation of auxiliary boiler-system components in Rybnik. The scope of work covered feed-water pipelines, drains, vents and control valves.",
         "category": "Modernisations"
       },
       {
-        "id": "modernizacja-cieplownia-opole",
-        "title": "Boiler modernisation 30 MW — Ciepłownia Opole",
-        "description": "Overhaul and modernisation of a 30 MW hot-water boiler consisting of replacement of heat exchanger components and the combustion system. The scope also included adaptation of the installation to new emission standards.",
+        "id": "siekierki",
+        "title": "Steam boiler — Siekierki",
+        "description": "Manufacture and installation of a steam boiler at Elektrociepłownia Siekierki. Comprehensive scope — membrane walls, superheaters, water preheaters and steam pipelines.",
+        "category": "Steam boilers"
+      },
+      {
+        "id": "sokolow",
+        "title": "Two-pass heat recovery boiler — Sokołów (Czech Republic)",
+        "description": "Manufacture and delivery of a two-pass heat recovery boiler for a Czech client: 18 t/h steam, 415°C. Delivered as a single 35-tonne block in April 2008.",
+        "category": "Steam boilers"
+      },
+      {
+        "id": "walcz",
+        "title": "Biomass CHP OS-14 + 2×XU-8.5 — Wałcz",
+        "description": "Biomass combined heat and power plant in Wałcz: OS-14 boiler (14 t/h, 4.5 MPa, 460°C) + 2 heat recovery boilers XU-8.5 (11 t/h each) + ~7 MW turbogenerator. Investor M-PLUS, GC AWBUD.",
+        "category": "Biomass"
+      },
+      {
+        "id": "zbiersk",
+        "title": "Modernisation — Zbiersk",
+        "description": "Modernisation of a steam boiler at an energy facility in Zbiersk. Replacement of pressure elements and adaptation of the installation to current technical standards.",
         "category": "Modernisations"
       },
       {
-        "id": "remont-el-kozienice",
-        "title": "Major overhaul — Elektrownia Kozienice",
-        "description": "Major overhaul of a steam boiler including replacement of membrane walls, repair of superheaters and replacement of valves. Work was carried out in close coordination with the power plant's maintenance schedule.",
-        "category": "Modernisations"
+        "id": "zdunska_wola",
+        "title": "Steam boiler — Zduńska Wola",
+        "description": "Manufacture and installation of a steam boiler for an industrial plant in Zduńska Wola. Full project scope — from detail design through commissioning and operator training.",
+        "category": "Steam boilers"
       },
       {
-        "id": "modernizacja-ec-gdynia",
-        "title": "Steam system modernisation — EC Gdynia",
-        "description": "Modernisation of the steam system of the turbine set at the Gdynia combined heat and power plant. The scope of work included replacement of fresh-steam pipelines, control valves and thermal insulation.",
-        "category": "Modernisations"
-      },
-      {
-        "id": "instalacje-el-rybnik",
-        "title": "Auxiliary installations — Elektrownia Rybnik",
-        "description": "Construction of auxiliary installations for the power units of Elektrownia Rybnik. Work included installation of feed-water pipelines, drains and vents of the boiler system.",
-        "category": "Modernisations"
-      },
-      {
-        "id": "modernizacja-export-uk",
-        "title": "Modernisation — Power Station (United Kingdom)",
-        "description": "Supply and installation of pressure components for a modernised power station in the United Kingdom. The project was carried out in a consortium with a British partner, in compliance with BS standards and UK market requirements.",
-        "category": "Modernisations"
-      },
-      {
-        "id": "modernizacja-export-szwajcaria",
-        "title": "Modernisation — Heizkraftwerk (Switzerland)",
-        "description": "Supply of boiler components and pipelines for a Swiss combined heat and power plant. Execution compliant with SVTI/ASIT standards and requirements of the Swiss technical inspection authority.",
-        "category": "Modernisations"
-      },
-      {
-        "id": "kociol-parowy-export-indie",
-        "title": "Steam boiler — Power Plant (India)",
-        "description": "Manufacture and supply of pressure components for a steam boiler for an Indian investor. The project was executed in compliance with IBR (Indian Boiler Regulations) and client requirements.",
+        "id": "zulpich",
+        "title": "Boiler assembly — Zülpich (Germany)",
+        "description": "Assembly of a steam boiler at an industrial facility in Zülpich. Execution in compliance with TÜV standards with full testing and acceptance for the German market.",
         "category": "Steam boilers"
       }
     ]

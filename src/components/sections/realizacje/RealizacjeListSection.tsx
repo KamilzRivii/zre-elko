@@ -70,9 +70,9 @@ export function RealizacjeListSection() {
                   className="h-48 w-full flex items-center justify-center border-b"
                   style={{ backgroundColor: "#1b3a2a", borderColor: `${colors.logo}20` }}
                 >
-                  {real?.photos[0] ? (
+                  {(real?.thumbnail ?? real?.photos[0]) ? (
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img src={real.photos[0]} alt={item.title} className="h-full w-full object-cover" />
+                    <img src={real.thumbnail ?? real.photos[0]} alt={item.title} className="h-full w-full object-cover" />
                   ) : (
                     <span className="text-xs text-white/20 uppercase tracking-widest">
                       {t("noPhoto")}
