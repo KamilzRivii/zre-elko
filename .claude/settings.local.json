@@ -5,7 +5,8 @@
       "Bash(rm \"C:\\\\Users\\\\kamil\\\\zre-elko\\\\src\\\\middleware.ts\")",
       "Bash(powershell -Command \"Get-Content 'C:\\\\Users\\\\kamil\\\\zre-elko\\\\src\\\\types\\\\realizacje.ts'\")",
       "Bash(powershell.exe -Command \"\n\\\\$content = Get-Content -LiteralPath 'C:\\\\Users\\\\kamil\\\\zre-elko\\\\messages\\\\pl.json' -Raw -Encoding UTF8\n\\\\$content.Length\n\")",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(npm run:*)"
     ]
   }
 }

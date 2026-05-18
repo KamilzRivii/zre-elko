@@ -7,7 +7,7 @@ export const homeContent = {
     ctaPrimary: { label: "Sprawdź ofertę", href: "/oferta" },
     ctaSecondary: { label: "Skontaktuj się", href: "/kontakt" },
     stats: [
-      { value: "15+", label: "lat doświadczenia" },
+      { value: "35+", label: "lat doświadczenia" },
       { value: "800+", label: "realizacji" },
       { value: "100%", label: "zgodność z normami" },
     ],
