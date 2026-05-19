@@ -55,7 +55,7 @@ function CountUp({ target, suffix, duration = 1600 }: { target: number; suffix: 
 
 export function StatsBar({ stats }: { stats: readonly Stat[] }) {
   return (
-    <div className="flex gap-4 sm:gap-6">
+    <div className="flex flex-wrap gap-4 sm:flex-nowrap sm:gap-6">
       {stats.map((stat) => {
         const { num, suffix } = parseValue(stat.value)
         return (

@@ -2,6 +2,7 @@ import { Link } from "@/i18n/navigation"
 import { ArrowLeft } from "lucide-react"
 import { colors } from "@/lib/colors"
 import type { RealizacjaItem } from "@/types/realizacje"
+import { RealizacjaGallery } from "./RealizacjaGallery"
 
 interface Props {
   realizacja: RealizacjaItem
@@ -51,34 +52,7 @@ export function RealizacjaDetailSection({ realizacja, item }: Props) {
         <p className="text-xs font-semibold uppercase tracking-widest mb-5 text-white/40">
           Galeria zdjęć
         </p>
-        {realizacja.photos.length > 0 ? (
-          <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
-            {realizacja.photos.map((src) => (
-              <div
-                key={src}
-                className="relative aspect-[4/3] rounded-xl overflow-hidden border"
-                style={{ borderColor: `${colors.logo}20` }}
-              >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={src} alt={item.title} className="h-full w-full object-cover" />
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
-            {Array.from({ length: 6 }).map((_, i) => (
-              <div
-                key={i}
-                className="aspect-[4/3] rounded-xl border flex items-center justify-center"
-                style={{ backgroundColor: colors.buttonCta, borderColor: `${colors.logo}20` }}
-              >
-                <span className="text-xs text-white/20 uppercase tracking-widest">
-                  Zdjęcia wkrótce
-                </span>
-              </div>
-            ))}
-          </div>
-        )}
+        <RealizacjaGallery photos={realizacja.photos} title={item.title} />
 
       </div>
     </div>

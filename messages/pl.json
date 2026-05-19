@@ -7,6 +7,7 @@
     "development": "Rozwój",
     "staff": "Kadra",
     "gallery": "Galeria",
+    "liquefaction": "Upłynnienia",
     "contact": "Kontakt",
     "contactUs": "Napisz do nas"
   },
@@ -551,6 +552,17 @@
         "href": "#kontakt"
       }
     ]
+  },
+  "uplynnienia": {
+    "label": "Upłynnienia",
+    "headingLine1": "Aktualne",
+    "headingLine2": "upłynnienia",
+    "description": "Poniżej udostępniamy aktualne pliki z upłynnieniami. Pobierz plik, aby zapoznać się z aktualną listą.",
+    "downloadLabel": "Pobierz plik",
+    "fileLabel": "Upłynnienia ZRE ELKO",
+    "fileDate": "25.02.2020",
+    "fileFormat": "Format: XLSX",
+    "noFiles": "Brak aktualnych plików do pobrania."
   },
   "meta": {
     "defaultTitle": "ZRE ELKO — Kotły, rurociągi, energetyka",

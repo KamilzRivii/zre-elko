@@ -7,6 +7,7 @@
     "development": "Development",
     "staff": "Management",
     "gallery": "Gallery",
+    "liquefaction": "Liquidations",
     "contact": "Contact",
     "contactUs": "Contact us"
   },
@@ -527,6 +528,17 @@
         "href": "#kontakt"
       }
     ]
+  },
+  "uplynnienia": {
+    "label": "Liquidations",
+    "headingLine1": "Current",
+    "headingLine2": "liquidations",
+    "description": "Download the current liquidation files below. Open the file to view the latest listing.",
+    "downloadLabel": "Download file",
+    "fileLabel": "ZRE ELKO Liquidations",
+    "fileDate": "25.02.2020",
+    "fileFormat": "Format: XLSX",
+    "noFiles": "No files available for download."
   },
   "meta": {
     "defaultTitle": "ZRE ELKO — Boilers, pipelines, power engineering",

@@ -59,7 +59,7 @@ export async function CertyfikatySection() {
           })}
         </p>
 
-        <div className="grid grid-cols-2 gap-5 md:grid-cols-4 mb-12">
+        <div className="grid grid-cols-1 min-[575px]:grid-cols-2 gap-5 md:grid-cols-4 mb-12">
           {orgs.map(({ label, description }, i) => (
             <div
               key={certSrcs[i]}

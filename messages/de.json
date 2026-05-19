@@ -7,6 +7,7 @@
     "development": "Entwicklung",
     "staff": "Führung",
     "gallery": "Galerie",
+    "liquefaction": "Liquidierungen",
     "contact": "Kontakt",
     "contactUs": "Kontaktieren Sie uns"
   },
@@ -527,6 +528,17 @@
         "href": "#kontakt"
       }
     ]
+  },
+  "uplynnienia": {
+    "label": "Liquidierungen",
+    "headingLine1": "Aktuelle",
+    "headingLine2": "Liquidierungen",
+    "description": "Laden Sie die aktuellen Liquidierungsdateien herunter. Öffnen Sie die Datei, um die neueste Liste einzusehen.",
+    "downloadLabel": "Datei herunterladen",
+    "fileLabel": "ZRE ELKO Liquidierungen",
+    "fileDate": "25.02.2020",
+    "fileFormat": "Format: XLSX",
+    "noFiles": "Keine Dateien zum Herunterladen verfügbar."
   },
   "meta": {
     "defaultTitle": "ZRE ELKO — Kessel, Rohrleitungen, Energietechnik",

@@ -54,7 +54,7 @@ export async function HeroSection() {
         {/* Środkowy rząd — nagłówek po lewej, karta kontaktowa po prawej */}
         <div className="flex items-center justify-between gap-8">
           {/* Heading */}
-          <h1 className="text-5xl font-bold uppercase tracking-widest leading-tight md:text-6xl lg:text-7xl">
+          <h1 className="mt-36 sm:mt-0 max-[420px]:text-3xl text-4xl sm:text-5xl font-bold uppercase tracking-widest leading-tight md:text-6xl lg:text-7xl">
             <span className="text-white">{headingParts[0]}</span>
             <br />
             <span style={{ color: colors.logo }}>{headingParts[1]}</span>
@@ -62,10 +62,10 @@ export async function HeroSection() {
             <span className="text-white">{headingParts[2]}</span>
           </h1>
 
-          {/* Karta kontaktowa */}
+          {/* Karta kontaktowa — xl+ w środkowym rzędzie */}
           <Link
             href="/#kontakt"
-            className="hidden lg:flex flex-col gap-4 rounded-2xl border border-white/20 bg-white/10 backdrop-blur-md px-7 py-6 w-72 shrink-0 hover:bg-white/15 transition-colors group"
+            className="hidden xl:flex flex-col gap-4 rounded-2xl border border-white/20 bg-white/10 backdrop-blur-md px-7 py-6 w-72 shrink-0 hover:bg-white/15 transition-colors group"
           >
             <div className="flex items-center justify-between">
               <span className="text-xs font-semibold uppercase tracking-widest text-white/60">{t("contactLabel")}</span>
@@ -116,8 +116,57 @@ export async function HeroSection() {
           </Link>
         </div>
 
+        {/* Karta kontaktowa — lg–xl: przy dolnej krawędzi po prawej */}
+        <Link
+          href="/#kontakt"
+          className="hidden lg:flex xl:hidden absolute bottom-28 right-0 flex-col gap-4 rounded-2xl border border-white/20 bg-white/10 backdrop-blur-md px-7 py-6 w-72 shrink-0 hover:bg-white/15 transition-colors group"
+        >
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-semibold uppercase tracking-widest text-white/60">{t("contactLabel")}</span>
+            <ArrowRight className="size-4 text-white/40 group-hover:text-white/70 transition-colors" />
+          </div>
+          <div className="h-px bg-white/15" />
+          <div className="flex flex-col gap-3">
+            <div className="flex items-center gap-3">
+              <div className="flex size-8 shrink-0 items-center justify-center rounded-lg" style={{ backgroundColor: colors.buttonCta }}>
+                <Phone className="size-3.5" style={{ color: colors.logo }} />
+              </div>
+              <div className="flex flex-col">
+                {company.phone.map((p) => (
+                  <span key={p} className="text-sm text-white">{p}</span>
+                ))}
+              </div>
+            </div>
+            <div className="flex items-center gap-3">
+              <div className="flex size-8 shrink-0 items-center justify-center rounded-lg" style={{ backgroundColor: colors.buttonCta }}>
+                <Mail className="size-3.5" style={{ color: colors.logo }} />
+              </div>
+              <span className="text-sm text-white">{company.email}</span>
+            </div>
+            <div className="flex items-center gap-3">
+              <div className="flex size-8 shrink-0 items-center justify-center rounded-lg" style={{ backgroundColor: colors.buttonCta }}>
+                <MapPin className="size-3.5" style={{ color: colors.logo }} />
+              </div>
+              <span className="text-sm text-white leading-snug">
+                {company.address.street}<br />
+                {company.address.postalCode} {company.address.city}
+              </span>
+            </div>
+            <div className="flex items-center gap-3">
+              <div className="flex size-8 shrink-0 items-center justify-center rounded-lg" style={{ backgroundColor: colors.buttonCta }}>
+                <Clock className="size-3.5" style={{ color: colors.logo }} />
+              </div>
+              <span className="text-sm text-white">{company.workingHours}</span>
+            </div>
+          </div>
+          <div className="h-px bg-white/15" />
+          <span className="text-xs text-white/50 group-hover:text-white/70 transition-colors">
+            {t("contactMsg")}
+          </span>
+        </Link>
+
         {/* Dolny pasek — statystyki po lewej, badge po prawej */}
-        <div className="flex items-end justify-between pb-10">
+        <div className="flex flex-col-reverse items-start gap-4 pb-10 md:flex-row md:items-end md:justify-between">
           <StatsBar stats={stats} />
 
           <CertBadge label={t("badge")} />

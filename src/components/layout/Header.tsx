@@ -71,6 +71,7 @@ export function Header() {
     { label: t("development"), href: "/rozwoj" },
     { label: t("staff"), href: "/kadra" },
     { label: t("gallery"), href: "/galeria" },
+    { label: t("liquefaction"), href: "/uplynnienia" },
     { label: t("contact"), href: "#kontakt" },
   ]
 
@@ -122,88 +123,27 @@ export function Header() {
         borderColor: transparent ? "transparent" : "#000",
       }}
     >
-      <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Logo light />
+      <div className="container mx-auto px-4">
 
-        {/* Desktop nav */}
-        <nav className="hidden items-center gap-6 lg:flex">
-          {navLinks.map((link) => {
-            const isAnchor = link.href.startsWith("#")
-            const active = isActive(link)
-            const className = cn(
-              "text-sm font-medium transition-colors cursor-pointer",
-              !active && "text-white/80 hover:text-white",
-            )
-            const style = active ? { color: colors.logo } : undefined
+        {/* Wiersz 1: Logo · Nav · (Język+CTA przy xl+) · hamburger (mobile) */}
+        <div className="flex h-16 items-center justify-between">
+          <Logo light />
 
-            if (link.href === "/" && isHome) {
-              return (
-                <button key={link.href} className={className} style={style}
-                  onClick={() => scrollTo("top")}>
-                  {link.label}
-                </button>
-              )
-            }
-
-            if (isAnchor) {
-              if (isHome) {
-                return (
-                  <button key={link.href} className={className} style={style}
-                    onClick={() => scrollTo(link.href.slice(1))}>
-                    {link.label}
-                  </button>
-                )
-              }
-              return (
-                <Link key={link.href} href={`/${link.href}`} className={className} style={style}>
-                  {link.label}
-                </Link>
-              )
-            }
-            return (
-              <Link key={link.href} href={link.href} className={className} style={style}>
-                {link.label}
-              </Link>
-            )
-          })}
-        </nav>
-
-        {/* CTA + hamburger */}
-        <div className="flex items-center gap-3">
-          <LanguageSwitcher transparent={transparent} />
-
-          <CTAButton />
-
-          <button
-            aria-label="Menu"
-            onClick={() => setMenuOpen((v) => !v)}
-            className={cn(
-              "flex size-9 items-center justify-center rounded-lg transition-colors lg:hidden",
-              "text-white hover:bg-white/10"
-            )}
-          >
-            {menuOpen ? <X className="size-5" /> : <Menu className="size-5" />}
-          </button>
-        </div>
-      </div>
-
-      {/* Mobile menu */}
-      {menuOpen && (
-        <div className="border-t bg-background/95 backdrop-blur-sm lg:hidden">
-          <nav className="container mx-auto flex flex-col px-4 py-4">
+          {/* Desktop nav */}
+          <nav className="hidden items-center gap-5 lg:flex">
             {navLinks.map((link) => {
               const isAnchor = link.href.startsWith("#")
               const active = isActive(link)
               const className = cn(
-                "py-3 text-sm font-medium transition-colors border-b border-border last:border-0",
-                !active && "text-muted-foreground hover:text-foreground"
+                "text-sm font-medium transition-colors cursor-pointer whitespace-nowrap",
+                !active && "text-white/80 hover:text-white",
               )
               const style = active ? { color: colors.logo } : undefined
 
               if (link.href === "/" && isHome) {
                 return (
                   <button key={link.href} className={className} style={style}
-                    onClick={() => { scrollTo("top"); setMenuOpen(false) }}>
+                    onClick={() => scrollTo("top")}>
                     {link.label}
                   </button>
                 )
@@ -213,14 +153,13 @@ export function Header() {
                 if (isHome) {
                   return (
                     <button key={link.href} className={className} style={style}
-                      onClick={() => { scrollTo(link.href.slice(1)); setMenuOpen(false) }}>
+                      onClick={() => scrollTo(link.href.slice(1))}>
                       {link.label}
                     </button>
                   )
                 }
                 return (
-                  <Link key={link.href} href={`/${link.href}`} className={className} style={style}
-                    onClick={() => setMenuOpen(false)}>
+                  <Link key={link.href} href={`/${link.href}`} className={className} style={style}>
                     {link.label}
                   </Link>
                 )
@@ -231,12 +170,98 @@ export function Header() {
                 </Link>
               )
             })}
-            <Button asChild size="sm" className="mt-4 w-full">
-              <Link href="/kontakt">{t("contactUs")}</Link>
-            </Button>
           </nav>
+
+          {/* Język + CTA w wierszu 1 — tylko xl+ (≥1280px) */}
+          <div className="hidden xl:flex items-center gap-3">
+            <LanguageSwitcher transparent={transparent} />
+            <CTAButton />
+          </div>
+
+          {/* Mobile: język + CTA + hamburger */}
+          <div className="flex items-center gap-3 lg:hidden">
+            <LanguageSwitcher transparent={transparent} />
+            <CTAButton />
+            <button
+              aria-label="Menu"
+              onClick={() => setMenuOpen((v) => !v)}
+              className={cn(
+                "flex size-9 items-center justify-center rounded-lg transition-colors",
+                "text-white hover:bg-white/10"
+              )}
+            >
+              {menuOpen ? <X className="size-5" /> : <Menu className="size-5" />}
+            </button>
+          </div>
         </div>
-      )}
+
+        {/* Wiersz 2: Język + CTA po prawej — tylko lg–xl (1024–1279px) */}
+        <div className="hidden lg:flex xl:hidden justify-end items-center gap-3 pb-3">
+          <LanguageSwitcher transparent={transparent} />
+          <CTAButton />
+        </div>
+
+      </div>
+
+      {/* Mobile menu — animacja grid */}
+      <div
+        className={cn(
+          "grid transition-all duration-300 ease-in-out lg:hidden",
+          menuOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
+        )}
+      >
+        <div className="overflow-hidden">
+          <div className="border-t border-white/10 backdrop-blur-sm" style={{ backgroundColor: colors.buttonCta }}>
+            <nav className="container mx-auto flex flex-col items-center px-4 py-6 gap-1">
+              {navLinks.map((link) => {
+                const isAnchor = link.href.startsWith("#")
+                const active = isActive(link)
+                const className = cn(
+                  "w-full py-3 text-base font-medium text-center transition-colors rounded-lg cursor-pointer",
+                  active ? "" : "text-white/70 hover:text-white hover:bg-white/5"
+                )
+                const style = active ? { color: colors.logo } : undefined
+
+                if (link.href === "/" && isHome) {
+                  return (
+                    <button key={link.href} className={className} style={style}
+                      onClick={() => { scrollTo("top"); setMenuOpen(false) }}>
+                      {link.label}
+                    </button>
+                  )
+                }
+
+                if (isAnchor) {
+                  if (isHome) {
+                    return (
+                      <button key={link.href} className={className} style={style}
+                        onClick={() => { scrollTo(link.href.slice(1)); setMenuOpen(false) }}>
+                        {link.label}
+                      </button>
+                    )
+                  }
+                  return (
+                    <Link key={link.href} href={`/${link.href}`} className={className} style={style}
+                      onClick={() => setMenuOpen(false)}>
+                      {link.label}
+                    </Link>
+                  )
+                }
+                return (
+                  <Link key={link.href} href={link.href} className={className} style={style}
+                    onClick={() => setMenuOpen(false)}>
+                    {link.label}
+                  </Link>
+                )
+              })}
+              <div className="h-px w-24 my-3" style={{ backgroundColor: `${colors.logo}40` }} />
+              <Button asChild size="sm" className="w-48">
+                <Link href="/kontakt" onClick={() => setMenuOpen(false)}>{t("contactUs")}</Link>
+              </Button>
+            </nav>
+          </div>
+        </div>
+      </div>
     </header>
   )
 }
