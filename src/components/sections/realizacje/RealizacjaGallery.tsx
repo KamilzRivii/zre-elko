@@ -40,7 +40,7 @@ export function RealizacjaGallery({ photos, title }: Props) {
 
   if (photos.length === 0) {
     return (
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
+      <div className="grid grid-cols-1 min-[400px]:grid-cols-2 gap-4 md:grid-cols-3">
         {Array.from({ length: 6 }).map((_, i) => (
           <div
             key={i}
@@ -58,7 +58,7 @@ export function RealizacjaGallery({ photos, title }: Props) {
 
   return (
     <>
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
+      <div className="grid grid-cols-1 min-[400px]:grid-cols-2 gap-4 md:grid-cols-3">
         {photos.map((src, i) => (
           <button
             key={src}
@@ -96,7 +96,7 @@ export function RealizacjaGallery({ photos, title }: Props) {
           </button>
 
           <button
-            className="absolute left-4 top-1/2 -translate-y-1/2 flex size-11 items-center justify-center rounded-full text-white/70 hover:text-white transition-colors cursor-pointer"
+            className="absolute left-4 top-1/2 -translate-y-1/2 z-10 flex size-11 items-center justify-center rounded-full text-white/70 hover:text-white transition-colors cursor-pointer"
             style={{ backgroundColor: "rgba(255,255,255,0.1)" }}
             onClick={(e) => { e.stopPropagation(); prev() }}
           >
@@ -116,7 +116,7 @@ export function RealizacjaGallery({ photos, title }: Props) {
           </div>
 
           <button
-            className="absolute right-4 top-1/2 -translate-y-1/2 flex size-11 items-center justify-center rounded-full text-white/70 hover:text-white transition-colors cursor-pointer"
+            className="absolute right-4 top-1/2 -translate-y-1/2 z-10 flex size-11 items-center justify-center rounded-full text-white/70 hover:text-white transition-colors cursor-pointer"
             style={{ backgroundColor: "rgba(255,255,255,0.1)" }}
             onClick={(e) => { e.stopPropagation(); next() }}
           >

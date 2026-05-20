@@ -8,7 +8,7 @@ export const homeContent = {
     ctaSecondary: { label: "Skontaktuj się", href: "/kontakt" },
     stats: [
       { value: "35+", label: "lat doświadczenia" },
-      { value: "800+", label: "realizacji" },
+      { value: "1300+", label: "realizacji" },
       { value: "100%", label: "zgodność z normami" },
     ],
     trustCard: {
@@ -38,7 +38,7 @@ export const homeContent = {
         id: "experience",
         icon: "award",
         title: "15 lat na rynku",
-        description: "Ponad 800 zrealizowanych instalacji elektrycznych.",
+        description: "Ponad 1300 zrealizowanych instalacji elektrycznych.",
       },
     ],
   },

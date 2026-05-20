@@ -28,7 +28,7 @@ export async function OfertaDescSection() {
               }}
             >
               <Image
-                src="/images/offer/offer_pict3.jpg"
+                src="/images/offer/offer_pict3.webp"
                 alt="Realizacja ZRE ELKO 3"
                 width={325}
                 height={220}
@@ -49,7 +49,7 @@ export async function OfertaDescSection() {
               }}
             >
               <Image
-                src="/images/offer/offer_pict2.jpg"
+                src="/images/offer/offer_pict2.webp"
                 alt="Realizacja ZRE ELKO 2"
                 width={325}
                 height={220}
@@ -70,7 +70,7 @@ export async function OfertaDescSection() {
               }}
             >
               <Image
-                src="/images/offer/offer_pict1.jpg"
+                src="/images/offer/offer_pict1.webp"
                 alt="Realizacja ZRE ELKO 1"
                 width={325}
                 height={220}

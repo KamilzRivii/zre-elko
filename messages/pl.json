@@ -27,7 +27,7 @@
         "label": "lat doświadczenia"
       },
       {
-        "value": "800+",
+        "value": "1300+",
         "label": "realizacji"
       },
       {
@@ -58,7 +58,7 @@
       {
         "id": "experience",
         "title": "15 lat na rynku",
-        "description": "Ponad 800 zrealizowanych instalacji elektrycznych."
+        "description": "Ponad 1300 zrealizowanych instalacji elektrycznych."
       }
     ],
     "contactLabel": "Kontakt",
@@ -469,7 +469,7 @@
         ],
         "program": "Regionalny Program Operacyjny Województwa Śląskiego na lata 2007–2013",
         "source": "Europejski Fundusz Rozwoju Regionalnego",
-        "url": "www.rpo.silesia-region.pl",
+        "url": "https://funduszeue.slaskie.pl/",
         "tagline": "Regionalny Program Operacyjny Województwa Śląskiego – realna odpowiedź na realne potrzeby",
         "infoText": "Projekt współfinansowany przez Unię Europejską z {source} w ramach {program}.",
         "infoText2": "Informacje źródłowe dostępne na stronie {url}"
@@ -525,15 +525,19 @@
     "links": [
       {
         "label": "O nas",
-        "href": "#o-nas"
+        "href": "/#o-nas"
       },
       {
         "label": "Certyfikaty",
-        "href": "#certyfikaty"
+        "href": "/#certyfikaty"
+      },
+      {
+        "label": "Oferta",
+        "href": "/#oferta"
       },
       {
         "label": "Realizacje",
-        "href": "#realizacje"
+        "href": "/#realizacje"
       },
       {
         "label": "Rozwój",
@@ -548,8 +552,12 @@
         "href": "/galeria"
       },
       {
+        "label": "Upłynnienia",
+        "href": "/uplynnienia"
+      },
+      {
         "label": "Kontakt",
-        "href": "#kontakt"
+        "href": "/#kontakt"
       }
     ]
   },

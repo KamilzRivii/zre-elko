@@ -129,7 +129,7 @@ export function GaleriaSection() {
         {/* Siatka zdjęć */}
         {items.length > 0 && (
           <>
-            <div className="columns-2 sm:columns-3 lg:columns-4 gap-3 space-y-3">
+            <div className="columns-1 sm:columns-3 lg:columns-4 gap-3 space-y-3">
               {visible.map((item, i) => (
                 <button
                   key={`${item.src}-${i}`}
@@ -189,7 +189,7 @@ export function GaleriaSection() {
           </button>
 
           <button
-            className="absolute left-4 top-1/2 -translate-y-1/2 flex size-11 items-center justify-center rounded-full text-white/70 hover:text-white transition-colors cursor-pointer"
+            className="absolute left-4 top-1/2 -translate-y-1/2 z-10 flex size-11 items-center justify-center rounded-full text-white/70 hover:text-white transition-colors cursor-pointer"
             style={{ backgroundColor: "rgba(255,255,255,0.1)" }}
             onClick={(e) => { e.stopPropagation(); prev() }}
           >
@@ -212,7 +212,7 @@ export function GaleriaSection() {
           </div>
 
           <button
-            className="absolute right-4 top-1/2 -translate-y-1/2 flex size-11 items-center justify-center rounded-full text-white/70 hover:text-white transition-colors cursor-pointer"
+            className="absolute right-4 top-1/2 -translate-y-1/2 z-10 flex size-11 items-center justify-center rounded-full text-white/70 hover:text-white transition-colors cursor-pointer"
             style={{ backgroundColor: "rgba(255,255,255,0.1)" }}
             onClick={(e) => { e.stopPropagation(); next() }}
           >

@@ -15,7 +15,7 @@ export async function HeroSection() {
   return (
     <section className="relative h-screen min-h-[640px] overflow-hidden">
       <Image
-        src="/images/hero.jpg"
+        src="/images/hero.webp"
         alt={t("logoAlt")}
         fill
         className="object-cover"

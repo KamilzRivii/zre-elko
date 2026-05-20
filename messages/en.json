@@ -27,7 +27,7 @@
         "label": "years of experience"
       },
       {
-        "value": "800+",
+        "value": "1300+",
         "label": "completed projects"
       },
       {
@@ -58,7 +58,7 @@
       {
         "id": "experience",
         "title": "15 years in the market",
-        "description": "Over 800 completed power engineering installations."
+        "description": "Over 1300 completed power engineering installations."
       }
     ],
     "contactLabel": "Contact",
@@ -445,7 +445,7 @@
         ],
         "program": "Regional Operational Programme of Silesian Voivodeship 2007–2013",
         "source": "European Regional Development Fund",
-        "url": "www.rpo.silesia-region.pl",
+        "url": "https://funduszeue.slaskie.pl/",
         "tagline": "Regional Operational Programme of Silesian Voivodeship – a real response to real needs",
         "infoText": "Project co-financed by the European Union from the {source} under the {program}.",
         "infoText2": "Source information available at {url}"
@@ -501,15 +501,19 @@
     "links": [
       {
         "label": "About us",
-        "href": "#o-nas"
+        "href": "/#o-nas"
       },
       {
         "label": "Certificates",
-        "href": "#certyfikaty"
+        "href": "/#certyfikaty"
+      },
+      {
+        "label": "Offer",
+        "href": "/#oferta"
       },
       {
         "label": "Projects",
-        "href": "#realizacje"
+        "href": "/#realizacje"
       },
       {
         "label": "Development",
@@ -524,8 +528,12 @@
         "href": "/galeria"
       },
       {
+        "label": "Liquefaction",
+        "href": "/uplynnienia"
+      },
+      {
         "label": "Contact",
-        "href": "#kontakt"
+        "href": "/#kontakt"
       }
     ]
   },

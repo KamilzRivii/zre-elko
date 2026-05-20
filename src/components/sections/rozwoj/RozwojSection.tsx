@@ -6,9 +6,9 @@ import { getTranslations } from "next-intl/server"
 const STAT_ICONS = [Building2, TrendingUp, Euro, Calendar, Users, Flame]
 
 const growthLogos = [
-  { src: "/images/growth/unia-europejska.jpg", alt: "Unia Europejska" },
-  { src: "/images/growth/program-regionalny.jpg", alt: "Regionalny Program Operacyjny" },
-  { src: "/images/growth/slaskie.jpg", alt: "Śląskie" },
+  { src: "/images/growth/unia-europejska.webp", alt: "Unia Europejska" },
+  { src: "/images/growth/program-regionalny.webp", alt: "Regionalny Program Operacyjny" },
+  { src: "/images/growth/slaskie.webp", alt: "Śląskie" },
 ]
 
 export async function RozwojSection() {
@@ -54,7 +54,7 @@ export async function RozwojSection() {
             {p1.title}
           </h3>
 
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 mb-8">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mb-8">
             {p1.stats.map(({ label, value }, i) => {
               const Icon = STAT_ICONS[i] ?? Building2
               return (
@@ -75,7 +75,7 @@ export async function RozwojSection() {
             })}
           </div>
 
-          <div className="grid grid-cols-3 gap-5 mb-8 max-w-2xl">
+          <div className="grid grid-cols-1 gap-5 mb-8 max-w-2xl min-[400px]:grid-cols-3">
             {growthLogos.map(({ src, alt }) => (
               <div
                 key={src}
@@ -93,7 +93,13 @@ export async function RozwojSection() {
             </p>
             <p className="text-sm text-white/70 leading-relaxed mt-3">
               {p1.infoText2?.replace("{url}", "")}{" "}
-              <span className="font-medium" style={{ color: colors.logo }}>{p1.url}</span>
+              <a
+                href={p1.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium underline underline-offset-2 hover:opacity-80 transition-opacity"
+                style={{ color: colors.logo }}
+              >{p1.url}</a>
             </p>
             <p className="text-xs text-white/40 mt-4 italic">{p1.tagline}</p>
           </div>
@@ -117,7 +123,7 @@ export async function RozwojSection() {
             {p2.description}
           </p>
 
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-8">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 mb-8">
             {p2.stats.map(({ label, value }, i) => {
               const Icon = STAT_ICONS[i] ?? Building2
               return (

@@ -151,7 +151,7 @@ export function OfertaPage() {
             </div>
 
             {/* Prawa — siatka 2×2 zdjęć */}
-            <div className="grid grid-cols-2 grid-rows-2 self-stretch">
+            <div className="grid grid-cols-1 min-[400px]:grid-cols-2 min-[400px]:grid-rows-2 self-stretch">
               {photos.map((photo, idx) => (
                 <button
                   key={photo.src}
@@ -159,7 +159,7 @@ export function OfertaPage() {
                   className="group relative overflow-hidden cursor-pointer"
                   style={{
                     borderRight: idx % 2 === 0 ? `1px solid ${colors.logo}20` : undefined,
-                    borderBottom: idx < 2 ? `1px solid ${colors.logo}20` : undefined,
+                    borderBottom: idx < 3 ? `1px solid ${colors.logo}20` : undefined,
                     minHeight: "200px",
                   }}
                 >
@@ -208,7 +208,7 @@ export function OfertaPage() {
           </button>
 
           <button
-            className="absolute left-4 top-1/2 -translate-y-1/2 flex size-11 items-center justify-center rounded-full text-white/70 hover:text-white transition-colors cursor-pointer"
+            className="absolute left-4 top-1/2 -translate-y-1/2 z-10 flex size-11 items-center justify-center rounded-full text-white/70 hover:text-white transition-colors cursor-pointer"
             style={{ backgroundColor: "rgba(255,255,255,0.1)" }}
             onClick={(e) => { e.stopPropagation(); prev() }}
           >
@@ -231,7 +231,7 @@ export function OfertaPage() {
           </div>
 
           <button
-            className="absolute right-4 top-1/2 -translate-y-1/2 flex size-11 items-center justify-center rounded-full text-white/70 hover:text-white transition-colors cursor-pointer"
+            className="absolute right-4 top-1/2 -translate-y-1/2 z-10 flex size-11 items-center justify-center rounded-full text-white/70 hover:text-white transition-colors cursor-pointer"
             style={{ backgroundColor: "rgba(255,255,255,0.1)" }}
             onClick={(e) => { e.stopPropagation(); next() }}
           >

@@ -27,7 +27,7 @@
         "label": "Jahre Erfahrung"
       },
       {
-        "value": "800+",
+        "value": "1300+",
         "label": "abgeschlossene Projekte"
       },
       {
@@ -58,7 +58,7 @@
       {
         "id": "experience",
         "title": "15 Jahre am Markt",
-        "description": "Über 800 abgeschlossene energietechnische Anlagen."
+        "description": "Über 1300 abgeschlossene energietechnische Anlagen."
       }
     ],
     "contactLabel": "Kontakt",
@@ -445,7 +445,7 @@
         ],
         "program": "Regionales Operationelles Programm der Woiwodschaft Schlesien 2007–2013",
         "source": "Europäischer Fonds für regionale Entwicklung",
-        "url": "www.rpo.silesia-region.pl",
+        "url": "https://funduszeue.slaskie.pl/",
         "tagline": "Regionales Operationelles Programm der Woiwodschaft Schlesien – eine echte Antwort auf echte Bedürfnisse",
         "infoText": "Projekt kofinanziert von der Europäischen Union aus dem {source} im Rahmen des {program}.",
         "infoText2": "Quellinformationen verfügbar unter {url}"
@@ -501,15 +501,19 @@
     "links": [
       {
         "label": "Über uns",
-        "href": "#o-nas"
+        "href": "/#o-nas"
       },
       {
         "label": "Zertifikate",
-        "href": "#certyfikaty"
+        "href": "/#certyfikaty"
+      },
+      {
+        "label": "Angebot",
+        "href": "/#oferta"
       },
       {
         "label": "Referenzen",
-        "href": "#realizacje"
+        "href": "/#realizacje"
       },
       {
         "label": "Entwicklung",
@@ -524,8 +528,12 @@
         "href": "/galeria"
       },
       {
+        "label": "Verflüssigung",
+        "href": "/uplynnienia"
+      },
+      {
         "label": "Kontakt",
-        "href": "#kontakt"
+        "href": "/#kontakt"
       }
     ]
   },
