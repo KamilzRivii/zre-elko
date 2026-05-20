@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Logo } from "@/components/layout/Logo"
 import { LanguageSwitcher } from "@/components/layout/LanguageSwitcher"
 import { CTAButton } from "@/components/layout/CTAButton"
-import { useTranslations } from "next-intl"
+import { useTranslations, useLocale } from "next-intl"
 import { cn } from "@/lib/utils"
 import { colors } from "@/lib/colors"
 
@@ -55,6 +55,8 @@ function useActiveSection(enabled: boolean, lockRef: React.RefObject<boolean>) {
 
 export function Header() {
   const t = useTranslations("nav")
+  const locale = useLocale()
+  const isDE = locale === "de"
   const pathname = usePathname()
   const isHome = pathname === "/"
   const [scrolled, setScrolled] = useState(false)
@@ -172,8 +174,8 @@ export function Header() {
             })}
           </nav>
 
-          {/* Język + CTA w wierszu 1 — tylko xl+ (≥1280px) */}
-          <div className="hidden xl:flex items-center gap-3">
+          {/* Język + CTA w wierszu 1 — tylko xl+ (≥1280px) lub min-[1500px] dla DE */}
+          <div className={isDE ? "hidden min-[1500px]:flex items-center gap-3" : "hidden xl:flex items-center gap-3"}>
             <LanguageSwitcher transparent={transparent} />
             <CTAButton />
           </div>
@@ -186,7 +188,7 @@ export function Header() {
               aria-label="Menu"
               onClick={() => setMenuOpen((v) => !v)}
               className={cn(
-                "flex size-9 items-center justify-center rounded-lg transition-colors",
+                "flex size-9 items-center justify-center rounded-lg transition-colors cursor-pointer",
                 "text-white hover:bg-white/10"
               )}
             >
@@ -195,8 +197,8 @@ export function Header() {
           </div>
         </div>
 
-        {/* Wiersz 2: Język + CTA po prawej — tylko lg–xl (1024–1279px) */}
-        <div className="hidden lg:flex xl:hidden justify-end items-center gap-3 pb-3">
+        {/* Wiersz 2: Język + CTA po prawej — lg–xl dla PL/EN, lg–1500px dla DE */}
+        <div className={isDE ? "hidden lg:max-[1499px]:flex justify-end items-center gap-3 pb-3" : "hidden lg:max-[1279px]:flex justify-end items-center gap-3 pb-3"}>
           <LanguageSwitcher transparent={transparent} />
           <CTAButton />
         </div>

@@ -2,7 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "About us",
-    "offer": "Services",
+    "offer": "Offer",
     "projects": "Projects",
     "development": "Development",
     "staff": "Management",
@@ -202,6 +202,13 @@
       "Pipelines",
       "Components",
       "Other"
+    ],
+    "titles": [
+      "Industrial boiler",
+      "Installation",
+      "Industrial pipeline",
+      "Mechanical component",
+      "Project"
     ],
     "noPhotos": "Photos coming soon",
     "shown": "Showing {shown} of {total} photos — {remaining} remaining",

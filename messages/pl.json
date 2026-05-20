@@ -203,6 +203,13 @@
       "Elementy",
       "Inne"
     ],
+    "titles": [
+      "Kocioł przemysłowy",
+      "Montaż instalacji",
+      "Rurociąg przemysłowy",
+      "Element mechaniczny",
+      "Realizacja"
+    ],
     "noPhotos": "Zdjęcia wkrótce",
     "shown": "Wyświetlono {shown} z {total} zdjęć — pozostało jeszcze {remaining}",
     "showMore": "Wyświetl więcej ({remaining})"

@@ -101,7 +101,7 @@
   },
   "about": {
     "label": "Über uns",
-    "headingLine1": "Energiereparaturwerke",
+    "headingLine1": "Energie\u00ADreparatur\u00ADwerke",
     "headingLine2": "ELKO",
     "headingLine3": "GmbH",
     "description": "Ein Unternehmen mit Sitz in Racibórz, spezialisiert auf Fertigung, Modernisierung und Montagedienstleistungen in der beruflichen und industriellen Energietechnik — in Polen und im Ausland.",
@@ -202,6 +202,13 @@
       "Rohrleitungen",
       "Komponenten",
       "Sonstiges"
+    ],
+    "titles": [
+      "Industriekessel",
+      "Montage",
+      "Industrierohrleitung",
+      "Mechanisches Bauteil",
+      "Realisierung"
     ],
     "noPhotos": "Fotos demnächst verfügbar",
     "shown": "{shown} von {total} Fotos angezeigt — noch {remaining} verbleibend",

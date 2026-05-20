@@ -1,15 +1,16 @@
 import { Link } from "@/i18n/navigation"
-import { ArrowLeft } from "lucide-react"
 import { colors } from "@/lib/colors"
 import type { RealizacjaItem } from "@/types/realizacje"
 import { RealizacjaGallery } from "./RealizacjaGallery"
+import { getTranslations } from "next-intl/server"
 
 interface Props {
   realizacja: RealizacjaItem
   item: { id: string; title: string; description: string; category: string; longDescription?: string }
 }
 
-export function RealizacjaDetailSection({ realizacja, item }: Props) {
+export async function RealizacjaDetailSection({ realizacja, item }: Props) {
+  const t = await getTranslations("realizacje")
   return (
     <div className="min-h-screen bg-black px-4 pt-28 pb-24">
       <div className="container mx-auto max-w-5xl">
@@ -19,8 +20,7 @@ export function RealizacjaDetailSection({ realizacja, item }: Props) {
           className="inline-flex items-center gap-2 text-sm mb-10 transition-opacity hover:opacity-70"
           style={{ color: colors.logo }}
         >
-          <ArrowLeft className="size-4" />
-          Powrót do realizacji
+          {t("backToList")}
         </Link>
 
         <div className="flex items-center gap-3 mb-4">

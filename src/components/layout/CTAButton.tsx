@@ -21,7 +21,7 @@ export function CTAButton() {
   return (
     <button
       onClick={handleClick}
-      className="group hidden lg:inline-flex cursor-pointer items-center justify-between gap-3 rounded-full border px-4 py-2 w-44 text-sm font-medium text-white transition-all duration-300 hover:scale-105 hover:shadow-[0_0_18px_rgba(177,233,148,0.35)]"
+      className="group hidden lg:inline-flex cursor-pointer items-center justify-between gap-3 rounded-full border px-4 py-2 text-sm font-medium text-white whitespace-nowrap transition-all duration-300 hover:scale-105 hover:shadow-[0_0_18px_rgba(177,233,148,0.35)]"
       style={{ backgroundColor: colors.buttonCta, borderColor: colors.logo }}
     >
       {t("contactUs")}

@@ -27,6 +27,10 @@ export function GaleriaSection() {
   const { items, categories } = galeriaContent
   // Translated display labels — same order as galeriaContent.categories
   const translatedCategories = t.raw("categories") as string[]
+  const translatedTitles = t.raw("titles") as string[]
+  const categoryTitleMap = Object.fromEntries(
+    categories.map((cat, i) => [cat, translatedTitles[i] ?? cat])
+  )
 
   const [activeCategory, setActiveCategory] = useState<string | null>(null) // null = all
   const [showAll, setShowAll] = useState(false)
@@ -148,7 +152,7 @@ export function GaleriaSection() {
                     className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3"
                     style={{ background: "linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 60%)" }}
                   >
-                    <span className="text-xs text-white font-medium line-clamp-1">{item.title}</span>
+                    <span className="text-xs text-white font-medium line-clamp-1">{categoryTitleMap[item.category] ?? item.title}</span>
                   </div>
                 </button>
               ))}
@@ -220,7 +224,7 @@ export function GaleriaSection() {
           </button>
 
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-center">
-            <p className="text-white text-sm font-medium">{visible[lightboxIndex]?.title}</p>
+            <p className="text-white text-sm font-medium">{visible[lightboxIndex] ? (categoryTitleMap[visible[lightboxIndex].category] ?? visible[lightboxIndex].title) : ""}</p>
             <p className="text-xs mt-1 text-white/40">{lightboxIndex + 1} / {visible.length}</p>
           </div>
         </div>
