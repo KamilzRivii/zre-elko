@@ -3,15 +3,18 @@
 import { useState } from "react"
 import { useForm } from "react-hook-form"
 import { zodResolver } from "@hookform/resolvers/zod"
-import { contactSchema, type ContactFormData } from "@/lib/validations/contact.schema"
+import { useTranslations } from "next-intl"
+import { createContactSchema, type ContactFormData } from "@/lib/validations/contact.schema"
 
 type SubmitStatus = "idle" | "loading" | "success" | "error"
 
 export function useContactForm() {
   const [status, setStatus] = useState<SubmitStatus>("idle")
+  const t = useTranslations("contact.form.errors")
+  const schema = createContactSchema((key) => t(key))
 
   const form = useForm<ContactFormData>({
-    resolver: zodResolver(contactSchema),
+    resolver: zodResolver(schema),
     defaultValues: { name: "", email: "", phone: "", message: "" },
   })
 
@@ -21,7 +24,7 @@ export function useContactForm() {
       const res = await fetch("/api/kontakt", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        body: JSON.stringify({ ...data, _hp: "" }),
       })
       if (!res.ok) throw new Error("Błąd serwera")
       setStatus("success")

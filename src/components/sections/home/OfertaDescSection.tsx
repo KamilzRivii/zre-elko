@@ -85,7 +85,7 @@ export async function OfertaDescSection() {
           <div>
             <p
               className="text-sm font-semibold uppercase tracking-widest mb-3"
-              style={{ color: colors.logo }}
+              style={{ color: colors.buttonCta }}
             >
               {t("label")}
             </p>
@@ -98,7 +98,7 @@ export async function OfertaDescSection() {
               {t("description")}
             </p>
 
-            <p className="text-xs font-semibold uppercase tracking-widest mb-4 text-foreground/50">
+            <p className="text-xs font-semibold uppercase tracking-widest mb-4 text-foreground/70">
               {t("listLabel")}
             </p>
 

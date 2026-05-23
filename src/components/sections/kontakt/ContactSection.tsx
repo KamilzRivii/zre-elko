@@ -63,6 +63,16 @@ export function ContactSection() {
             className="flex flex-col gap-4 rounded-2xl border p-8"
             style={{ backgroundColor: "#1a3535", borderColor: `${colors.logo}30` }}
           >
+            {/* Honeypot — ukryte przed ludźmi, widoczne dla botów */}
+            <input
+              type="text"
+              name="_hp"
+              aria-hidden="true"
+              tabIndex={-1}
+              autoComplete="off"
+              style={{ position: "absolute", left: "-9999px", opacity: 0, pointerEvents: "none" }}
+            />
+
             {[
               { placeholder: t("form.name"), name: "name", type: "text", error: errors.name },
               { placeholder: t("form.email"), name: "email", type: "email", error: errors.email },
@@ -100,7 +110,7 @@ export function ContactSection() {
             <button
               type="submit"
               disabled={status === "loading"}
-              className="w-full rounded-xl py-3 text-sm font-semibold transition-opacity hover:opacity-85 disabled:opacity-50"
+              className="w-full rounded-xl py-3 text-sm font-semibold transition-opacity hover:opacity-85 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
               style={{ backgroundColor: colors.logo, color: colors.buttonCta }}
             >
               {status === "loading" ? t("form.sending") : t("form.send")}

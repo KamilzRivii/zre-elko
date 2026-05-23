@@ -18,6 +18,7 @@ export async function HeroSection() {
         src="/images/hero.webp"
         alt={t("logoAlt")}
         fill
+        sizes="100vw"
         className="object-cover"
         priority
       />

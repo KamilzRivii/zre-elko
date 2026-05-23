@@ -29,7 +29,7 @@ export function RealizacjeListSection() {
           {t("heading")}
         </p>
         <h1 className="text-4xl font-bold text-white mb-4 md:text-5xl">
-          Nasze <span style={{ color: colors.logo }}>realizacje</span>
+          {t("headingLine1")} <span style={{ color: colors.logo }}>{t("headingLine2")}</span>
         </h1>
         <div className="h-px w-24 mb-8" style={{ backgroundColor: colors.logo }} />
         <p className="text-white/60 text-base mb-12 max-w-2xl">{t("subheading")}</p>
@@ -100,7 +100,7 @@ export function RealizacjeListSection() {
                     className="inline-flex items-center gap-1 text-xs font-medium mt-2"
                     style={{ color: colors.logo }}
                   >
-                    Zobacz szczegóły <ArrowRight className="size-3" />
+                    {t("viewDetails")} <ArrowRight className="size-3" />
                   </div>
                 </div>
               </Link>

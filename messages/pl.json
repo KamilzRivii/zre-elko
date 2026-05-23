@@ -133,7 +133,13 @@
       "sending": "Wysyłanie…",
       "send": "Wyślij wiadomość",
       "success": "Wiadomość wysłana. Odezwiemy się wkrótce!",
-      "error": "Wystąpił błąd. Spróbuj ponownie lub zadzwoń bezpośrednio."
+      "error": "Wystąpił błąd. Spróbuj ponownie lub zadzwoń bezpośrednio.",
+      "errors": {
+        "nameMin": "Imię i nazwisko musi mieć co najmniej 2 znaki.",
+        "emailInvalid": "Podaj prawidłowy adres e-mail.",
+        "phoneInvalid": "Podaj prawidłowy numer telefonu.",
+        "messageMin": "Wiadomość nie może być pusta."
+      }
     }
   },
   "certyfikaty": {
@@ -274,6 +280,9 @@
   },
   "realizacje": {
     "heading": "Realizacje",
+    "headingLine1": "Nasze",
+    "headingLine2": "realizacje",
+    "viewDetails": "Zobacz szczegóły",
     "subheading": "Projekty, które zrealizowaliśmy z pełnym zaangażowaniem.",
     "filter": "Kategorie",
     "all": "Wszystkie",

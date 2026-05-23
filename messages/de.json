@@ -7,7 +7,7 @@
     "development": "Entwicklung",
     "staff": "Führung",
     "gallery": "Galerie",
-    "liquefaction": "Liquidierungen",
+    "liquefaction": "Liqui\u00ADdie\u00ADrun\u00ADgen",
     "contact": "Kontakt",
     "contactUs": "Kontaktieren Sie uns"
   },
@@ -18,7 +18,7 @@
       "Wir modernisieren",
       "Wir montieren"
     ],
-    "subheading": "Umfassende Dienstleistungen für die berufliche und industrielle Energietechnik — in Polen und im Ausland.",
+    "subheading": "Umfassende Dienstleistungen für die berufliche und industrielle Energie\u00ADtechnik — in Polen und im Ausland.",
     "ctaPrimary": "Leistungen ansehen",
     "ctaSecondary": "Kontakt aufnehmen",
     "stats": [
@@ -63,7 +63,7 @@
     ],
     "contactLabel": "Kontakt",
     "contactMsg": "Klicken Sie, um zum Kontaktbereich zu gelangen →",
-    "logoAlt": "ZRE Elko — professionelle Energietechnik"
+    "logoAlt": "ZRE Elko — professionelle Energie\u00ADtechnik"
   },
   "ofertaPreview": {
     "heading": "Was wir anbieten",
@@ -90,7 +90,7 @@
     "headingLine2": "von Energieanlagen",
     "listLabel": "Wir realisieren hauptsächlich",
     "description": "ZRE ELKO erbringt Leistungen im vollen Umfang — von der Planung über Fertigung, Montage, Modernisierung und Überholung von Kesseln, Rohrleitungen, Turbosätzen und anderen Hilfsanlagen bis zur Inbetriebnahme, Schulung des Betriebspersonals und Übergabe.",
-    "permissionsText": "Für Bau-, Modernisierungs- und Überholungsarbeiten verfügt das Unternehmen über entsprechende Genehmigungen von UDT, TÜV und ASIT/SVTI.",
+    "permissionsText": "Für Bau-, Modernisierungs- und Überholungsarbeiten verfügt das Unternehmen über entsprechende Ge\u00ADneh\u00ADmi\u00ADgun\u00ADgen von UDT, TÜV und ASIT/SVTI.",
     "seeOffer": "Leistungen ansehen",
     "items": [
       "Dampf- und Heißwasserkessel mit Kohlefeuerung mit Leistungen bis ca. 50 MW oder 60 t Dampf/h",
@@ -104,7 +104,7 @@
     "headingLine1": "Energie\u00ADreparatur\u00ADwerke",
     "headingLine2": "ELKO",
     "headingLine3": "GmbH",
-    "description": "Ein Unternehmen mit Sitz in Racibórz, spezialisiert auf Fertigung, Modernisierung und Montagedienstleistungen in der beruflichen und industriellen Energietechnik — in Polen und im Ausland.",
+    "description": "Ein Unternehmen mit Sitz in Racibórz, spezialisiert auf Fertigung, Modernisierung und Montagedienstleistungen in der beruflichen und industriellen Energie\u00ADtechnik — in Polen und im Ausland.",
     "tiles": [
       {
         "title": "Geschichte & Profil",
@@ -115,8 +115,8 @@
         "text": "ZRE ELKO führt Aufgaben im vollen Umfang durch — von der Planung über Fertigung, Montage, Modernisierung und Überholung von Kesseln, Rohrleitungen und Hilfsanlagen bis zur Inbetriebnahme, Schulung des Betriebspersonals und Übergabe der Energieanlagen."
       },
       {
-        "title": "Genehmigungen & Reichweite",
-        "text": "Wir verfügen über UDT-, TÜV- und ASIT/SVTI-Genehmigungen. Das Montagepersonal besitzt E- und D-Qualifikationen. Wir sind in Polen und im Ausland tätig — Deutschland, Frankreich, Österreich, Tschechische Republik, Großbritannien, Schweiz, Schweden, Indien, Weißrussland, Ukraine und Finnland."
+        "title": "Ge\u00ADneh\u00ADmi\u00ADgun\u00ADgen & Reichweite",
+        "text": "Wir verfügen über UDT-, TÜV- und ASIT/SVTI-Ge\u00ADneh\u00ADmi\u00ADgun\u00ADgen. Das Montagepersonal besitzt E- und D-Qualifikationen. Wir sind in Polen und im Ausland tätig — Deutschland, Frankreich, Österreich, Tschechische Republik, Großbritannien, Schweiz, Schweden, Indien, Weißrussland, Ukraine und Finnland."
       }
     ]
   },
@@ -133,14 +133,20 @@
       "sending": "Wird gesendet…",
       "send": "Nachricht senden",
       "success": "Nachricht gesendet. Wir melden uns in Kürze!",
-      "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an."
+      "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an.",
+      "errors": {
+        "nameMin": "Vor- und Nachname muss mindestens 2 Zeichen lang sein.",
+        "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+        "phoneInvalid": "Bitte geben Sie eine gültige Telefonnummer ein.",
+        "messageMin": "Die Nachricht darf nicht leer sein."
+      }
     }
   },
   "certyfikaty": {
-    "label": "Zertifikate & Genehmigungen",
+    "label": "Zertifikate & Ge\u00ADneh\u00ADmi\u00ADgun\u00ADgen",
     "headingLine1": "Qualität bestätigt",
     "headingLine2": "durch Dokumente",
-    "description": "Für den angebotenen Produktions- und Leistungsumfang verfügt ZRE ELKO Sp. z o.o. über <b>UDT, TÜV, SVTI ASIT</b>- und <b>EN ISO 9001:2000</b>-Genehmigungen. Alle Arbeiten erfüllen die höchsten technischen und sicherheitstechnischen Anforderungen in der beruflichen und industriellen Energietechnik.",
+    "description": "Für den angebotenen Produktions- und Leistungsumfang verfügt ZRE ELKO Sp. z o.o. über <b>UDT, TÜV, SVTI ASIT</b>- und <b>EN ISO 9001:2000</b>-Ge\u00ADneh\u00ADmi\u00ADgun\u00ADgen. Alle Arbeiten erfüllen die höchsten technischen und sicherheitstechnischen Anforderungen in der beruflichen und industriellen Energie\u00ADtechnik.",
     "seeAll": "Alle Zertifikate ansehen",
     "orgs": [
       {
@@ -161,10 +167,10 @@
       }
     ],
     "page": {
-      "label": "Zertifikate & Genehmigungen",
+      "label": "Zertifikate & Ge\u00ADneh\u00ADmi\u00ADgun\u00ADgen",
       "headingLine1": "Unsere",
-      "headingLine2": "Genehmigungen",
-      "description": "Für den angebotenen Produktions- und Leistungsumfang verfügt ZRE ELKO Sp. z o.o. über <b>UDT, TÜV, SVTI ASIT</b>- und <b>EN ISO 9001:2000</b>-Genehmigungen. Alle Arbeiten erfüllen die höchsten technischen und sicherheitstechnischen Anforderungen in der beruflichen und industriellen Energietechnik.",
+      "headingLine2": "Ge\u00ADneh\u00ADmi\u00ADgun\u00ADgen",
+      "description": "Für den angebotenen Produktions- und Leistungsumfang verfügt ZRE ELKO Sp. z o.o. über <b>UDT, TÜV, SVTI ASIT</b>- und <b>EN ISO 9001:2000</b>-Ge\u00ADneh\u00ADmi\u00ADgun\u00ADgen. Alle Arbeiten erfüllen die höchsten technischen und sicherheitstechnischen Anforderungen in der beruflichen und industriellen Energie\u00ADtechnik.",
       "certifyingOrgs": "Zertifizierungsorganisationen",
       "documents": "Dokumente & Bescheinigungen",
       "enlarge": "Vergrößern",
@@ -183,7 +189,7 @@
   },
   "kadra": {
     "label": "Vorstand",
-    "heading": "Führungsteam",
+    "heading": "Führungs\u00ADteam",
     "roles": [
       "Vorstandsvorsitzender – Generaldirektor",
       "Stellvertretender Vorstandsvorsitzender – Direktor Projektrealisierung",
@@ -216,12 +222,12 @@
   },
   "oferta": {
     "heading": "Leistungen",
-    "subheading": "Umfassende Leistungen für die berufliche und industrielle Energietechnik.",
+    "subheading": "Umfassende Leistungen für die berufliche und industrielle Energie\u00ADtechnik.",
     "page": {
       "label": "Leistungen",
       "headingLine1": "Umfassende Leistungen für die",
-      "headingLine2": "Energietechnik",
-      "intro": "ZRE ELKO führt Aufgaben im vollen Umfang durch — von der Planung über Fertigung, Montage, Modernisierung und Überholung von Kesseln, Rohrleitungen und Hilfsanlagen bis zur Inbetriebnahme und Übergabe. Alle Arbeiten werden mit UDT-, TÜV- und SVTI/ASIT-Genehmigungen durchgeführt.",
+      "headingLine2": "Energie\u00ADtechnik",
+      "intro": "ZRE ELKO führt Aufgaben im vollen Umfang durch — von der Planung über Fertigung, Montage, Modernisierung und Überholung von Kesseln, Rohrleitungen und Hilfsanlagen bis zur Inbetriebnahme und Übergabe. Alle Arbeiten werden mit UDT-, TÜV- und SVTI/ASIT-Ge\u00ADneh\u00ADmi\u00ADgun\u00ADgen durchgeführt.",
       "biuroLabel": "Im Rahmen unseres Angebots",
       "biuroHeading": "Konstruktionsbüro",
       "enlarge": "Vergrößern",
@@ -248,7 +254,7 @@
     "items": [
       {
         "id": "produkcja-kotlow",
-        "title": "Kesselproduktion",
+        "title": "Kessel\u00ADproduktion",
         "description": "Herstellung von Dampf- und Heißwasserkesseln für Kohle, Gas, Biomasse, Siedlungsabfälle und alternative Brennstoffe (RDF, pre-RDF) mit einer Leistung bis zu 50 MW oder 60 t Dampf/h.",
         "icon": "flame"
       },
@@ -261,7 +267,7 @@
       {
         "id": "rurociagi",
         "title": "Industrielle Rohrleitungen",
-        "description": "Bau von Industrierohrleitungen gemäß PN-EN 13480 — vom Konzeptentwurf über den Grundentwurf bis zur Montage und Abnahme mit UDT-, TÜV- und SVTI-Genehmigungen.",
+        "description": "Bau von Industrierohrleitungen gemäß PN-EN 13480 — vom Konzeptentwurf über den Grundentwurf bis zur Montage und Abnahme mit UDT-, TÜV- und SVTI-Ge\u00ADneh\u00ADmi\u00ADgun\u00ADgen.",
         "icon": "workflow"
       },
       {
@@ -274,6 +280,9 @@
   },
   "realizacje": {
     "heading": "Referenzen",
+    "headingLine1": "Unsere",
+    "headingLine2": "Referenzen",
+    "viewDetails": "Details ansehen",
     "subheading": "Projekte, die wir mit vollem Engagement realisiert haben.",
     "filter": "Kategorien",
     "all": "Alle",
@@ -283,31 +292,31 @@
     "items": [
       {
         "id": "halle",
-        "title": "Kesselmodernisierung — Halle (Deutschland)",
+        "title": "Kessel\u00ADmodernisierung — Halle (Deutschland)",
         "description": "Umfassende Modernisierung eines Dampfkessels an einem Energieobjekt in Halle. Der Leistungsumfang umfasste den Austausch von Druckbauteilen, Rohrleitungen und Wärmedämmung.",
         "category": "Modernisierungen"
       },
       {
         "id": "kluczewo",
-        "title": "Prozessrohrleitungen — Kluczewo",
-        "description": "Montage von Hochdruck-Prozessrohrleitungen gemäß PN-EN 13480. Vorfertigung und Montage vor Ort mit vollständigem UDT-Abnahmeumfang.",
+        "title": "Prozess\u00ADrohr\u00ADleitungen — Kluczewo",
+        "description": "Montage von Hochdruck-Prozess\u00ADrohr\u00ADleitungen gemäß PN-EN 13480. Vorfertigung und Montage vor Ort mit vollständigem UDT-Abnahmeumfang.",
         "category": "Rohrleitungen"
       },
       {
         "id": "kruszwica_2024",
-        "title": "Generalüberholung — Kruszwica 2024",
-        "description": "Generalüberholung eines Dampfkessels im Werk Kruszwica. Austausch der Membranwände, Reparatur der Überhitzer und Modernisierung des Verbrennungssystems gemäß aktuellen Emissionsnormen.",
+        "title": "General\u00ADüberholung — Kruszwica 2024",
+        "description": "General\u00ADüberholung eines Dampfkessels im Werk Kruszwica. Austausch der Membranwände, Reparatur der Überhitzer und Modernisierung des Verbrennungssystems gemäß aktuellen Emissionsnormen.",
         "category": "Modernisierungen"
       },
       {
         "id": "kussnacht",
-        "title": "Kesselproduktion — Küssnacht (Schweiz)",
+        "title": "Kessel\u00ADproduktion — Küssnacht (Schweiz)",
         "description": "Herstellung von Druckbauteilen eines Dampfkessels für einen Schweizer Partner. Ausführung gemäß SVTI/ASIT-Normen und den Anforderungen der schweizerischen technischen Überwachungsbehörde.",
         "category": "Dampfkessel"
       },
       {
         "id": "malbork",
-        "title": "Anlagenmontage — Malbork",
+        "title": "Anlagen\u00ADmontage — Malbork",
         "description": "Montage von Energieanlagen an einem Objekt in Malbork. Die Arbeiten umfassten die Installation von Rohrleitungen, Armaturen und Hilfssystemen gemäß technischer Dokumentation.",
         "category": "Modernisierungen"
       },
@@ -320,7 +329,7 @@
       {
         "id": "poznan",
         "title": "Biomassekessel — Posen",
-        "description": "Herstellung und Montage eines mit Holzhackschnitzeln befeuerten Biomassekessels für einen Kunden in Poznań. Die Anlage umfasst ein modernes Brennstoffzufuhr- und Rauchgasentstaubungssystem.",
+        "description": "Herstellung und Montage eines mit Holzhackschnitzeln befeuerten Biomassekessels für einen Kunden in Poznań. Die Anlage umfasst ein modernes Brennstoffzufuhr- und Rauch\u00ADgas\u00ADent\u00ADstaubungs\u00ADsystem.",
         "category": "Biomasse"
       },
       {
@@ -337,8 +346,8 @@
       },
       {
         "id": "dabrowa_gornicza",
-        "title": "Prozessrohrleitungen — Dąbrowa Górnicza",
-        "description": "Vorfertigung und Montage von Prozessrohrleitungen an einem Energieobjekt in Dąbrowa Górnicza. Ausführung gemäß PN-EN 13480 mit UDT-Abnahmen.",
+        "title": "Prozess\u00ADrohr\u00ADleitungen — Dąbrowa Górnicza",
+        "description": "Vorfertigung und Montage von Prozess\u00ADrohr\u00ADleitungen an einem Energieobjekt in Dąbrowa Górnicza. Ausführung gemäß PN-EN 13480 mit UDT-Abnahmen.",
         "category": "Rohrleitungen"
       },
       {
@@ -356,7 +365,7 @@
       {
         "id": "lacq_2008",
         "title": "Pilotkessel OS-5 — Total-Raffinerie, Lacq (Frankreich)",
-        "description": "Planung, Herstellung, Lieferung und Montage des Wärmerückgewinnungskessels OS-5 für die Total-Raffinerie in Lacq — Pilotanlage zur Wirbelschicht-Vergasung von Abfällen. Inbetriebnahme Januar 2009.",
+        "description": "Planung, Herstellung, Lieferung und Montage des Wärme\u00ADrück\u00ADgewinnung\u00ADkessels OS-5 für die Total-Raffinerie in Lacq — Pilotanlage zur Wirbelschicht-Vergasung von Abfällen. Inbetriebnahme Januar 2009.",
         "category": "Biomasse"
       },
       {
@@ -374,19 +383,19 @@
       {
         "id": "munkedal_2021",
         "title": "Biomassekessel — Munkedal 2021 (Schweden)",
-        "description": "Lieferung und Montage von Biomassekesselkomponenten für einen schwedischen Industriebetrieb. Projekt 2021 gemäß europäischen technischen Normen ausgeführt.",
+        "description": "Lieferung und Montage von Biomasse\u00ADkessel\u00ADkomponenten für einen schwedischen Industriebetrieb. Projekt 2021 gemäß europäischen technischen Normen ausgeführt.",
         "category": "Biomasse"
       },
       {
         "id": "plock",
-        "title": "Prozessrohrleitungen — Płock",
-        "description": "Ausführung von Hochdruck-Prozessrohrleitungen an einem Objekt in Płock. Der Umfang umfasste Planung, Vorfertigung, Montage vor Ort und UDT-Abnahmen.",
+        "title": "Prozess\u00ADrohr\u00ADleitungen — Płock",
+        "description": "Ausführung von Hochdruck-Prozess\u00ADrohr\u00ADleitungen an einem Objekt in Płock. Der Umfang umfasste Planung, Vorfertigung, Montage vor Ort und UDT-Abnahmen.",
         "category": "Rohrleitungen"
       },
       {
         "id": "rybnik",
         "title": "Hilfsanlagen — Rybnik",
-        "description": "Montage von Hilfsanlagen des Kesselsystems in Rybnik. Der Leistungsumfang umfasste Speisewasserrohrleitungen, Entwässerungen, Entlüftungen und Regelarmaturen.",
+        "description": "Montage von Hilfsanlagen des Kesselsystems in Rybnik. Der Leistungsumfang umfasste Speise\u00ADwasser\u00ADrohr\u00ADleitungen, Entwässerungen, Entlüftungen und Regelarmaturen.",
         "category": "Modernisierungen"
       },
       {
@@ -397,14 +406,14 @@
       },
       {
         "id": "sokolow",
-        "title": "Zweizügiger Wärmerückgewinnungskessel — Sokołów (Tschechien)",
-        "description": "Herstellung und Lieferung eines zweizügigen Wärmerückgewinnungskessels für einen tschechischen Kunden: 18 t/h Dampf, 415°C. Als einzelner 35-Tonnen-Block im April 2008 geliefert.",
+        "title": "Zweizügiger Wärme\u00ADrück\u00ADgewinnung\u00ADkessel — Sokołów (Tschechien)",
+        "description": "Herstellung und Lieferung eines zweizügigen Wärme\u00ADrück\u00ADgewinnung\u00ADkessels für einen tschechischen Kunden: 18 t/h Dampf, 415°C. Als einzelner 35-Tonnen-Block im April 2008 geliefert.",
         "category": "Dampfkessel"
       },
       {
         "id": "walcz",
         "title": "Biomasse-KWK OS-14 + 2×XU-8,5 — Wałcz",
-        "description": "Biomasse-Kraft-Wärme-Kopplung in Wałcz: Kessel OS-14 (14 t/h, 4,5 MPa, 460°C) + 2 Wärmerückgewinnungskessel XU-8,5 (je 11 t/h) + Turbogenerator ~7 MW. Investor M-PLUS, GU AWBUD.",
+        "description": "Biomasse-Kraft-Wärme-Kopplung in Wałcz: Kessel OS-14 (14 t/h, 4,5 MPa, 460°C) + 2 Wärme\u00ADrück\u00ADgewinnung\u00ADkessel XU-8,5 (je 11 t/h) + Turbogenerator ~7 MW. Investor M-PLUS, GU AWBUD.",
         "category": "Biomasse"
       },
       {
@@ -495,7 +504,7 @@
     ]
   },
   "footer": {
-    "description": "Fertigung, Modernisierung und Montagedienstleistungen in der beruflichen und industriellen Energietechnik — in Polen und im Ausland.",
+    "description": "Fertigung, Modernisierung und Montagedienstleistungen in der beruflichen und industriellen Energie\u00ADtechnik — in Polen und im Ausland.",
     "contactSection": "Kontakt",
     "navigationSection": "Navigation",
     "fax": "Fax:",
@@ -545,18 +554,18 @@
     ]
   },
   "uplynnienia": {
-    "label": "Liquidierungen",
+    "label": "Liqui\u00ADdie\u00ADrun\u00ADgen",
     "headingLine1": "Aktuelle",
-    "headingLine2": "Liquidierungen",
+    "headingLine2": "Liqui\u00ADdie\u00ADrun\u00ADgen",
     "description": "Laden Sie die aktuellen Liquidierungsdateien herunter. Öffnen Sie die Datei, um die neueste Liste einzusehen.",
     "downloadLabel": "Datei herunterladen",
-    "fileLabel": "ZRE ELKO Liquidierungen",
+    "fileLabel": "ZRE ELKO Liqui\u00ADdie\u00ADrun\u00ADgen",
     "fileDate": "25.02.2020",
     "fileFormat": "Format: XLSX",
     "noFiles": "Keine Dateien zum Herunterladen verfügbar."
   },
   "meta": {
-    "defaultTitle": "ZRE ELKO — Kessel, Rohrleitungen, Energietechnik",
-    "defaultDescription": "Kesselproduktion, Rohrleitungen und Montage energietechnischer Anlagen — ZRE ELKO Sp. z o.o."
+    "defaultTitle": "ZRE ELKO — Kessel, Rohrleitungen, Energie\u00ADtechnik",
+    "defaultDescription": "Kessel\u00ADproduktion, Rohrleitungen und Montage energietechnischer Anlagen — ZRE ELKO Sp. z o.o."
   }
 }

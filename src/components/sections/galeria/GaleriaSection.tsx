@@ -91,7 +91,7 @@ export function GaleriaSection() {
         <div className="h-px w-20 mb-10" style={{ backgroundColor: colors.logo }} />
 
         {/* Filtry kategorii */}
-        <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 mb-10">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2 mb-10">
           {/* "Wszystkie" button */}
           <button
             onClick={() => selectCategory(null)}

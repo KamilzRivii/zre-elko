@@ -39,7 +39,7 @@ export async function UplynnieniSection() {
               key={file.href}
               href={file.href}
               download
-              className="group flex items-center gap-6 rounded-2xl p-6 transition-all duration-200 hover:scale-[1.01]"
+              className="group flex flex-wrap items-center gap-4 rounded-2xl p-6 transition-all duration-200 hover:scale-[1.01]"
               style={{
                 backgroundColor: colors.buttonCta,
                 border: `1px solid ${colors.logo}25`,
@@ -74,7 +74,7 @@ export async function UplynnieniSection() {
 
               {/* Download button */}
               <div
-                className="flex items-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-all duration-200 group-hover:brightness-110 flex-none"
+                className="flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition-all duration-200 group-hover:brightness-110 w-full min-[370px]:w-auto min-[370px]:flex-none"
                 style={{ backgroundColor: colors.logo, color: "#1b3a2a" }}
               >
                 <Download className="size-4" />

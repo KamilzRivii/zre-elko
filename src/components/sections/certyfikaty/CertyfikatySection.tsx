@@ -81,7 +81,7 @@ export async function CertyfikatySection() {
                 style={{ borderColor: `${colors.logo}30`, backgroundColor: `${colors.logo}0d` }}
               >
                 <p className="text-sm font-bold text-white">{label}</p>
-                <p className="text-xs mt-0.5 leading-snug" style={{ color: `${colors.logo}99` }}>
+                <p className="text-xs mt-0.5 leading-snug" style={{ color: colors.logo }}>
                   {description}
                 </p>
               </div>

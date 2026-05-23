@@ -1,14 +1,25 @@
 import { z } from "zod"
 
-export const contactSchema = z.object({
-  name: z.string().min(2, "Imię i nazwisko musi mieć co najmniej 2 znaki."),
-  email: z.string().email("Podaj prawidłowy adres e-mail."),
-  phone: z
-    .string()
-    .regex(/^\+?[\d\s\-()]{9,15}$/, "Podaj prawidłowy numer telefonu.")
-    .optional()
-    .or(z.literal("")),
-  message: z.string().min(10, "Wiadomość musi mieć co najmniej 10 znaków."),
-})
+export function createContactSchema(t: (key: string) => string) {
+  return z.object({
+    name: z.string().trim().min(2, t("nameMin")).max(100),
+    email: z.string().trim().email(t("emailInvalid")).max(254),
+    phone: z
+      .string()
+      .trim()
+      .regex(/^\d{9,15}$/, t("phoneInvalid"))
+      .optional()
+      .or(z.literal("")),
+    message: z.string().trim().min(1, t("messageMin")).max(2000),
+  })
+}
 
-export type ContactFormData = z.infer<typeof contactSchema>
+// Statyczna wersja do walidacji po stronie serwera (API route)
+export const contactSchema = createContactSchema((key) => ({
+  nameMin: "Imię i nazwisko musi mieć co najmniej 2 znaki.",
+  emailInvalid: "Podaj prawidłowy adres e-mail.",
+  phoneInvalid: "Podaj prawidłowy numer telefonu.",
+  messageMin: "Wiadomość musi mieć co najmniej 10 znaków.",
+})[key] ?? key)
+
+export type ContactFormData = z.infer<ReturnType<typeof createContactSchema>>

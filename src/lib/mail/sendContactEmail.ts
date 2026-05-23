@@ -1,25 +1,29 @@
+import nodemailer from "nodemailer"
 import type { ContactFormData } from "@/lib/validations/contact.schema"
 import { company } from "@/content/company"
 
 export async function sendContactEmail(data: ContactFormData): Promise<void> {
-  // TODO: podłącz dostawcę e-mail (np. Resend, Nodemailer, SendGrid)
-  // Przykład z Resend:
-  //
-  // import { Resend } from "resend"
-  // const resend = new Resend(process.env.RESEND_API_KEY)
-  //
-  // await resend.emails.send({
-  //   from: "formularz@zre-elko.pl",
-  //   to: company.email,
-  //   subject: `Nowe zapytanie od ${data.name}`,
-  //   text: `
-  //     Imię: ${data.name}
-  //     E-mail: ${data.email}
-  //     Telefon: ${data.phone ?? "—"}
-  //
-  //     ${data.message}
-  //   `,
-  // })
+  const transporter = nodemailer.createTransport({
+    host: process.env.SMTP_HOST,
+    port: Number(process.env.SMTP_PORT ?? 587),
+    secure: Number(process.env.SMTP_PORT) === 465,
+    auth: {
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PASS,
+    },
+  })
 
-  console.log("sendContactEmail →", { to: company.email, data })
+  await transporter.sendMail({
+    from: process.env.SMTP_FROM ?? process.env.SMTP_USER,
+    to: company.email,
+    replyTo: data.email,
+    subject: `Nowe zapytanie od ${data.name}`,
+    text: [
+      `Imię i nazwisko: ${data.name}`,
+      `E-mail: ${data.email}`,
+      `Telefon: ${data.phone || "—"}`,
+      "",
+      data.message,
+    ].join("\n"),
+  })
 }

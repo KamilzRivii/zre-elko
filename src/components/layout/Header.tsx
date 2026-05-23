@@ -63,6 +63,7 @@ export function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
   const scrollLockRef = useRef(false)
   const scrollTimerRef = useRef<ReturnType<typeof setTimeout>>(undefined)
+  const navContainerRef = useRef<HTMLDivElement>(null)
   const { active: activeSection, setActive: setActiveSection, compute: refreshSection } = useActiveSection(isHome, scrollLockRef)
 
   const navLinks = [
@@ -84,7 +85,12 @@ export function Header() {
     if (target === "top") {
       window.scrollTo({ top: 0, behavior: "smooth" })
     } else {
-      document.getElementById(target)?.scrollIntoView({ behavior: "smooth" })
+      const el = document.getElementById(target)
+      if (el) {
+        const headerHeight = navContainerRef.current ? navContainerRef.current.offsetHeight : 0
+        const top = el.getBoundingClientRect().top + window.scrollY - headerHeight
+        window.scrollTo({ top, behavior: "smooth" })
+      }
     }
     scrollTimerRef.current = setTimeout(() => {
       scrollLockRef.current = false
@@ -125,7 +131,7 @@ export function Header() {
         borderColor: transparent ? "transparent" : "#000",
       }}
     >
-      <div className="container mx-auto px-4">
+      <div ref={navContainerRef} className="container mx-auto px-4">
 
         {/* Wiersz 1: Logo · Nav · (Język+CTA przy xl+) · hamburger (mobile) */}
         <div className="flex h-16 items-center justify-between">
@@ -256,6 +262,8 @@ export function Header() {
                   </Link>
                 )
               })}
+              <div className="h-px w-24 my-3" style={{ backgroundColor: `${colors.logo}40` }} />
+              <LanguageSwitcher mobile />
               <div className="h-px w-24 my-3" style={{ backgroundColor: `${colors.logo}40` }} />
               <Button asChild size="sm" className="w-48">
                 <Link href="/kontakt" onClick={() => setMenuOpen(false)}>{t("contactUs")}</Link>

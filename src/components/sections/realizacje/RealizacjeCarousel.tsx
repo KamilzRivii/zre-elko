@@ -114,7 +114,7 @@ export function RealizacjeCarousel() {
                       // eslint-disable-next-line @next/next/no-img-element
                       <img src={real.thumbnail ?? real.photos[0]} alt={item.title} className="h-full w-full object-cover" />
                     ) : (
-                      <span className="text-xs text-white/20 uppercase tracking-widest">
+                      <span className="text-xs text-white/50 uppercase tracking-widest">
                         {tPreview("noPhoto")}
                       </span>
                     )}
@@ -128,7 +128,7 @@ export function RealizacjeCarousel() {
                       >
                         {item.category}
                       </span>
-                      <span className="text-xs text-white/40">{real?.year}</span>
+                      <span className="text-xs text-white/65">{real?.year}</span>
                     </div>
                     <h3 className="text-sm font-semibold text-white leading-snug">{item.title}</h3>
                     <p className="text-xs text-white/60 leading-relaxed line-clamp-2">{item.description}</p>

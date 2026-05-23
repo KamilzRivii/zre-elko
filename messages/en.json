@@ -133,7 +133,13 @@
       "sending": "Sending…",
       "send": "Send message",
       "success": "Message sent. We will get back to you shortly!",
-      "error": "An error occurred. Please try again or call us directly."
+      "error": "An error occurred. Please try again or call us directly.",
+      "errors": {
+        "nameMin": "Full name must be at least 2 characters.",
+        "emailInvalid": "Please enter a valid email address.",
+        "phoneInvalid": "Please enter a valid phone number.",
+        "messageMin": "Message cannot be empty."
+      }
     }
   },
   "certyfikaty": {
@@ -274,6 +280,9 @@
   },
   "realizacje": {
     "heading": "Projects",
+    "headingLine1": "Our",
+    "headingLine2": "projects",
+    "viewDetails": "View details",
     "subheading": "Projects we have completed with full commitment.",
     "filter": "Categories",
     "all": "All",

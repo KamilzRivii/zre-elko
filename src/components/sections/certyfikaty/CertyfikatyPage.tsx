@@ -73,10 +73,10 @@ export function CertyfikatyPage() {
         </p>
 
         {/* Organizacje certyfikujące */}
-        <p className="text-xs font-semibold uppercase tracking-widest mb-5 text-white/40">
+        <p className="text-xs font-semibold uppercase tracking-widest mb-5 text-white/65">
           {t("certifyingOrgs")}
         </p>
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mb-20">
+        <div className="grid grid-cols-1 min-[400px]:grid-cols-2 gap-4 md:grid-cols-4 mb-20">
           {orgs.map(({ label, description }, i) => (
             <div
               key={logoCards[i]?.src ?? i}
@@ -96,8 +96,8 @@ export function CertyfikatyPage() {
                 className="px-4 py-3 border-t"
                 style={{ borderColor: `${colors.logo}30`, backgroundColor: `${colors.logo}0d` }}
               >
-                <p className="text-sm font-bold text-white">{label}</p>
-                <p className="text-xs mt-0.5 leading-snug" style={{ color: `${colors.logo}99` }}>
+                <p className="text-sm font-bold text-white break-words">{label}</p>
+                <p className="text-xs mt-0.5 leading-snug break-words" style={{ color: colors.logo }}>
                   {description}
                 </p>
               </div>
@@ -106,7 +106,7 @@ export function CertyfikatyPage() {
         </div>
 
         {/* Dokumenty */}
-        <p className="text-xs font-semibold uppercase tracking-widest mb-5 text-white/40">
+        <p className="text-xs font-semibold uppercase tracking-widest mb-5 text-white/65">
           {t("documents")}
         </p>
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">

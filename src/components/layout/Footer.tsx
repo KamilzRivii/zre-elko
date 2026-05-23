@@ -22,9 +22,9 @@ export async function Footer() {
               {t("description")}
             </p>
             <div className="flex flex-col gap-1">
-              <p className="text-xs text-white/35">{t("nip")} {company.nip}</p>
-              <p className="text-xs text-white/35">{t("regon")} {company.regon}</p>
-              <p className="text-xs text-white/35">{t("bdo")} {company.bdo}</p>
+              <p className="text-xs text-white/60">{t("nip")} {company.nip}</p>
+              <p className="text-xs text-white/60">{t("regon")} {company.regon}</p>
+              <p className="text-xs text-white/60">{t("bdo")} {company.bdo}</p>
             </div>
           </div>
 
@@ -42,7 +42,7 @@ export async function Footer() {
               ))}
               <a href={`tel:${company.fax}`} className="flex items-center gap-3">
                 <Phone className="size-3.5 shrink-0 opacity-40" style={{ color: colors.logo }} />
-                <span className="text-sm text-white/50">{t("fax")} {company.fax}</span>
+                <span className="text-sm text-white/65">{t("fax")} {company.fax}</span>
               </a>
               <a href={`mailto:${company.email}`} className="flex items-center gap-3 group">
                 <Mail className="size-3.5 shrink-0" style={{ color: colors.logo }} />
@@ -86,14 +86,14 @@ export async function Footer() {
       {/* Pasek dolny */}
       <div className="border-t px-4 py-5" style={{ borderColor: `${colors.logo}20` }}>
         <div className="container mx-auto flex flex-col items-center gap-2">
-          <p className="text-center text-xs text-white/25 leading-relaxed">
+          <p className="text-center text-xs text-white/55 leading-relaxed">
             {t("capitalInfo", {
               capital: company.shareCapital,
               krs: company.krs,
               court: company.court,
             })}
           </p>
-          <p className="text-center text-xs text-white/30">
+          <p className="text-center text-xs text-white/60">
             {t("copyright", { year: new Date().getFullYear(), name: company.name })}
           </p>
         </div>

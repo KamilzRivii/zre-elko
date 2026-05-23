@@ -49,9 +49,10 @@ const languages = [
 
 interface Props {
   transparent?: boolean
+  mobile?: boolean
 }
 
-export function LanguageSwitcher({ transparent = false }: Props) {
+export function LanguageSwitcher({ transparent = false, mobile = false }: Props) {
   const locale = useLocale()
   const router = useRouter()
   const pathname = usePathname()
@@ -61,7 +62,7 @@ export function LanguageSwitcher({ transparent = false }: Props) {
   }
 
   return (
-    <div className="hidden items-center gap-1 lg:flex">
+    <div className={mobile ? "flex items-center gap-1" : "hidden items-center gap-1 lg:flex"}>
       {languages.map(({ code, label, Flag }) => {
         const isActive = code === locale
         return (
