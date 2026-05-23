@@ -2,11 +2,14 @@
 import { notFound } from "next/navigation"
 import { buildMetadata } from "@/lib/seo"
 import { realizacje } from "@/content/realizacje"
-import { getTranslations } from "next-intl/server"
+import { getTranslations, setRequestLocale } from "next-intl/server"
+import { routing } from "@/i18n/routing"
 import { RealizacjaDetailSection } from "@/components/sections/realizacje/RealizacjaDetailSection"
 
 export function generateStaticParams() {
-  return realizacje.map((r) => ({ id: r.id }))
+  return routing.locales.flatMap((locale) =>
+    realizacje.map((r) => ({ locale, id: r.id }))
+  )
 }
 
 export async function generateMetadata({
@@ -14,7 +17,8 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string; id: string }>
 }): Promise<Metadata> {
-  const { id } = await params
+  const { locale, id } = await params
+  setRequestLocale(locale)
   const t = await getTranslations("realizacje")
   const items = t.raw("items") as { id: string; title: string }[]
   const item = items.find((i) => i.id === id)
@@ -27,7 +31,9 @@ export default async function RealizacjaPage({
 }: {
   params: Promise<{ locale: string; id: string }>
 }) {
-  const { id } = await params
+  const { locale, id } = await params
+  setRequestLocale(locale)
+
   const realizacja = realizacje.find((r) => r.id === id)
   if (!realizacja) notFound()
 
