@@ -16,7 +16,7 @@ export async function AboutHeroSection() {
   return (
     <section
       id="o-nas"
-      className="w-full pt-32 pb-20 px-4"
+      className="w-full py-20 px-4"
       style={{ backgroundColor: colors.buttonCta }}
     >
       <div className="container mx-auto">

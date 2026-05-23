@@ -26,6 +26,7 @@ export function RealizacjeCarousel() {
   const [idx, setIdx]           = useState(n)
   const [animated, setAnimated] = useState(true)
   const busy = useRef(false)
+  const touchStartX = useRef<number | null>(null)
 
   function move(dir: 1 | -1) {
     if (busy.current) return
@@ -52,7 +53,7 @@ export function RealizacjeCarousel() {
       <div className="container mx-auto">
 
         {/* Nagłówek */}
-        <div className="flex items-end justify-between mb-4">
+        <div className="flex items-center justify-between mb-4">
           <div>
             <p className="text-sm font-semibold uppercase tracking-widest mb-3" style={{ color: colors.logo }}>
               {tPreview("label")}
@@ -61,7 +62,7 @@ export function RealizacjeCarousel() {
               {tPreview("headingLine1")} <span style={{ color: colors.logo }}>{tPreview("headingLine2")}</span>
             </h2>
           </div>
-          <div className="hidden sm:flex gap-2">
+          <div className="flex gap-2">
             {([-1, 1] as const).map((dir) => (
               <button
                 key={dir}
@@ -78,7 +79,16 @@ export function RealizacjeCarousel() {
         <div className="h-px w-24 mb-10" style={{ backgroundColor: colors.logo }} />
 
         {/* Track */}
-        <div className="overflow-hidden">
+        <div
+          className="overflow-hidden"
+          onTouchStart={(e) => { touchStartX.current = e.touches[0].clientX }}
+          onTouchEnd={(e) => {
+            if (touchStartX.current === null) return
+            const delta = touchStartX.current - e.changedTouches[0].clientX
+            if (Math.abs(delta) > 40) move(delta > 0 ? 1 : -1)
+            touchStartX.current = null
+          }}
+        >
           <div
             className="flex"
             style={{

@@ -8,28 +8,61 @@ interface Stat {
   label: string
 }
 
+function parseValue(value: string): { num: number; suffix: string } | null {
+  const match = value.match(/^(\d+)(.*)$/)
+  if (!match) return null
+  return { num: parseInt(match[1], 10), suffix: match[2] }
+}
+
 function StatValue({ value }: { value: string }) {
-  const [visible, setVisible] = useState(false)
+  const parsed = parseValue(value)
+  const [count, setCount] = useState(0)
+  const [started, setStarted] = useState(false)
   const ref = useRef<HTMLSpanElement>(null)
+  const raf = useRef<number | null>(null)
 
   useEffect(() => {
     const el = ref.current
     if (!el) return
     const observer = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) setVisible(true) },
+      ([entry]) => { if (entry.isIntersecting) setStarted(true) },
       { threshold: 0.5 }
     )
     observer.observe(el)
     return () => observer.disconnect()
   }, [])
 
+  useEffect(() => {
+    if (!started || !parsed) return
+    const { num } = parsed
+    const duration = 1200
+    const start = performance.now()
+
+    function tick(now: number) {
+      const progress = Math.min((now - start) / duration, 1)
+      // ease-out cubic
+      const eased = 1 - Math.pow(1 - progress, 3)
+      setCount(Math.round(eased * num))
+      if (progress < 1) {
+        raf.current = requestAnimationFrame(tick)
+      }
+    }
+
+    raf.current = requestAnimationFrame(tick)
+    return () => { if (raf.current) cancelAnimationFrame(raf.current) }
+  }, [started, parsed?.num])
+
+  if (!parsed) {
+    return (
+      <span ref={ref} className="text-2xl font-bold text-white md:text-3xl">
+        {value}
+      </span>
+    )
+  }
+
   return (
-    <span
-      ref={ref}
-      className="text-2xl font-bold text-white md:text-3xl transition-opacity duration-700"
-      style={{ opacity: visible ? 1 : 0 }}
-    >
-      {value}
+    <span ref={ref} className="text-2xl font-bold text-white md:text-3xl">
+      {count}{parsed.suffix}
     </span>
   )
 }
